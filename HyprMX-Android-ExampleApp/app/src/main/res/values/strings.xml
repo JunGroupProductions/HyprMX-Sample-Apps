@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">HyprMX</string>
+  <string name="load_interstitial">LOAD INTERSTITIAL</string>
+  <string name="show_interstitial">SHOW INTERSTITIAL</string>
+  <string name="load_rewarded">LOAD REWARDED</string>
+  <string name="show_rewarded">SHOW REWARDED</string>
+</resources>

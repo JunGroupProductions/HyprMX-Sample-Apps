@@ -1,0 +1,2 @@
+rootProject.name = "HyprMX-Android-ExampleApp"
+include ':app'
