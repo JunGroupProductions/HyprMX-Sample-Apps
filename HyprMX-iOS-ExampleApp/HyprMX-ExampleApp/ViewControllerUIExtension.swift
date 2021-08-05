@@ -24,13 +24,16 @@ extension ViewController {
         }
         self.placementOneNameLabel.text = self.placementName1
         self.placementTwoNameLabel.text = self.placementName2
+        self.bannerPlacementNameLabel.text = self.placementNameBanner
         self.placementOneStatusLabel.text = ""
         self.placementTwoStatusLabel.text = ""
+        self.bannerPlacementStatusLabel.text = ""
         
         styleShowButton(index: 0, isReady: false)
         styleShowButton(index: 1, isReady: false)
         styleLoadButton(index: 0, tapped: false)
         styleLoadButton(index: 1, tapped: false)
+        styleLoadButton(index: 2, tapped: false)
     }
 
     func updateUIInitializationSuccess() {
@@ -99,15 +102,36 @@ extension ViewController {
         styleShowButton(index:index, isReady: false)
     }
     
+    func updateUIBannerLoaded(bannerView:HyprMXBannerView) {
+        let statusLabel:UILabel = statusLabelForIndex(index: 2)
+        statusLabel.text = "Ad Loaded."
+        styleStatusAlert(index:2, alertOn: false)
+    }
+    
+    func updateUIBannerFailedToLoad(bannerView:HyprMXBannerView) {
+        let statusLabel:UILabel = statusLabelForIndex(index: 2)
+        statusLabel.text = "No Ads Available."
+        styleStatusAlert(index:2, alertOn: false)
+    }
+    
+    func updateUIBannerAction(text:String, bannerView:HyprMXBannerView) {
+        let statusLabel:UILabel = statusLabelForIndex(index: 2)
+        statusLabel.text = "\(statusLabel.text!) \(text)."
+        styleStatusAlert(index:2, alertOn: false)
+    }
+    
     func hideUI(isHidden:Bool) {
         self.placementOneNameLabel.isHidden = isHidden;
         self.placementTwoNameLabel.isHidden = isHidden;
+        self.bannerPlacementNameLabel.isHidden = isHidden
         self.placementOneStatusLabel.isHidden = isHidden;
         self.placementTwoStatusLabel.isHidden = isHidden;
+        self.bannerPlacementStatusLabel.isHidden = isHidden
         self.placementOneInventoryButton.isHidden = isHidden;
         self.placementTwoInventoryButton.isHidden = isHidden;
         self.placementOneShowButton.isHidden = isHidden
         self.placementTwoShowButton.isHidden = isHidden
+        self.bannerLoadButton.isHidden = isHidden
     }
     
     func index(fromPlacement:HyprMXPlacement) -> Int {
@@ -115,11 +139,11 @@ extension ViewController {
     }
     
     func statusLabelForIndex(index:Int) -> UILabel {
-        return [self.placementOneStatusLabel, self.placementTwoStatusLabel][index]
+        return [self.placementOneStatusLabel, self.placementTwoStatusLabel, self.bannerPlacementStatusLabel][index]
     }
     
     func loadButtonForIndex(index:Int) -> UIButton {
-        return [self.placementOneInventoryButton, self.placementTwoInventoryButton][index]
+        return [self.placementOneInventoryButton, self.placementTwoInventoryButton, self.bannerLoadButton][index]
     }
     
     func showButtonForIndex(index:Int) -> UIButton {
@@ -189,6 +213,8 @@ extension ViewController {
     
     func styleStatusAlert(index:Int, alertOn: Bool) {
         statusLabelForIndex(index: index).textColor = alertOn ? UIColor.red : UIColor(named: "statusTextColor")
-        showButtonForIndex(index: index).layer.borderColor = alertOn ? UIColor.red.cgColor : UIColor.lightGray.cgColor
+        if (index < placements.count) {
+            showButtonForIndex(index: index).layer.borderColor = alertOn ? UIColor.red.cgColor : UIColor.lightGray.cgColor
+        }
     }
 }

@@ -9,32 +9,37 @@
 import UIKit
 import HyprMX
 
-class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXInitializationDelegate {
+class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDelegate, HyprMXInitializationDelegate {
 
     @IBOutlet weak var placementOneNameLabel: UILabel!
     @IBOutlet weak var placementTwoNameLabel: UILabel!
+    @IBOutlet weak var bannerPlacementNameLabel: UILabel!
     
     @IBOutlet weak var placementOneStatusLabel: UILabel!
     @IBOutlet weak var placementTwoStatusLabel: UILabel!
+    @IBOutlet weak var bannerPlacementStatusLabel: UILabel!
     
     @IBOutlet weak var placementOneInventoryButton: UIButton!
     @IBOutlet weak var placementTwoInventoryButton: UIButton!
+    @IBOutlet weak var bannerLoadButton: UIButton!
     
     @IBOutlet weak var placementOneShowButton: UIButton!
     @IBOutlet weak var placementTwoShowButton: UIButton!
     
+    @IBOutlet weak var bannerContainerView: UIView!
     @IBOutlet weak var sdkVersionLabel: UILabel?
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
 
-    #warning("You must set a Distributor ID to run the Example App with")
+    #warning("Set your Distributor ID to run the Example App with")
     let myDistributorID = "1000198877"
     
-    #warning("You must set your placement names to run the Example App with")
+    #warning("Set your placement names to run the Example App with")
     let placementName1:String = "Vast"
     let placementName2:String = "Mraid"
+    let placementNameBanner:String = "banner_320_50"
 
     var placements:[HyprMXPlacement] = []
-    
+    var bannerView:HyprMXBannerView?
     func uniqueUserId() -> String {
         /**
          * HyprMX requires a userID for each user.
@@ -56,7 +61,26 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXInitializ
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Initialize HyprMX before loading ads on your placements.
+        /** Initializing Banner Ads */
+        self.bannerView = HyprMXBannerView.init(placementName: placementNameBanner, adSize: kHyprMXAdSizeBanner)
+        if let banner = self.bannerView {
+            // Placement delegates are optional for banners, you can set one to receive status on your banner ads.
+            banner.placementDelegate = self
+            
+            // Add to a view in your UI
+            self.bannerContainerView.addSubview(banner)
+            
+            // Add constraints to HyprMXBannerView
+            banner.translatesAutoresizingMaskIntoConstraints = false
+            banner.widthAnchor.constraint(equalToConstant: banner.adSize.width).isActive = true
+            banner.heightAnchor.constraint(equalToConstant: banner.adSize.height).isActive = true
+            banner.centerXAnchor.constraint(equalTo: self.bannerContainerView.centerXAnchor).isActive = true
+            banner.centerYAnchor.constraint(equalTo: self.bannerContainerView.centerYAnchor).isActive = true
+        }
+        
+        
+        /** Initialize SDK */
+        // Initialize HyprMX before loading ads on your placements or bannerViews.
         // You can begin to load ads once your HyprMXInitializationDelegate implementation receives
         // the initializationDidComplete() callback.
         
@@ -69,7 +93,7 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXInitializ
         
         for placementName in [placementName1, placementName2] {
             // You can get HyprMXPlacement objects from HyprMX by their placement Name
-            let placement:HyprMXPlacement = HyprMX.getPlacement(placementName)
+            let placement:HyprMXPlacement = HyprMX.getPlacement(placementName)!
             // Set a placementDelegate on each of your placements to receive callback on ad display status.
             placement.placementDelegate = self;
             placements.append(placement)
@@ -78,7 +102,7 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXInitializ
         setUpUI()
     }
 
-    // MARK: - loadAd Action -
+    // MARK: - Full Screen Rewarded/Interstitial Ads Load/Show API -
 
     func loadAd(placementName: String) {
         /**
@@ -89,7 +113,6 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXInitializ
         HyprMX.getPlacement(placementName)?.loadAd()
     }
     
-    // MARK: - showAd Action -
     func showAd(placementName: String) {
         guard let placement = HyprMX.getPlacement(placementName) else {
             print("HyprMX failed to return placement")
@@ -113,6 +136,16 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXInitializ
         } else {
             print("No ads available for placement ", placementName)
         }
+    }
+    
+    // MARK: - Banner Ads Load API -
+    func loadBannerAd() {
+        /**
+         * loadAd will check for an ad to present for this Banner placement.
+         * The result of this call will be a delegate message to adAvailableForPlacement: if there's an ad to show, or
+         * adNotAvailableForPlacement: if there's no inventory.
+         */
+        self.bannerView?.loadAd()
     }
     
     // MARK: - HyprMXInitializationDelegate Implementation -
@@ -156,8 +189,10 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXInitializ
     }
 
     /** Messaged when an error occurs during ad presentation. */
-    func adDisplayError(for placement: HyprMXPlacement, error hyprMXError: HyprMXError) {
-        print("adDisplayErrorForPlacement: ", placement.placementName as Any)
+    func adDisplayError(_ error: Error, placement: HyprMXPlacement) {
+        let nsError = error as NSError
+        let hyprMXError:HyprMXError = HyprMXError(UInt32(nsError.code))
+        print("adDisplayError: \(nsError.localizedDescription) placement: \(placement.placementName)")
         updateUIAdDisplayError(placement: placement, error: hyprMXError)
     }
 
@@ -171,6 +206,45 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXInitializ
     func adExpired(for placement: HyprMXPlacement) {
         print("adExpiredForPlacement: ", placement.placementName as Any)
         updateUIAdExpired(placement: placement)
+    }
+    
+    // MARK: - HyprMXBannerDelegate Implementation -
+    
+    /** Called in response to loadAd when an ad was loaded */
+    func adDidLoad(_ bannerView: HyprMXBannerView) {
+        print("adDidLoad: ", bannerView.placementName as Any)
+        updateUIBannerLoaded(bannerView: bannerView)
+    }
+     
+    /** Called in response to loadAd when there was an error loading an ad */
+    func adFailed(toLoad bannerView: HyprMXBannerView, error: Error) {
+        let nsError = error as NSError
+        print("adFailed: \(nsError.localizedDescription) bannerView: \(String(describing: bannerView.placementName))")
+        updateUIBannerFailedToLoad(bannerView: bannerView)
+    }
+     
+    /** Called when the user clicks on the bannerView */
+    func adWasClicked(_ bannerView: HyprMXBannerView) {
+        print("adWasClicked: ", bannerView.placementName as Any)
+        updateUIBannerAction(text: "Ad Clicked", bannerView: bannerView)
+    }
+     
+    /** Called when a banner click will open a full-screen modal */
+    func adDidOpen(_ bannerView: HyprMXBannerView) {
+        print("adDidOpen: ", bannerView.placementName as Any)
+        updateUIBannerAction(text: "Ad Opened", bannerView: bannerView)
+    }
+         
+    /** Called when a full-screen modal has been closed */
+    func adDidClose(_ bannerView: HyprMXBannerView) {
+        print("adDidClose: ", bannerView.placementName as Any)
+        updateUIBannerAction(text: "Ad Closed", bannerView: bannerView)
+    }
+     
+    /** Called when a banner click will open another application */
+    func adWillLeaveApplication(_ bannerView: HyprMXBannerView) {
+        print("adWillLeaveApplication: ", bannerView.placementName as Any)
+        updateUIBannerAction(text: "Ad Leaving Application", bannerView: bannerView)
     }
     
     // MARK: - IBActions -
@@ -192,5 +266,11 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXInitializ
     @IBAction func showPlacementTwo(_ sender: UIButton) {
         self.showAd(placementName: self.placementName2)
     }
+    
+    @IBAction func loadBannerTapped(_ sender: UIButton) {
+        self.loadBannerAd()
+        styleLoadButton(index: 2, tapped: true)
+    }
+    
 }
 

@@ -7,25 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		138298F926681376004167D5 /* HyprMX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138298F72668136D004167D5 /* HyprMX.xcframework */; };
-		138298FA26681376004167D5 /* HyprMX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 138298F72668136D004167D5 /* HyprMX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		130C911326A9CB40007B6143 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130C911226A9CB40007B6143 /* ContentTableViewCell.swift */; };
+		132F1EB726BC86BD0092B292 /* HyprMX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; };
+		132F1EB826BC86BD0092B292 /* HyprMX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		132F1EB926BC86C00092B292 /* HyprMX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; };
+		132F1EBA26BC86C00092B292 /* HyprMX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		132F1EBC26BC86C40092B292 /* HyprMX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; };
+		132F1EBD26BC86C40092B292 /* HyprMX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		138364BD26AA0EF500A6F895 /* HyprMX_SwiftUIExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364BC26AA0EF500A6F895 /* HyprMX_SwiftUIExampleAppApp.swift */; };
+		138364BF26AA0EF500A6F895 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364BE26AA0EF500A6F895 /* ContentView.swift */; };
+		138364C426AA0EF700A6F895 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138364C326AA0EF700A6F895 /* Preview Assets.xcassets */; };
+		138364C926AA0F0D00A6F895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930DF7FC22FB5C0200D7220D /* Assets.xcassets */; };
+		138364CB26AA169900A6F895 /* BannerPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364CA26AA169900A6F895 /* BannerPlacement.swift */; };
+		138364D126AA17F300A6F895 /* BannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364D026AA17F300A6F895 /* BannerViewModel.swift */; };
+		138364D526AA3E2600A6F895 /* HyprMXBannerViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364D426AA3E2600A6F895 /* HyprMXBannerViewRepresentable.swift */; };
+		138364D726AAB97A00A6F895 /* HyprMXUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364D626AAB97A00A6F895 /* HyprMXUser.swift */; };
+		139154F626A799BA0017575A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139154F526A799BA0017575A /* AppDelegate.swift */; };
+		139154F826A799BA0017575A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139154F726A799BA0017575A /* SceneDelegate.swift */; };
+		139154FA26A799BA0017575A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139154F926A799BA0017575A /* TableViewController.swift */; };
+		139154FD26A799BA0017575A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139154FB26A799BA0017575A /* Main.storyboard */; };
+		1391550226A799BB0017575A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1391550026A799BB0017575A /* LaunchScreen.storyboard */; };
+		1391550726A799FC0017575A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930DF7FC22FB5C0200D7220D /* Assets.xcassets */; };
+		1391550826A79A060017575A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930DF7FC22FB5C0200D7220D /* Assets.xcassets */; };
+		1391550A26A79FEE0017575A /* BannerAdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1391550926A79FEE0017575A /* BannerAdCell.swift */; };
 		930775702301B3ED009DD872 /* ViewControllerUIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307756F2301B3ED009DD872 /* ViewControllerUIExtension.swift */; };
 		930DF7F422FB5C0100D7220D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930DF7F322FB5C0100D7220D /* AppDelegate.swift */; };
 		930DF7F622FB5C0100D7220D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930DF7F522FB5C0100D7220D /* SceneDelegate.swift */; };
 		930DF7F822FB5C0100D7220D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930DF7F722FB5C0100D7220D /* ViewController.swift */; };
 		930DF7FB22FB5C0100D7220D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930DF7F922FB5C0100D7220D /* Main.storyboard */; };
-		930DF7FD22FB5C0200D7220D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930DF7FC22FB5C0200D7220D /* Assets.xcassets */; };
 		930DF80022FB5C0200D7220D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930DF7FE22FB5C0200D7220D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		132F1EBB26BC86C00092B292 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				132F1EBA26BC86C00092B292 /* HyprMX.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132F1EBE26BC86C40092B292 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				132F1EBD26BC86C40092B292 /* HyprMX.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		933B17DA2305B65200639616 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				138298FA26681376004167D5 /* HyprMX.xcframework in Embed Frameworks */,
+				132F1EB826BC86BD0092B292 /* HyprMX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,7 +75,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		138298F72668136D004167D5 /* HyprMX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HyprMX.xcframework; path = "HyprMX-ExampleApp/HyprMX.xcframework"; sourceTree = "<group>"; };
+		130C911226A9CB40007B6143 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		132F1EB326BC86AD0092B292 /* HyprMX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = HyprMX.xcframework; sourceTree = "<group>"; };
+		138364BA26AA0EF500A6F895 /* HyprMX-SwiftUIExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HyprMX-SwiftUIExampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		138364BC26AA0EF500A6F895 /* HyprMX_SwiftUIExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyprMX_SwiftUIExampleAppApp.swift; sourceTree = "<group>"; };
+		138364BE26AA0EF500A6F895 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		138364C326AA0EF700A6F895 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		138364C526AA0EF700A6F895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138364CA26AA169900A6F895 /* BannerPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerPlacement.swift; sourceTree = "<group>"; };
+		138364D026AA17F300A6F895 /* BannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewModel.swift; sourceTree = "<group>"; };
+		138364D426AA3E2600A6F895 /* HyprMXBannerViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyprMXBannerViewRepresentable.swift; sourceTree = "<group>"; };
+		138364D626AAB97A00A6F895 /* HyprMXUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyprMXUser.swift; sourceTree = "<group>"; };
+		139154F326A799BA0017575A /* HyprMX-ExampleTableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HyprMX-ExampleTableViewApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		139154F526A799BA0017575A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		139154F726A799BA0017575A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		139154F926A799BA0017575A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		139154FC26A799BA0017575A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1391550126A799BB0017575A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1391550326A799BB0017575A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1391550926A79FEE0017575A /* BannerAdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdCell.swift; sourceTree = "<group>"; };
+		13B5A47726AA08490001FC66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9307756F2301B3ED009DD872 /* ViewControllerUIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUIExtension.swift; sourceTree = "<group>"; };
 		930DF7F022FB5C0100D7220D /* HyprMX-ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HyprMX-ExampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		930DF7F322FB5C0100D7220D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,23 +107,105 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		138364B726AA0EF500A6F895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132F1EBC26BC86C40092B292 /* HyprMX.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139154F026A799BA0017575A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132F1EB926BC86C00092B292 /* HyprMX.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		930DF7ED22FB5C0100D7220D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				138298F926681376004167D5 /* HyprMX.xcframework in Frameworks */,
+				132F1EB726BC86BD0092B292 /* HyprMX.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		138364BB26AA0EF500A6F895 /* HyprMX-SwiftUIExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				138364BC26AA0EF500A6F895 /* HyprMX_SwiftUIExampleAppApp.swift */,
+				138364BE26AA0EF500A6F895 /* ContentView.swift */,
+				138364D426AA3E2600A6F895 /* HyprMXBannerViewRepresentable.swift */,
+				138364C526AA0EF700A6F895 /* Info.plist */,
+				138364CF26AA17DD00A6F895 /* ViewModel */,
+				138364CE26AA17C100A6F895 /* Model */,
+				138364C226AA0EF700A6F895 /* Preview Content */,
+			);
+			path = "HyprMX-SwiftUIExampleApp";
+			sourceTree = "<group>";
+		};
+		138364C226AA0EF700A6F895 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				138364C326AA0EF700A6F895 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		138364CE26AA17C100A6F895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				138364CA26AA169900A6F895 /* BannerPlacement.swift */,
+				138364D626AAB97A00A6F895 /* HyprMXUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		138364CF26AA17DD00A6F895 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				138364D026AA17F300A6F895 /* BannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		139154F426A799BA0017575A /* HyprMX-ExampleTableViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				139154F526A799BA0017575A /* AppDelegate.swift */,
+				139154F726A799BA0017575A /* SceneDelegate.swift */,
+				139154F926A799BA0017575A /* TableViewController.swift */,
+				1391550926A79FEE0017575A /* BannerAdCell.swift */,
+				130C911226A9CB40007B6143 /* ContentTableViewCell.swift */,
+				139154FB26A799BA0017575A /* Main.storyboard */,
+				1391550026A799BB0017575A /* LaunchScreen.storyboard */,
+				1391550326A799BB0017575A /* Info.plist */,
+			);
+			path = "HyprMX-ExampleTableViewApp";
+			sourceTree = "<group>";
+		};
+		1391550B26A7A2990017575A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		930DF7E722FB5C0100D7220D = {
 			isa = PBXGroup;
 			children = (
-				138298F72668136D004167D5 /* HyprMX.xcframework */,
+				132F1EB326BC86AD0092B292 /* HyprMX.xcframework */,
+				13B5A47726AA08490001FC66 /* README.md */,
 				930DF7F222FB5C0100D7220D /* HyprMX-ExampleApp */,
+				139154F426A799BA0017575A /* HyprMX-ExampleTableViewApp */,
+				930DF7FC22FB5C0200D7220D /* Assets.xcassets */,
+				138364BB26AA0EF500A6F895 /* HyprMX-SwiftUIExampleApp */,
 				930DF7F122FB5C0100D7220D /* Products */,
+				1391550B26A7A2990017575A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				930DF7F022FB5C0100D7220D /* HyprMX-ExampleApp.app */,
+				139154F326A799BA0017575A /* HyprMX-ExampleTableViewApp.app */,
+				138364BA26AA0EF500A6F895 /* HyprMX-SwiftUIExampleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +227,6 @@
 				930DF7F722FB5C0100D7220D /* ViewController.swift */,
 				9307756F2301B3ED009DD872 /* ViewControllerUIExtension.swift */,
 				930DF7F922FB5C0100D7220D /* Main.storyboard */,
-				930DF7FC22FB5C0200D7220D /* Assets.xcassets */,
 				930DF7FE22FB5C0200D7220D /* LaunchScreen.storyboard */,
 				930DF80122FB5C0200D7220D /* Info.plist */,
 			);
@@ -92,6 +236,46 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		138364B926AA0EF500A6F895 /* HyprMX-SwiftUIExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138364C826AA0EF700A6F895 /* Build configuration list for PBXNativeTarget "HyprMX-SwiftUIExampleApp" */;
+			buildPhases = (
+				138364B626AA0EF500A6F895 /* Sources */,
+				138364B726AA0EF500A6F895 /* Frameworks */,
+				138364B826AA0EF500A6F895 /* Resources */,
+				132F1EBE26BC86C40092B292 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HyprMX-SwiftUIExampleApp";
+			packageProductDependencies = (
+			);
+			productName = "HyprMX-SwiftUIExampleApp";
+			productReference = 138364BA26AA0EF500A6F895 /* HyprMX-SwiftUIExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		139154F226A799BA0017575A /* HyprMX-ExampleTableViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1391550626A799BB0017575A /* Build configuration list for PBXNativeTarget "HyprMX-ExampleTableViewApp" */;
+			buildPhases = (
+				139154EF26A799BA0017575A /* Sources */,
+				139154F026A799BA0017575A /* Frameworks */,
+				139154F126A799BA0017575A /* Resources */,
+				132F1EBB26BC86C00092B292 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HyprMX-ExampleTableViewApp";
+			packageProductDependencies = (
+			);
+			productName = "HyprMX-ExampleTableViewApp";
+			productReference = 139154F326A799BA0017575A /* HyprMX-ExampleTableViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		930DF7EF22FB5C0100D7220D /* HyprMX-ExampleApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 930DF80422FB5C0200D7220D /* Build configuration list for PBXNativeTarget "HyprMX-ExampleApp" */;
@@ -118,10 +302,17 @@
 		930DF7E822FB5C0100D7220D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = hyprmx;
 				TargetAttributes = {
+					138364B926AA0EF500A6F895 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					139154F226A799BA0017575A = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
 					930DF7EF22FB5C0100D7220D = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -143,17 +334,38 @@
 			projectRoot = "";
 			targets = (
 				930DF7EF22FB5C0100D7220D /* HyprMX-ExampleApp */,
+				139154F226A799BA0017575A /* HyprMX-ExampleTableViewApp */,
+				138364B926AA0EF500A6F895 /* HyprMX-SwiftUIExampleApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		138364B826AA0EF500A6F895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138364C926AA0F0D00A6F895 /* Assets.xcassets in Resources */,
+				138364C426AA0EF700A6F895 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139154F126A799BA0017575A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1391550726A799FC0017575A /* Assets.xcassets in Resources */,
+				1391550226A799BB0017575A /* LaunchScreen.storyboard in Resources */,
+				139154FD26A799BA0017575A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		930DF7EE22FB5C0100D7220D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1391550826A79A060017575A /* Assets.xcassets in Resources */,
 				930DF80022FB5C0200D7220D /* LaunchScreen.storyboard in Resources */,
-				930DF7FD22FB5C0200D7220D /* Assets.xcassets in Resources */,
 				930DF7FB22FB5C0100D7220D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +373,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		138364B626AA0EF500A6F895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138364BF26AA0EF500A6F895 /* ContentView.swift in Sources */,
+				138364D526AA3E2600A6F895 /* HyprMXBannerViewRepresentable.swift in Sources */,
+				138364D726AAB97A00A6F895 /* HyprMXUser.swift in Sources */,
+				138364BD26AA0EF500A6F895 /* HyprMX_SwiftUIExampleAppApp.swift in Sources */,
+				138364D126AA17F300A6F895 /* BannerViewModel.swift in Sources */,
+				138364CB26AA169900A6F895 /* BannerPlacement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139154EF26A799BA0017575A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1391550A26A79FEE0017575A /* BannerAdCell.swift in Sources */,
+				139154FA26A799BA0017575A /* TableViewController.swift in Sources */,
+				139154F626A799BA0017575A /* AppDelegate.swift in Sources */,
+				139154F826A799BA0017575A /* SceneDelegate.swift in Sources */,
+				130C911326A9CB40007B6143 /* ContentTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		930DF7EC22FB5C0100D7220D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,6 +412,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		139154FB26A799BA0017575A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139154FC26A799BA0017575A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1391550026A799BB0017575A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1391550126A799BB0017575A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		930DF7F922FB5C0100D7220D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -194,6 +447,99 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		138364C626AA0EF700A6F895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HyprMX-SwiftUIExampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NU4557A4JE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HyprMX-SwiftUIExampleApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyprmx.HyprMX-SwiftUIExampleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		138364C726AA0EF700A6F895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HyprMX-SwiftUIExampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NU4557A4JE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HyprMX-SwiftUIExampleApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyprmx.HyprMX-SwiftUIExampleApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1391550426A799BB0017575A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4557A4JE;
+				INFOPLIST_FILE = "HyprMX-ExampleTableViewApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyprmx.HyprMX-ExampleTableViewApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1391550526A799BB0017575A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU4557A4JE;
+				INFOPLIST_FILE = "HyprMX-ExampleTableViewApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyprmx.HyprMX-ExampleTableViewApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		930DF80222FB5C0200D7220D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -333,6 +679,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				MARKETING_VERSION = 6.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hyprmx.HyprMX-ExampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -359,6 +706,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				MARKETING_VERSION = 6.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hyprmx.HyprMX-ExampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -369,6 +717,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		138364C826AA0EF700A6F895 /* Build configuration list for PBXNativeTarget "HyprMX-SwiftUIExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138364C626AA0EF700A6F895 /* Debug */,
+				138364C726AA0EF700A6F895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1391550626A799BB0017575A /* Build configuration list for PBXNativeTarget "HyprMX-ExampleTableViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1391550426A799BB0017575A /* Debug */,
+				1391550526A799BB0017575A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		930DF7EB22FB5C0100D7220D /* Build configuration list for PBXProject "HyprMX-ExampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
