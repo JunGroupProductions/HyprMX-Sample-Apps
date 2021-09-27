@@ -1,52 +1,67 @@
 plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
+  id 'com.android.application'
+  id 'kotlin-android'
 }
 
 apply from: "../ktlint.gradle"
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+  compileSdkVersion 31
 
-    defaultConfig {
-        applicationId "com.hyprmx.android.exampleapp"
-        minSdkVersion 16
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+  defaultConfig {
+    applicationId "com.hyprmx.android.exampleapp"
+    minSdkVersion 21
+    targetSdkVersion 31
+    versionCode 1
+    versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
 
-    buildFeatures {
-        viewBinding true
-    }
+  buildFeatures {
+    viewBinding true
+    compose true
+  }
 
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-        freeCompilerArgs = [
-                "-Xjvm-default=compatibility",
-        ]
-    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+  kotlinOptions {
+    jvmTarget = '1.8'
+    freeCompilerArgs = [
+      "-Xjvm-default=compatibility",
+    ]
+  }
+
+  composeOptions {
+    kotlinCompilerExtensionVersion = "$compose_version"
+  }
 }
 
 dependencies {
-    implementation 'com.hyprmx.android:HyprMX-SDK:5.1.2'
-    implementation 'com.google.android.gms:play-services-ads-identifier:17.0.1'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.5.0'
-    implementation 'androidx.appcompat:appcompat:1.3.0'
-    implementation 'com.google.android.material:material:1.3.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+  implementation 'com.hyprmx.android:HyprMX-SDK:6.0.0'
+  implementation 'com.google.android.gms:play-services-ads-identifier:17.0.1'
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation 'androidx.core:core-ktx:1.6.0'
+  implementation 'androidx.appcompat:appcompat:1.3.1'
+  implementation 'com.google.android.material:material:1.4.0'
+  implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+
+  implementation("androidx.compose.ui:ui:$compose_version")
+  // Tooling support (Previews, etc.)
+  implementation("androidx.compose.ui:ui-tooling:$compose_version")
+  // Foundation (Border, Background, Box, Image, Scroll, shapes, animations, etc.)
+  implementation("androidx.compose.foundation:foundation:$compose_version")
+  // Material Design
+  implementation("androidx.compose.material:material:$compose_version")
+
+  implementation("androidx.activity:activity-compose:1.3.1")
+
 }

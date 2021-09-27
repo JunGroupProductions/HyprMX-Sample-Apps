@@ -1,11 +1,13 @@
 package com.hyprmx.android.exampleapp
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.hyprmx.android.exampleapp.databinding.ActivityMainBinding
+import com.hyprmx.android.sdk.banner.HyprMXBannerSize
 import com.hyprmx.android.sdk.consent.ConsentStatus
 import com.hyprmx.android.sdk.core.HyprMX
 import com.hyprmx.android.sdk.core.HyprMXErrors
@@ -15,13 +17,22 @@ import com.hyprmx.android.sdk.placement.PlacementListener
 import com.hyprmx.android.sdk.placement.RewardedPlacementListener
 import java.util.UUID
 
+/**
+ * This activity demonstrates how to integrate Rewarded and Interstitial Ads
+ */
 class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementListener {
 
   companion object {
     const val TAG = "HyprMX"
+
+    const val DISTRIBUTOR_ID = "1000198877"
+
     const val INTERSTITIAL_PLACEMENT_NAME = "Mraid"
     const val REWARDED_PLACEMENT_NAME = "Vast"
-    const val DISTRIBUTOR_ID = "1000198877"
+
+    const val BANNER_PLACEMENT_NAME = "banner_320_50"
+    val BANNER_SIZE = HyprMXBannerSize.HyprMXAdSizeBanner
+
     val CONSENT_STATUS = ConsentStatus.CONSENT_STATUS_UNKNOWN
   }
 
@@ -37,6 +48,10 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
     setSupportActionBar(binding.toolbar)
     supportActionBar?.setDisplayShowTitleEnabled(false)
     supportActionBar?.setLogo(R.drawable.hyprmx_logo)
+
+    binding.interstitialLabel.text = INTERSTITIAL_PLACEMENT_NAME
+    binding.rewardedLabel.text = REWARDED_PLACEMENT_NAME
+    binding.bannerLabel.text = BANNER_PLACEMENT_NAME
 
     val initializationListener = object : HyprMXIf.HyprMXInitializationListener {
       /**
@@ -85,6 +100,22 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
 
   fun onClickShowRewarded(view: View) {
     rewardedPlacement?.showAd()
+  }
+
+  fun onClickBannerXML(view: View) {
+    startActivity(Intent(this, BannerXMLIntegrationActivity::class.java))
+  }
+
+  fun onClickBannerCodeIntegration(view: View) {
+    startActivity(Intent(this, BannerCodeIntegrationActivity::class.java))
+  }
+
+  fun onClickBannerRecyclerIntegration(view: View) {
+    startActivity(Intent(this, BannerRecyclerIntegrationActivity::class.java))
+  }
+
+  fun onClickBannerComposeIntegration(view: View) {
+    startActivity(Intent(this, BannerJetPackComposeActivity::class.java))
   }
 
   /**

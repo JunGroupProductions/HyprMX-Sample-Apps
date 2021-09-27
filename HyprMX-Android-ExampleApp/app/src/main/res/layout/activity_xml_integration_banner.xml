@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".BannerXMLIntegrationActivity">
+
+  <!--
+    This is an XML integration of a HyprMX Banner.
+
+    app:hyprMXPlacementName
+      The name of the placement provided to you by HyprMX.
+      This is an optional attribute and may be set in code as well
+
+    app:hyprMXAdSize
+      The size of the placement you want to request.
+      This is an optional attribute and may be set in code as well.
+      Possible values include:
+        HyprMXAdSizeShort - width 300, height 50
+        HyprMXAdSizeBanner - width 320, height 50
+        HyprMXAdSizeMediumRectangle - width 300, height 250
+        HyprMXAdSizeLeaderboard - width 728, height 90
+        HyprMXAdSizeSkyScraper - width 160, height 600
+        HyprMXAdSizeMatchView - matches the size of the displayed view
+
+    The width and height set on this view should match the size requested for optimal viewability.
+   -->
+  <com.hyprmx.android.sdk.banner.HyprMXBannerView
+    android:id="@+id/banner_1"
+    app:hyprMXAdSize="HyprMXAdSizeBanner"
+    app:hyprMXPlacementName="banner_320_50"
+    android:layout_width="320dp"
+    android:layout_height="50dp"
+    android:layout_margin="16dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

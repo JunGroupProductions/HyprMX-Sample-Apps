@@ -4,4 +4,8 @@
   <string name="show_interstitial">SHOW INTERSTITIAL</string>
   <string name="load_rewarded">LOAD REWARDED</string>
   <string name="show_rewarded">SHOW REWARDED</string>
+  <string name="show_banner_xml">SHOW BANNER XML</string>
+  <string name="show_banner_code">SHOW BANNER CODE</string>
+  <string name="show_banner_recycler">SHOW BANNER RECYCLER</string>
+  <string name="show_banner_compose">SHOW BANNER COMPOSE</string>
 </resources>
