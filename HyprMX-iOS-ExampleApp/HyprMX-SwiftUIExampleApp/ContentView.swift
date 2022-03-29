@@ -9,7 +9,7 @@
 import SwiftUI
 import HyprMX
 import Combine
-let PLACEMENT_NAME:String = "banner_320_50"
+let PLACEMENT_NAME:String = "test_banner_outbrain"
 let BANNER_WIDTH:Float = 320.0
 let BANNER_HEIGHT:Float = 50.0
 

@@ -121,16 +121,8 @@ extension ViewController {
     }
     
     func hideUI(isHidden:Bool) {
-        self.placementOneNameLabel.isHidden = isHidden;
-        self.placementTwoNameLabel.isHidden = isHidden;
         self.bannerPlacementNameLabel.isHidden = isHidden
-        self.placementOneStatusLabel.isHidden = isHidden;
-        self.placementTwoStatusLabel.isHidden = isHidden;
         self.bannerPlacementStatusLabel.isHidden = isHidden
-        self.placementOneInventoryButton.isHidden = isHidden;
-        self.placementTwoInventoryButton.isHidden = isHidden;
-        self.placementOneShowButton.isHidden = isHidden
-        self.placementTwoShowButton.isHidden = isHidden
         self.bannerLoadButton.isHidden = isHidden
     }
     

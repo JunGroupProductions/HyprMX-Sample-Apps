@@ -19,11 +19,9 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     // Reference to banners for reloading ads
     var banners:Set<HyprMXBannerView> = []
-    #warning("Set your Distributor ID to run the Example App with")
-    let myDistributorID = "1000198877"
+    let myDistributorID = "1000198700"
     
-    #warning("Set your placement names to run the Example App with")
-    let placementNameBanner:String = "banner_320_50"
+    let placementNameBanner:String = "test_banner_outbrain"
     let bannerAdSize = kHyprMXAdSizeBanner
     
     func uniqueUserId() -> String {

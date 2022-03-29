@@ -30,13 +30,11 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
     @IBOutlet weak var sdkVersionLabel: UILabel?
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
 
-    #warning("Set your Distributor ID to run the Example App with")
-    let myDistributorID = "1000198877"
+    let myDistributorID = "1000198700"
     
-    #warning("Set your placement names to run the Example App with")
     let placementName1:String = "Vast"
     let placementName2:String = "Mraid"
-    let placementNameBanner:String = "banner_320_50"
+    let placementNameBanner:String = "test_banner_outbrain"
 
     var placements:[HyprMXPlacement] = []
     var bannerView:HyprMXBannerView?
@@ -60,9 +58,16 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.placementOneNameLabel.isHidden = true;
+        self.placementTwoNameLabel.isHidden = true;
+        self.placementOneStatusLabel.isHidden = true;
+        self.placementTwoStatusLabel.isHidden = true;
+        self.placementOneInventoryButton.isHidden = true;
+        self.placementTwoInventoryButton.isHidden = true;
+        self.placementOneShowButton.isHidden = true
+        self.placementTwoShowButton.isHidden = true
         /** Initializing Banner Ads */
-        self.bannerView = HyprMXBannerView.init(placementName: placementNameBanner, adSize: kHyprMXAdSizeBanner)
+        self.bannerView = HyprMXBannerView.init(placementName: placementNameBanner, adSize: kHyprMXAdSizeMediumRectangle)
         if let banner = self.bannerView {
             // Placement delegates are optional for banners, you can set one to receive status on your banner ads.
             banner.placementDelegate = self
