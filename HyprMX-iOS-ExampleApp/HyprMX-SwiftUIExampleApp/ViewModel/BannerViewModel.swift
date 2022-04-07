@@ -10,7 +10,7 @@ import Foundation
 import Combine
 import HyprMX
 
-let myDistributorID = "1000198877"
+let myDistributorID = "11000124103"
 
 class BannerViewModel: NSObject, Identifiable, ObservableObject, HyprMXBannerDelegate, HyprMXInitializationDelegate {
     

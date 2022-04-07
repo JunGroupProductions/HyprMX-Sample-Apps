@@ -8,4 +8,16 @@
   <string name="show_banner_code">SHOW BANNER CODE</string>
   <string name="show_banner_recycler">SHOW BANNER RECYCLER</string>
   <string name="show_banner_compose">SHOW BANNER COMPOSE</string>
+  <string name="rewarded_placement">Rewarded Placement</string>
+  <string name="banner_placement">Banner Placement</string>
+  <string name="interstitial_placement">Interstitial Placement</string>
+  <string name="initialization_failed">Initialization Failed</string>
+  <string name="initialization_completed">Initialization Completed</string>
+  <string name="ad_available">Ad Available for %1$s</string>
+  <string name="ad_not_available">Ad Not Available for %1$s</string>
+  <string name="ad_started">Ad Started</string>
+  <string name="ad_closed">Ad Closed</string>
+  <string name="ad_error">There was an error displaying the ad</string>
+  <string name="ad_rewarded">Ad Rewarded</string>
+  <string name="ad_expired">"Ad Expired for %1$s"</string>
 </resources>

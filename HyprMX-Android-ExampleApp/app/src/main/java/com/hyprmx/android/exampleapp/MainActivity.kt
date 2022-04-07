@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.hyprmx.android.exampleapp.databinding.ActivityMainBinding
 import com.hyprmx.android.sdk.banner.HyprMXBannerSize
@@ -25,7 +24,7 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
   companion object {
     const val TAG = "HyprMX"
 
-    const val DISTRIBUTOR_ID = "1000198877"
+    const val DISTRIBUTOR_ID = "11000124103"
 
     const val INTERSTITIAL_PLACEMENT_NAME = "Mraid"
     const val REWARDED_PLACEMENT_NAME = "Vast"
@@ -53,6 +52,8 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
     binding.rewardedLabel.text = REWARDED_PLACEMENT_NAME
     binding.bannerLabel.text = BANNER_PLACEMENT_NAME
 
+    setupClickListeners()
+
     val initializationListener = object : HyprMXIf.HyprMXInitializationListener {
       /**
        * Called when the SDK has successfully initialized.
@@ -60,6 +61,7 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
        */
       override fun initializationComplete() {
         Log.i(TAG, "initializationComplete")
+        binding.messageView.text = getString(R.string.initialization_completed)
         interstitialPlacement = HyprMX.getPlacement(INTERSTITIAL_PLACEMENT_NAME).apply {
           setPlacementListener(this@MainActivity)
         }
@@ -80,42 +82,54 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
        */
       override fun initializationFailed() {
         Log.i(TAG, "initializationFailed")
+        binding.messageView.text = getString(R.string.initialization_failed)
       }
     }
 
-    HyprMX.initialize(this, DISTRIBUTOR_ID, getUserId(), CONSENT_STATUS, initializationListener)
+    /**
+     * The initializer includes an optional ageRestrictedUser parameter. If the user is under the age of 16, set this parameter to true.
+     * Setting the ageRestrictedUser parameter is recommended for all users within applications that participate in Google Play’s Designed
+     * for Families program, are listed in Google Play’s Family section, or include children as one of the target audiences to prevent access to
+     * the AAID for end-users flagged as children.
+     */
+    HyprMX.initialize(this, DISTRIBUTOR_ID, getUserId(), CONSENT_STATUS, ageRestrictedUser = false, initializationListener)
   }
 
-  fun onClickInterstitialLoadAd(view: View) {
-    interstitialPlacement?.loadAd()
-  }
+  /**
+   * Sets up the UI click listeners
+   */
+  private fun setupClickListeners() {
+    binding.buttonLoadInterstitial.setOnClickListener {
+      interstitialPlacement?.loadAd()
+    }
 
-  fun onClickInterstitialShowAd(view: View) {
-    interstitialPlacement?.showAd()
-  }
+    binding.buttonShowInterstitial.setOnClickListener {
+      interstitialPlacement?.showAd()
+    }
 
-  fun onClickLoadRewarded(view: View) {
-    rewardedPlacement?.loadAd()
-  }
+    binding.buttonLoadRewarded.setOnClickListener {
+      rewardedPlacement?.loadAd()
+    }
 
-  fun onClickShowRewarded(view: View) {
-    rewardedPlacement?.showAd()
-  }
+    binding.buttonShowRewarded.setOnClickListener {
+      rewardedPlacement?.showAd()
+    }
 
-  fun onClickBannerXML(view: View) {
-    startActivity(Intent(this, BannerXMLIntegrationActivity::class.java))
-  }
+    binding.buttonShowXml.setOnClickListener {
+      startActivity(Intent(this, BannerXMLIntegrationActivity::class.java))
+    }
 
-  fun onClickBannerCodeIntegration(view: View) {
-    startActivity(Intent(this, BannerCodeIntegrationActivity::class.java))
-  }
+    binding.buttonShowCode.setOnClickListener {
+      startActivity(Intent(this, BannerCodeIntegrationActivity::class.java))
+    }
 
-  fun onClickBannerRecyclerIntegration(view: View) {
-    startActivity(Intent(this, BannerRecyclerIntegrationActivity::class.java))
-  }
+    binding.buttonShowRecycler.setOnClickListener {
+      startActivity(Intent(this, BannerRecyclerIntegrationActivity::class.java))
+    }
 
-  fun onClickBannerComposeIntegration(view: View) {
-    startActivity(Intent(this, BannerJetPackComposeActivity::class.java))
+    binding.buttonShowCompose.setOnClickListener {
+      startActivity(Intent(this, BannerJetPackComposeActivity::class.java))
+    }
   }
 
   /**
@@ -140,6 +154,22 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
    */
   override fun onAdAvailable(placement: Placement) {
     Log.i(TAG, "onAdAvailable for ${placement.name}")
+    binding.messageView.text = getString(R.string.ad_available, placement.name)
+    updateShowButton(placement, true)
+  }
+
+  /**
+   * Updates the state of the show button
+   */
+  private fun updateShowButton(placement: Placement, enabled: Boolean) {
+    when (placement) {
+      rewardedPlacement -> {
+        binding.buttonShowRewarded.isEnabled = enabled
+      }
+      interstitialPlacement -> {
+        binding.buttonShowInterstitial.isEnabled = enabled
+      }
+    }
   }
 
   /**
@@ -147,6 +177,8 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
    */
   override fun onAdClosed(placement: Placement, finished: Boolean) {
     Log.i(TAG, "onAdClosed for ${placement.name}")
+    binding.messageView.text = getString(R.string.ad_closed)
+    updateShowButton(placement, false)
   }
 
   /**
@@ -154,6 +186,7 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
    */
   override fun onAdDisplayError(placement: Placement, hyprMXError: HyprMXErrors) {
     Log.i(TAG, "onAdDisplayError for ${placement.name} with error $hyprMXError")
+    binding.messageView.text = getString(R.string.ad_error)
   }
 
   /**
@@ -161,6 +194,8 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
    */
   override fun onAdNotAvailable(placement: Placement) {
     Log.i(TAG, "onAdNotAvailable for ${placement.name}")
+    binding.messageView.text = getString(R.string.ad_not_available, placement.name)
+    updateShowButton(placement, false)
   }
 
   /**
@@ -168,6 +203,7 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
    */
   override fun onAdRewarded(placement: Placement, rewardName: String, rewardValue: Int) {
     Log.i(TAG, "onAdRewarded for ${placement.name}")
+    binding.messageView.text = getString(R.string.ad_rewarded)
   }
 
   /**
@@ -175,5 +211,12 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
    */
   override fun onAdStarted(placement: Placement) {
     Log.i(TAG, "onAdStarted for ${placement.name}")
+    binding.messageView.text = getString(R.string.ad_started)
+  }
+
+  override fun onAdExpired(placement: Placement) {
+    Log.i(TAG, "onAdExpired for ${placement.name}")
+    binding.messageView.text = getString(R.string.ad_expired, placement.name)
+    updateShowButton(placement, false)
   }
 }

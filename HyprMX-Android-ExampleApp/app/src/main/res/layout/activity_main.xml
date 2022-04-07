@@ -8,157 +8,178 @@
   tools:context=".MainActivity">
 
   <androidx.appcompat.widget.Toolbar
-    app:layout_constraintTop_toTopOf="parent"
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
-    android:layout_height="?attr/actionBarSize"
+    android:layout_height="wrap_content"
     android:background="?attr/colorPrimary"
     android:elevation="4dp"
     android:theme="@style/ToolBar"
-    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
-    tools:ignore="MissingConstraints" />
-
-  <TextView
-    android:id="@+id/interstitialLabel"
-    android:layout_marginTop="16dp"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Interstitial Placement"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+    app:layout_constraintTop_toTopOf="parent" />
 
-  <Button
-    android:id="@+id/button_load_interstitial"
-    style="@style/buttonStyle"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginLeft="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
-    android:onClick="onClickInterstitialLoadAd"
-    android:text="@string/load_interstitial"
+  <ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/interstitialLabel" />
+    app:layout_constraintTop_toBottomOf="@id/toolbar"
+    app:layout_constraintVertical_bias="1.0">
 
-  <Button
-    android:id="@+id/button_show_interstitial"
-    style="@style/buttonStyle"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:onClick="onClickInterstitialShowAd"
-    android:layout_marginEnd="8dp"
-    android:text="@string/show_interstitial"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button_load_interstitial" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
 
-  <TextView
-    android:id="@+id/rewardedLabel"
-    android:layout_marginTop="16dp"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Rewarded Placement"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/button_show_interstitial"/>
+      <TextView
+        android:id="@+id/interstitialLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/interstitial_placement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-  <Button
-    android:id="@+id/button_load_rewarded"
-    style="@style/buttonStyle"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
-    android:text="@string/load_rewarded"
-    android:onClick="onClickLoadRewarded"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/rewardedLabel" />
+      <Button
+        android:id="@+id/button_load_interstitial"
+        style="@style/buttonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/load_interstitial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/interstitialLabel" />
 
-  <Button
-    android:id="@+id/button_show_rewarded"
-    style="@style/buttonStyle"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
-    android:text="@string/show_rewarded"
-    android:onClick="onClickShowRewarded"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button_load_rewarded" />
+      <Button
+        android:id="@+id/button_show_interstitial"
+        style="@style/buttonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/show_interstitial"
+        android:enabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_load_interstitial" />
 
-  <TextView
-    android:id="@+id/bannerLabel"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="16dp"
-    android:text="Banner Placement"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/button_show_rewarded"/>
+      <TextView
+        android:id="@+id/rewardedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rewarded_placement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_show_interstitial" />
 
-  <Button
-    android:id="@+id/button_show_xml"
-    style="@style/buttonStyle"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
-    android:text="@string/show_banner_xml"
-    android:onClick="onClickBannerXML"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/bannerLabel" />
+      <Button
+        android:id="@+id/button_load_rewarded"
+        style="@style/buttonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/load_rewarded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rewardedLabel" />
 
-  <Button
-    android:id="@+id/button_show_code"
-    style="@style/buttonStyle"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
-    android:text="@string/show_banner_code"
-    android:onClick="onClickBannerCodeIntegration"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button_show_xml" />
+      <Button
+        android:id="@+id/button_show_rewarded"
+        style="@style/buttonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/show_rewarded"
+        android:enabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_load_rewarded" />
 
-  <Button
-    android:id="@+id/button_show_recycler"
-    style="@style/buttonStyle"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
-    android:text="@string/show_banner_recycler"
-    android:onClick="onClickBannerRecyclerIntegration"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button_show_code" />
+      <TextView
+        android:id="@+id/bannerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/banner_placement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_show_rewarded" />
 
-  <Button
-    android:id="@+id/button_show_compose"
-    style="@style/buttonStyle"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
-    android:text="@string/show_banner_compose"
-    android:onClick="onClickBannerComposeIntegration"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button_show_recycler" />
+      <Button
+        android:id="@+id/button_show_xml"
+        style="@style/buttonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/show_banner_xml"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerLabel" />
+
+      <Button
+        android:id="@+id/button_show_code"
+        style="@style/buttonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/show_banner_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_show_xml" />
+
+      <Button
+        android:id="@+id/button_show_recycler"
+        style="@style/buttonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/show_banner_recycler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_show_code" />
+
+      <Button
+        android:id="@+id/button_show_compose"
+        style="@style/buttonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/show_banner_compose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_show_recycler" />
+
+      <TextView
+        android:id="@+id/messageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_show_compose" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,7 +31,7 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
 
     #warning("Set your Distributor ID to run the Example App with")
-    let myDistributorID = "1000198877"
+    let myDistributorID = "11000124103"
     
     #warning("Set your placement names to run the Example App with")
     let placementName1:String = "Vast"
