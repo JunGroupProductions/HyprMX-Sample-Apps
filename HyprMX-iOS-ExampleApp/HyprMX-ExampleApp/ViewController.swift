@@ -8,6 +8,7 @@
 
 import UIKit
 import HyprMX
+import AppTrackingTransparency
 
 class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDelegate, HyprMXInitializationDelegate {
 
@@ -82,8 +83,13 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
             banner.centerXAnchor.constraint(equalTo: self.bannerContainerView.centerXAnchor).isActive = true
             banner.centerYAnchor.constraint(equalTo: self.bannerContainerView.centerYAnchor).isActive = true
         }
-        
-        
+        setUpUI()
+    }
+
+    func initializeHyprMX() {
+        if (HyprMX.initializationStatus() != NOT_INITIALIZED) {
+            return
+        }
         /** Initialize SDK */
         // Initialize HyprMX before loading ads on your placements or bannerViews.
         // You can begin to load ads once your HyprMXInitializationDelegate implementation receives
@@ -103,10 +109,27 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
             placement.placementDelegate = self;
             placements.append(placement)
         }
-        
-        setUpUI()
     }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        promptThenInitialize()
+    }
+    
+    func promptThenInitialize() {
+        if #available(iOS 14, *) {
+            if (ATTrackingManager.trackingAuthorizationStatus == .notDetermined) {
+                ATTrackingManager.requestTrackingAuthorization { _ in
+                    OperationQueue.main.addOperation {
+                        self.initializeHyprMX()
+                    }
+                }
+                return
+            }
+        }
+        initializeHyprMX()
+    }
+    
     // MARK: - Full Screen Rewarded/Interstitial Ads Load/Show API -
 
     func loadAd(placementName: String) {
