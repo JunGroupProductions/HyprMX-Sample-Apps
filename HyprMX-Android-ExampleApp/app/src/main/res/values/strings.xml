@@ -20,4 +20,5 @@
   <string name="ad_error">There was an error displaying the ad</string>
   <string name="ad_rewarded">Ad Rewarded</string>
   <string name="ad_expired">"Ad Expired for %1$s"</string>
+  <string name="cell_item">"Cell Item %1$d"</string>
 </resources>

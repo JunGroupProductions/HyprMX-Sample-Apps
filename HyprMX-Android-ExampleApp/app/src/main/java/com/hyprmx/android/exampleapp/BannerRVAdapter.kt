@@ -56,7 +56,8 @@ class BannerRVAdapter(
           parent,
           false
         ),
-        bannerWidth, bannerHeight
+        bannerWidth,
+        bannerHeight
       )
     }
     throw IllegalArgumentException("invalid view type $viewType")
@@ -65,7 +66,7 @@ class BannerRVAdapter(
   override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
     when (holder) {
       is TextViewHolder -> {
-        holder.itemViewBinding.bannerMessages.text = "Cell Item $position"
+        holder.itemViewBinding.bannerMessages.text = holder.itemView.context.getString(R.string.cell_item, position)
       }
       is BannerViewHolder -> {
         val size = bannerAds.size
