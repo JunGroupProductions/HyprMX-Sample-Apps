@@ -89,6 +89,7 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
                           userId: self.uniqueUserId(),
                           // If you don't have consent status for the user, set consentStatus to CONSENT_STATUS_UNKNOWN
                           consentStatus: CONSENT_STATUS_UNKNOWN,
+                          ageRestrictedUser: false,
                           initializationDelegate: self)
         
         for placementName in [placementName1, placementName2] {

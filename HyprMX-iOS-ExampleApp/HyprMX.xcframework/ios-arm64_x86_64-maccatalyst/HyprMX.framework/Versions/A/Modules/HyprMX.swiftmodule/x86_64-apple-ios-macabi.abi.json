@@ -1,0 +1,2334 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HyprMXBannerDelegate",
+        "printedName": "HyprMXBannerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "adDidLoad",
+            "printedName": "adDidLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HyprMXBannerView",
+                "printedName": "HyprMX.HyprMXBannerView",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(pl)HyprMXBannerDelegate(im)adDidLoad:",
+            "mangledName": "$s6HyprMX0A16MXBannerDelegateP9adDidLoadyyAA0aC4ViewCF",
+            "moduleName": "HyprMX",
+            "genericSig": "<τ_0_0 where τ_0_0 : HyprMX.HyprMXBannerDelegate>",
+            "sugared_genericSig": "<Self where Self : HyprMX.HyprMXBannerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adFailed",
+            "printedName": "adFailed(toLoad:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HyprMXBannerView",
+                "printedName": "HyprMX.HyprMXBannerView",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(pl)HyprMXBannerDelegate(im)adFailedToLoad:error:",
+            "mangledName": "$s6HyprMX0A16MXBannerDelegateP8adFailed6toLoad5erroryAA0aC4ViewC_s5Error_ptF",
+            "moduleName": "HyprMX",
+            "genericSig": "<τ_0_0 where τ_0_0 : HyprMX.HyprMXBannerDelegate>",
+            "sugared_genericSig": "<Self where Self : HyprMX.HyprMXBannerDelegate>",
+            "protocolReq": true,
+            "objc_name": "adFailedToLoad:error:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidOpen",
+            "printedName": "adDidOpen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HyprMXBannerView",
+                "printedName": "HyprMX.HyprMXBannerView",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(pl)HyprMXBannerDelegate(im)adDidOpen:",
+            "mangledName": "$s6HyprMX0A16MXBannerDelegateP9adDidOpenyyAA0aC4ViewCF",
+            "moduleName": "HyprMX",
+            "genericSig": "<τ_0_0 where τ_0_0 : HyprMX.HyprMXBannerDelegate>",
+            "sugared_genericSig": "<Self where Self : HyprMX.HyprMXBannerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidClose",
+            "printedName": "adDidClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HyprMXBannerView",
+                "printedName": "HyprMX.HyprMXBannerView",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(pl)HyprMXBannerDelegate(im)adDidClose:",
+            "mangledName": "$s6HyprMX0A16MXBannerDelegateP10adDidCloseyyAA0aC4ViewCF",
+            "moduleName": "HyprMX",
+            "genericSig": "<τ_0_0 where τ_0_0 : HyprMX.HyprMXBannerDelegate>",
+            "sugared_genericSig": "<Self where Self : HyprMX.HyprMXBannerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWasClicked",
+            "printedName": "adWasClicked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HyprMXBannerView",
+                "printedName": "HyprMX.HyprMXBannerView",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(pl)HyprMXBannerDelegate(im)adWasClicked:",
+            "mangledName": "$s6HyprMX0A16MXBannerDelegateP12adWasClickedyyAA0aC4ViewCF",
+            "moduleName": "HyprMX",
+            "genericSig": "<τ_0_0 where τ_0_0 : HyprMX.HyprMXBannerDelegate>",
+            "sugared_genericSig": "<Self where Self : HyprMX.HyprMXBannerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillLeaveApplication",
+            "printedName": "adWillLeaveApplication(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HyprMXBannerView",
+                "printedName": "HyprMX.HyprMXBannerView",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(pl)HyprMXBannerDelegate(im)adWillLeaveApplication:",
+            "mangledName": "$s6HyprMX0A16MXBannerDelegateP22adWillLeaveApplicationyyAA0aC4ViewCF",
+            "moduleName": "HyprMX",
+            "genericSig": "<τ_0_0 where τ_0_0 : HyprMX.HyprMXBannerDelegate>",
+            "sugared_genericSig": "<Self where Self : HyprMX.HyprMXBannerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@HyprMX@objc(pl)HyprMXBannerDelegate",
+        "mangledName": "$s6HyprMX0A16MXBannerDelegateP",
+        "moduleName": "HyprMX",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HyprMXBannerView",
+        "printedName": "HyprMXBannerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "placementName",
+            "printedName": "placementName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(py)placementName",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC13placementNameSSSgvp",
+            "moduleName": "HyprMX",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)placementName",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC13placementNameSSSgvg",
+                "moduleName": "HyprMX",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)setPlacementName:",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC13placementNameSSSgvs",
+                "moduleName": "HyprMX",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6HyprMX0A12MXBannerViewC13placementNameSSSgvM",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC13placementNameSSSgvM",
+                "moduleName": "HyprMX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adSize",
+            "printedName": "adSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(py)adSize",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC6adSizeSo6CGSizeVvp",
+            "moduleName": "HyprMX",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)adSize",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC6adSizeSo6CGSizeVvg",
+                "moduleName": "HyprMX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)setAdSize:",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC6adSizeSo6CGSizeVvs",
+                "moduleName": "HyprMX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6HyprMX0A12MXBannerViewC6adSizeSo6CGSizeVvM",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC6adSizeSo6CGSizeVvM",
+                "moduleName": "HyprMX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "placementDelegate",
+            "printedName": "placementDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "HyprMX.HyprMXBannerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(py)placementDelegate",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC17placementDelegateAA0acF0_pSgvp",
+            "moduleName": "HyprMX",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ReferenceOwnership",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HyprMX.HyprMXBannerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HyprMXBannerDelegate",
+                        "printedName": "HyprMX.HyprMXBannerDelegate",
+                        "usr": "c:@M@HyprMX@objc(pl)HyprMXBannerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)placementDelegate",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC17placementDelegateAA0acF0_pSgvg",
+                "moduleName": "HyprMX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HyprMX.HyprMXBannerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HyprMXBannerDelegate",
+                        "printedName": "HyprMX.HyprMXBannerDelegate",
+                        "usr": "c:@M@HyprMX@objc(pl)HyprMXBannerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)setPlacementDelegate:",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC17placementDelegateAA0acF0_pSgvs",
+                "moduleName": "HyprMX",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6HyprMX0A12MXBannerViewC17placementDelegateAA0acF0_pSgvM",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC17placementDelegateAA0acF0_pSgvM",
+                "moduleName": "HyprMX",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHidden",
+            "printedName": "isHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(py)hidden",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC8isHiddenSbvp",
+            "moduleName": "HyprMX",
+            "overriding": true,
+            "objc_name": "hidden",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)isHidden",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC8isHiddenSbvg",
+                "moduleName": "HyprMX",
+                "overriding": true,
+                "objc_name": "isHidden",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)setHidden:",
+                "mangledName": "$s6HyprMX0A12MXBannerViewC8isHiddenSbvs",
+                "moduleName": "HyprMX",
+                "overriding": true,
+                "objc_name": "setHidden:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(placementName:adSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HyprMXBannerView",
+                "printedName": "HyprMX.HyprMXBannerView",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)initWithPlacementName:adSize:",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC13placementName6adSizeACSS_So6CGSizeVtcfc",
+            "moduleName": "HyprMX",
+            "objc_name": "initWithPlacementName:adSize:",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "adTapped",
+            "printedName": "adTapped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)adTapped",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC8adTappedyyF",
+            "moduleName": "HyprMX",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HyprMXBannerView",
+                "printedName": "HyprMX.HyprMXBannerView",
+                "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)initWithFrame:",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "HyprMX",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToSuperview",
+            "printedName": "didMoveToSuperview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)didMoveToSuperview",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC18didMoveToSuperviewyyF",
+            "moduleName": "HyprMX",
+            "overriding": true,
+            "objc_name": "didMoveToSuperview",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)layoutSubviews",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC14layoutSubviewsyyF",
+            "moduleName": "HyprMX",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView(im)loadAd",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC6loadAdyyF",
+            "moduleName": "HyprMX",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gestureRecognizer",
+            "printedName": "gestureRecognizer(_:shouldReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITouch",
+                "printedName": "UIKit.UITouch",
+                "usr": "c:objc(cs)UITouch"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@HyprMX@objc(cs)HyprMXBannerView(im)gestureRecognizer:shouldReceiveTouch:",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC17gestureRecognizer_13shouldReceiveSbSo09UIGestureF0C_So7UITouchCtF",
+            "moduleName": "HyprMX",
+            "objc_name": "gestureRecognizer:shouldReceiveTouch:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gestureRecognizer",
+            "printedName": "gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@HyprMX@objc(cs)HyprMXBannerView(im)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+            "mangledName": "$s6HyprMX0A12MXBannerViewC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureF0C_AGtF",
+            "moduleName": "HyprMX",
+            "objc_name": "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HyprMX@objc(cs)HyprMXBannerView",
+        "mangledName": "$s6HyprMX0A12MXBannerViewC",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HyprMX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "HyprMX_Private",
+        "printedName": "HyprMX_Private",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "HyprMX"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HYPRJSContext",
+        "printedName": "HYPRJSContext",
+        "declKind": "Class",
+        "usr": "c:objc(cs)HYPRJSContext",
+        "moduleName": "HyprMX_Private",
+        "isOpen": true,
+        "objc_name": "HYPRJSContext",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)JSContext",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "JavaScriptCore.JSContext",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/HYPRNativeTimer.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 17,
+      "value": "\"HYPRNativeTimer\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/HYPRNativeTimer.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/HYPRNativeTimer.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 10,
+      "value": "\"callback\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/HYPRNativeTimer.swift",
+      "kind": "Dictionary",
+      "offset": 474,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/HYPRNativeTimer.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 11,
+      "value": "\"HyprMX.NativeTimer\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/PresentationAdapter\/PresentationAdapterOutsideApp.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 29,
+      "value": "\"HyprMX.PresentationAdapterOutsideApp\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 45,
+      "value": "\"SKStoreProductParameterITunesItemIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 42,
+      "value": "\"SKStoreProductParameterProductIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 39,
+      "value": "\"SKStoreProductParameterAffiliateToken\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 38,
+      "value": "\"SKStoreProductParameterCampaignToken\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 38,
+      "value": "\"SKStoreProductParameterProviderToken\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 48,
+      "value": "\"SKStoreProductParameterAdvertisingPartnerToken\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 54,
+      "value": "\"SKStoreProductParameterAdNetworkAttributionSignature\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 952,
+      "length": 52,
+      "value": "\"SKStoreProductParameterAdNetworkCampaignIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1040,
+      "length": 44,
+      "value": "\"SKStoreProductParameterAdNetworkIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 39,
+      "value": "\"SKStoreProductParameterAdNetworkNonce\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 43,
+      "value": "\"SKStoreProductParameterAdNetworkTimestamp\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1246,
+      "length": 58,
+      "value": "\"SKStoreProductParameterAdNetworkSourceAppStoreIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1328,
+      "length": 41,
+      "value": "\"SKStoreProductParameterAdNetworkVersion\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 45,
+      "value": "\"SKStoreProductParameterITunesItemIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 42,
+      "value": "\"SKStoreProductParameterProductIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 39,
+      "value": "\"SKStoreProductParameterAffiliateToken\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 38,
+      "value": "\"SKStoreProductParameterCampaignToken\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 38,
+      "value": "\"SKStoreProductParameterProviderToken\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 48,
+      "value": "\"SKStoreProductParameterAdvertisingPartnerToken\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 54,
+      "value": "\"SKStoreProductParameterAdNetworkAttributionSignature\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 952,
+      "length": 52,
+      "value": "\"SKStoreProductParameterAdNetworkCampaignIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1040,
+      "length": 44,
+      "value": "\"SKStoreProductParameterAdNetworkIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 39,
+      "value": "\"SKStoreProductParameterAdNetworkNonce\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 43,
+      "value": "\"SKStoreProductParameterAdNetworkTimestamp\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1246,
+      "length": 58,
+      "value": "\"SKStoreProductParameterAdNetworkSourceAppStoreIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Model\/StorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 1328,
+      "length": 41,
+      "value": "\"SKStoreProductParameterAdNetworkVersion\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/MuteChangeSubscriber.swift",
+      "kind": "Array",
+      "offset": 373,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/MuteChangeSubscriber.swift",
+      "kind": "BooleanLiteral",
+      "offset": 446,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/MuteChangeSubscriber.swift",
+      "kind": "BooleanLiteral",
+      "offset": 489,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/MuteChangeSubscriber.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 20,
+      "value": "\"HyprMX.MuteChangeSubscriber\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/SessionChangeSubscriber.swift",
+      "kind": "Array",
+      "offset": 392,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/SessionChangeSubscriber.swift",
+      "kind": "BooleanLiteral",
+      "offset": 632,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/SessionChangeSubscriber.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 23,
+      "value": "\"HyprMX.SessionChangeSubscriber\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioStatusManager\/NativeAudioEventPublisher.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 31,
+      "value": "\"HYPRAudioEventPublisherNative\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioStatusManager\/NativeAudioEventPublisher.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 31,
+      "value": "\"HYPRAudioEventPublisherNative\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioStatusManager\/NativeAudioEventPublisher.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 25,
+      "value": "\"HyprMX.NativeAudioEventPublisher\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/MuteStatusPublisher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 8,
+      "value": "59983720"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/MuteStatusPublisher.swift",
+      "kind": "BooleanLiteral",
+      "offset": 353,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/MuteStatusPublisher.swift",
+      "kind": "BooleanLiteral",
+      "offset": 386,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/MuteStatusPublisher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/SDKParams\/SDKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 7,
+      "value": "\"6.2.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/PresentationAdapter\/HyprMXBrowserPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 25,
+      "value": "\"HyprMX.HyprMXBrowserPresentation\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/PresentationAdapter\/AppStorePresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 20,
+      "value": "\"HyprMX.AppStorePresentation\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/PresentationAdapter\/PresentationAdapterDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 485,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/PresentationAdapter\/PresentationAdapterDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 27,
+      "value": "\"HyprMX.PresentationAdapterDelegate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/PresentationAdapter\/SafariBrowserPresentation.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 25,
+      "value": "\"HyprMX.SafariBrowserPresentation\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 963,
+      "length": 12,
+      "value": "\"interacted\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 896,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1052,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 1099,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
+      "length": 19,
+      "value": "\"HyprMX.HYPRBannerPresenter\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Presenter\/HYPRBannerPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 10838,
+      "length": 25,
+      "value": "\"Error downloading photo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 32,
+      "value": "\"com.hyprmx.networkmonitorqueue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 14,
+      "value": "\"HyprMX.NetworkMonitor\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
+      "kind": "Array",
+      "offset": 1297,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 21,
+      "value": "\"HyprMX.BrowserViewController\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/VolumeEventSubscriber.swift",
+      "kind": "Array",
+      "offset": 388,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/VolumeEventSubscriber.swift",
+      "kind": "BooleanLiteral",
+      "offset": 610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/VolumeEventSubscriber.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 21,
+      "value": "\"HyprMX.VolumeEventSubscriber\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/ParameterController.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 59,
+      "value": "\"HYPRRequestParameterManager = new RequestParameterManager\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/ParameterController.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 50,
+      "value": "\"HYPRRequestParameterManager.updateVastCacheState\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/ParameterController.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 59,
+      "value": "\"HYPRRequestParameterManager = new RequestParameterManager\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/ParameterController.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 50,
+      "value": "\"HYPRRequestParameterManager.updateVastCacheState\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/ParameterController.swift",
+      "kind": "StringLiteral",
+      "offset": 1111,
+      "length": 4,
+      "value": "\"{}\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/ParameterController.swift",
+      "kind": "Array",
+      "offset": 1220,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/ParameterController.swift",
+      "kind": "StringLiteral",
+      "offset": 1292,
+      "length": 18,
+      "value": "\"UsageDescription\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/ParameterController.swift",
+      "kind": "Dictionary",
+      "offset": 1906,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Parameters\/ParameterController.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 19,
+      "value": "\"HyprMX.ParameterController\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/PresentationAdapter\/PresentationAdapterModalView.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 24,
+      "value": "\"HyprMX.PresentationAdapterModal\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/View\/HyprMXBannerView.swift",
+      "kind": "Array",
+      "offset": 1590,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 11,
+      "value": "\"banner_ad\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 9,
+      "value": "\"base_ad\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 9,
+      "value": "\"sharing\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 17,
+      "value": "\"webtraffic_page\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 11,
+      "value": "\"banner_ad\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 9,
+      "value": "\"base_ad\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 9,
+      "value": "\"sharing\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 17,
+      "value": "\"webtraffic_page\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 662,
+      "length": 5,
+      "value": "160.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 677,
+      "length": 5,
+      "value": "600.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 727,
+      "length": 5,
+      "value": "728.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 742,
+      "length": 4,
+      "value": "90.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 795,
+      "length": 5,
+      "value": "300.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 810,
+      "length": 5,
+      "value": "250.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 855,
+      "length": 5,
+      "value": "320.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 870,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 913,
+      "length": 5,
+      "value": "300.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Resources\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 928,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/AudioEventPublish.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 25,
+      "value": "\"HYPRNativeAudioListener\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/AudioEventPublish.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 25,
+      "value": "\"HYPRNativeAudioListener\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Domain\/AudioEventPublisher\/AudioEventPublish.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 19,
+      "value": "\"HyprMX.AudioEventPublisher\""
+    }
+  ]
+}

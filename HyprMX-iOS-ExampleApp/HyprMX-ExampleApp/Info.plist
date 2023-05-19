@@ -31,13 +31,9 @@
 		<key>NSAllowsArbitraryLoadsInWebContent</key>
 		<true/>
 	</dict>
-	<key>NSCalendarsUsageDescription</key>
-	<string>${PRODUCT_NAME} requests access to the Calendar</string>
 	<key>NSCameraUsageDescription</key>
 	<string>${PRODUCT_NAME} requests access to the Camera</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>${PRODUCT_NAME} requests access to the Photo Library</string>
-	<key>NSPhotoLibraryUsageDescription</key>
 	<string>${PRODUCT_NAME} requests access to the Photo Library</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>${PRODUCT_NAME} would like to show you personalized ads</string>

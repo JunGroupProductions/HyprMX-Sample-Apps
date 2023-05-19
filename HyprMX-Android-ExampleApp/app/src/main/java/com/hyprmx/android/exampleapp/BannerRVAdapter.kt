@@ -1,9 +1,8 @@
 package com.hyprmx.android.exampleapp
 
 import android.util.Log
-import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.view.isNotEmpty
 import androidx.recyclerview.widget.RecyclerView
 import com.hyprmx.android.exampleapp.databinding.BannerItemBinding
 import com.hyprmx.android.exampleapp.databinding.ItemBannerTextBinding
@@ -11,8 +10,6 @@ import com.hyprmx.android.sdk.banner.HyprMXBannerView
 
 class BannerRVAdapter(
   private val listSize: Int,
-  private val bannerWidth: Int,
-  private val bannerHeight: Int,
   private val frequency: Int,
   private val bannerAds: List<HyprMXBannerView>
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -22,14 +19,8 @@ class BannerRVAdapter(
     const val TEXT_TYPE = 1
   }
 
-  class TextViewHolder(val itemViewBinding: ItemBannerTextBinding, width: Int, height: Int) :
-    RecyclerView.ViewHolder(itemViewBinding.root) {
-    init {
-      val params = itemViewBinding.bannerMessages.layoutParams as ConstraintLayout.LayoutParams
-      params.height = itemView.context.dpToPx(height)
-      params.width = itemView.context.dpToPx(width)
-    }
-  }
+  class TextViewHolder(val itemViewBinding: ItemBannerTextBinding) :
+    RecyclerView.ViewHolder(itemViewBinding.root)
 
   class BannerViewHolder(val itemViewBinding: BannerItemBinding) :
     RecyclerView.ViewHolder(itemViewBinding.root)
@@ -45,19 +36,17 @@ class BannerRVAdapter(
     when (viewType) {
       BANNER_TYPE -> return BannerViewHolder(
         BannerItemBinding.inflate(
-          LayoutInflater.from(parent.context),
+          parent.context.layoutInflater(),
           parent,
           false
         )
       )
       TEXT_TYPE -> return TextViewHolder(
         ItemBannerTextBinding.inflate(
-          LayoutInflater.from(parent.context),
+          parent.context.layoutInflater(),
           parent,
           false
-        ),
-        bannerWidth,
-        bannerHeight
+        )
       )
     }
     throw IllegalArgumentException("invalid view type $viewType")
@@ -83,12 +72,11 @@ class BannerRVAdapter(
         val bannerView = bannerAds[selectedBanner]
         val root = holder.itemViewBinding.root
 
-        if (root.childCount > 0) {
+        if (root.isNotEmpty()) {
           root.removeAllViews()
         }
-        if (bannerView.parent != null) {
-          (bannerView.parent as ViewGroup).removeView(bannerView)
-        }
+
+        (bannerView.parent as? ViewGroup)?.removeView(bannerView)
 
         // Add the banner ad to the ad view.
         root.addView(bannerView)

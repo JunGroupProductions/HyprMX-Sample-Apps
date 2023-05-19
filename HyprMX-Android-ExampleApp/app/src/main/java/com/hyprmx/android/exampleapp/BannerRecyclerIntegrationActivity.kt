@@ -45,8 +45,6 @@ class BannerRecyclerIntegrationActivity : AppCompatActivity() {
     recyclerViewItems = initBannerViews(BANNER_COUNT, BANNER_PLACEMENT_NAME, BANNER_SIZE)
     binding.bannerRv.adapter = BannerRVAdapter(
       BANNER_LIST_SIZE,
-      BANNER_SIZE.width,
-      BANNER_SIZE.height,
       BANNER_FREQUENCY,
       recyclerViewItems
     )
@@ -75,12 +73,12 @@ class BannerRecyclerIntegrationActivity : AppCompatActivity() {
         adSize = bannerSize
       )
       // Add the banner to the ad view.
-      val params = LinearLayout.LayoutParams(
+      bv.layoutParams = LinearLayout.LayoutParams(
         bv.context.dpToPx(bannerSize.width),
         bv.context.dpToPx(bannerSize.height)
-      )
-      params.gravity = Gravity.CENTER_HORIZONTAL
-      bv.layoutParams = params
+      ).apply {
+        gravity = Gravity.CENTER_HORIZONTAL
+      }
       bv.loadAd()
       bannerViews.add(bv)
     }

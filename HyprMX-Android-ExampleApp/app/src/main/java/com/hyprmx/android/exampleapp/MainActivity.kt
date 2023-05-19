@@ -36,8 +36,16 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
   }
 
   private lateinit var binding: ActivityMainBinding
-  private var interstitialPlacement: Placement? = null
-  private var rewardedPlacement: Placement? = null
+  private val interstitialPlacement: Placement by lazy {
+    HyprMX.getPlacement(INTERSTITIAL_PLACEMENT_NAME).apply {
+      setPlacementListener(this@MainActivity)
+    }
+  }
+  private val rewardedPlacement: Placement by lazy {
+    HyprMX.getPlacement(REWARDED_PLACEMENT_NAME).apply {
+      setPlacementListener(this@MainActivity)
+    }
+  }
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -45,12 +53,16 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
     setContentView(binding.root)
 
     setSupportActionBar(binding.toolbar)
-    supportActionBar?.setDisplayShowTitleEnabled(false)
-    supportActionBar?.setLogo(R.drawable.hyprmx_logo)
+    supportActionBar?.apply {
+      setDisplayShowTitleEnabled(false)
+      setLogo(R.drawable.hyprmx_logo)
+    }
 
-    binding.interstitialLabel.text = INTERSTITIAL_PLACEMENT_NAME
-    binding.rewardedLabel.text = REWARDED_PLACEMENT_NAME
-    binding.bannerLabel.text = BANNER_PLACEMENT_NAME
+    with(binding) {
+      interstitialLabel.text = INTERSTITIAL_PLACEMENT_NAME
+      rewardedLabel.text = REWARDED_PLACEMENT_NAME
+      bannerLabel.text = BANNER_PLACEMENT_NAME
+    }
 
     setupClickListeners()
 
@@ -62,12 +74,6 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
       override fun initializationComplete() {
         Log.i(TAG, "initializationComplete")
         binding.messageView.text = getString(R.string.initialization_completed)
-        interstitialPlacement = HyprMX.getPlacement(INTERSTITIAL_PLACEMENT_NAME).apply {
-          setPlacementListener(this@MainActivity)
-        }
-        rewardedPlacement = HyprMX.getPlacement(REWARDED_PLACEMENT_NAME).apply {
-          setPlacementListener(this@MainActivity)
-        }
       }
 
       /**
@@ -99,37 +105,43 @@ class MainActivity : AppCompatActivity(), PlacementListener, RewardedPlacementLi
    * Sets up the UI click listeners
    */
   private fun setupClickListeners() {
-    binding.buttonLoadInterstitial.setOnClickListener {
-      interstitialPlacement?.loadAd()
-    }
+    with(binding) {
+      buttonLoadInterstitial.setOnClickListener {
+        interstitialPlacement.loadAd()
+      }
 
-    binding.buttonShowInterstitial.setOnClickListener {
-      interstitialPlacement?.showAd()
-    }
+      buttonShowInterstitial.setOnClickListener {
+        interstitialPlacement.showAd()
+      }
 
-    binding.buttonLoadRewarded.setOnClickListener {
-      rewardedPlacement?.loadAd()
-    }
+      buttonLoadRewarded.setOnClickListener {
+        rewardedPlacement.loadAd()
+      }
 
-    binding.buttonShowRewarded.setOnClickListener {
-      rewardedPlacement?.showAd()
-    }
+      buttonShowRewarded.setOnClickListener {
+        rewardedPlacement.showAd()
+      }
 
-    binding.buttonShowXml.setOnClickListener {
-      startActivity(Intent(this, BannerXMLIntegrationActivity::class.java))
-    }
+      buttonShowXml.setOnClickListener {
+        openActivity<BannerXMLIntegrationActivity>()
+      }
 
-    binding.buttonShowCode.setOnClickListener {
-      startActivity(Intent(this, BannerCodeIntegrationActivity::class.java))
-    }
+      buttonShowCode.setOnClickListener {
+        openActivity<BannerCodeIntegrationActivity>()
+      }
 
-    binding.buttonShowRecycler.setOnClickListener {
-      startActivity(Intent(this, BannerRecyclerIntegrationActivity::class.java))
-    }
+      buttonShowRecycler.setOnClickListener {
+        openActivity<BannerRecyclerIntegrationActivity>()
+      }
 
-    binding.buttonShowCompose.setOnClickListener {
-      startActivity(Intent(this, BannerJetPackComposeActivity::class.java))
+      buttonShowCompose.setOnClickListener {
+        openActivity<BannerJetPackComposeActivity>()
+      }
     }
+  }
+
+  private inline fun <reified T> openActivity() {
+    startActivity(Intent(this, T::class.java))
   }
 
   /**

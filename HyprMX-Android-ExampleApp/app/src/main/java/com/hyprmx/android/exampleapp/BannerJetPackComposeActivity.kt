@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
@@ -21,7 +21,7 @@ import com.hyprmx.android.sdk.banner.HyprMXBannerView
  * This activity demonstrates how to integrate a banner using JetPack Compose
  */
 class BannerJetPackComposeActivity : ComponentActivity() {
-  lateinit var hyprMXBannerView: HyprMXBannerView
+  private lateinit var hyprMXBannerView: HyprMXBannerView
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 
@@ -39,7 +39,7 @@ class BannerJetPackComposeActivity : ComponentActivity() {
   @Composable
   fun BannerView() {
     Column(
-      modifier = Modifier.fillMaxWidth(),
+      modifier = Modifier.fillMaxSize(),
       verticalArrangement = Arrangement.Center,
       horizontalAlignment = Alignment.CenterHorizontally
     ) {
