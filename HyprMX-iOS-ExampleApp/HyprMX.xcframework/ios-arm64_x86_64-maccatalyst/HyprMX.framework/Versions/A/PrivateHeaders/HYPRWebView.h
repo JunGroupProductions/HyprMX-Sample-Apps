@@ -32,6 +32,8 @@ HYPR_CLASS_AVAILABLE_IOS
 
 @property (nullable, strong, nonatomic) id<HYPRWebViewDelegate> presenter;
 @property (weak, nonatomic) WKWebView *internalWebView;
+@property (nullable, nonatomic, copy) void(^hyprPagehideComplete)(void);
+
 -(void)claimWithBaseDelegate:(id<HYPRPresentationAdapterDelegate>)delegate
                   viewModelId:(NSString *)viewModelId
                   orientation:(HYPROrientation *)orientation;
@@ -70,7 +72,8 @@ HYPR_CLASS_AVAILABLE_IOS
                               orientation:(nullable HYPROrientation *)orientation;
 
 -(void)destroy:(BOOL)shouldLoadBlank;
-- (void)removeScriptMessageHandler;
+-(void)removeScriptMessageHandler;
+-(void)onPageHidden;
 @end
 
 NS_ASSUME_NONNULL_END

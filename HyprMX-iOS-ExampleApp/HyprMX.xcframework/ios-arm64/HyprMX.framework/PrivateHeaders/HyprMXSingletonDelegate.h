@@ -15,7 +15,7 @@ extern NSString *const kHyprControllerDeallocNotification;
 @protocol HyprMXSingletonDelegate <NSObject>
 @property (strong, nonatomic) NSObject<HYPRJSContextSource> *controller;
 @property (strong, nonatomic) NSNotificationCenter *hyprNotificationCenter;
-+ (HyprMX *)sharedInstance;
++ (nullable HyprMX *)sharedInstance;
 @end
 
 @interface HyprMX(HyprMXSingletonDelegate) <HyprMXSingletonDelegate>

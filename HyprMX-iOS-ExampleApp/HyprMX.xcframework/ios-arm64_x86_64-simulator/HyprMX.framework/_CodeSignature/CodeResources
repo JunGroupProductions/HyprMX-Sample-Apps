@@ -18,7 +18,7 @@
 		</data>
 		<key>HYPRFullScreen.storyboardc/HYV-Ze-c8w-view-Zw5-mJ-W8m.nib/runtime.nib</key>
 		<data>
-		mmpogViL8eGVPhCsvvT3kYxkEGw=
+		FBcIWrP2LTKG6G4gBLgkOg7o2+M=
 		</data>
 		<key>HYPRFullScreen.storyboardc/Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/HyprMX-Swift.h</key>
 		<data>
-		FrwLZafc4aEeIpcCcBIUzeZ7sE4=
+		pG5a/oAkpJUi0vKgR/eqgogdVuU=
 		</data>
 		<key>Headers/HyprMX.h</key>
 		<data>
@@ -38,47 +38,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1YXGsOnFWRqwxQgBRGSwPze+0tY=
+		j70m7b+JyctekkYfF2Ci48h8gVM=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0Oqo/xh6z5Jxs6WRnPm4RQi2FqI=
+		buR0e3Ym/BPOqgK1GNvaqNPOQ8c=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Az1eJ1KzVyjY3ykgayT0uEWlsME=
+		O/zPN4snxn9geac9VrIOYBHmDo0=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Fda8B/sWmQErSx8LDLLnr9AnqU0=
+		PBHYwnpeuZbHbWwfP2kGPtknKl8=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Az1eJ1KzVyjY3ykgayT0uEWlsME=
+		O/zPN4snxn9geac9VrIOYBHmDo0=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		thoGBPDqlfihZGgwy053CyorpFo=
+		tD67+7DtGrrnBu2EQE1Prbs2+bo=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0Oqo/xh6z5Jxs6WRnPm4RQi2FqI=
+		buR0e3Ym/BPOqgK1GNvaqNPOQ8c=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ViI/qxFjVAGY+2VcYwCdjPMek58=
+		8mFKbJw2PMR2OK0ERi/Pwth2zLg=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		svsiksX3fKyf7d80u6oWOsTKu6g=
+		RgJkQsWvGLALiMTUdyTmmGH4XVg=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ViI/qxFjVAGY+2VcYwCdjPMek58=
+		8mFKbJw2PMR2OK0ERi/Pwth2zLg=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cOZ25JebhFa80pe1a9435l/6IHE=
+		3Dabxihl4/8U41mPdBT17wecqqw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,6 +87,10 @@
 		<key>Modules/module.private.modulemap</key>
 		<data>
 		gLsvORRvdy2H9G6Vwejy+qoRIyo=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		PFgzbUuSu7gHZ5Oa867EPOVOiKQ=
 		</data>
 		<key>PrivateHeaders/HYPRAudioDelegateSource.h</key>
 		<data>
@@ -190,7 +194,7 @@
 		</data>
 		<key>PrivateHeaders/HYPRPresenterDelegate.h</key>
 		<data>
-		voTmrC+JPuuV8CMakhx1TAg0ZuE=
+		ZRLX0NCTzCKhFELC0cvVcq03WSY=
 		</data>
 		<key>PrivateHeaders/HYPRQueueManager.h</key>
 		<data>
@@ -222,7 +226,7 @@
 		</data>
 		<key>PrivateHeaders/HYPRWebView.h</key>
 		<data>
-		6xUpUhgpaw4JAavEA3SfzwYO5JU=
+		M173xGEpwmrlSJXDvPxrBFeMi5I=
 		</data>
 		<key>PrivateHeaders/HyprMXErrorFactory.h</key>
 		<data>
@@ -230,7 +234,7 @@
 		</data>
 		<key>PrivateHeaders/HyprMXSingletonDelegate.h</key>
 		<data>
-		DSVihXDhE02X4lc9qHr+eZdeBZw=
+		uP/tmT0xf2EwcXdieHGIV+AptCg=
 		</data>
 		<key>mute_asset.aiff</key>
 		<data>
@@ -238,17 +242,13 @@
 		</data>
 		<key>sdk_core.min.js</key>
 		<data>
-		3JEbBnWmMWHQRioaD/KOs962hFk=
+		pArfdfmf5JEeP2Za6gl3kY2k1w0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>HYPRFullScreen.storyboardc/HYPRFullScreenBrowser.nib/objects-14.0+.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8kc97EFAb+6+STTmw7/f6BGdJxQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			jPLV8j6rOLRBRaBcYwVNnX7p8NqXeU8UkwMSUS/wGag=
@@ -256,10 +256,6 @@
 		</dict>
 		<key>HYPRFullScreen.storyboardc/HYPRFullScreenBrowser.nib/runtime.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8kc97EFAb+6+STTmw7/f6BGdJxQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			jPLV8j6rOLRBRaBcYwVNnX7p8NqXeU8UkwMSUS/wGag=
@@ -267,10 +263,6 @@
 		</dict>
 		<key>HYPRFullScreen.storyboardc/HYV-Ze-c8w-view-Zw5-mJ-W8m.nib/objects-14.0+.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Z9JxiH9mDjHKAIrqcchJhTBReNc=
-			</data>
 			<key>hash2</key>
 			<data>
 			u9cRkVyo6b8Mhf1OioOc6uqnnAxy9YZVLgBl/0muDgo=
@@ -278,21 +270,13 @@
 		</dict>
 		<key>HYPRFullScreen.storyboardc/HYV-Ze-c8w-view-Zw5-mJ-W8m.nib/runtime.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mmpogViL8eGVPhCsvvT3kYxkEGw=
-			</data>
 			<key>hash2</key>
 			<data>
-			sDCUosQUosHii9r4cigsmZNV1EqgqnhSXADMxBuIAfA=
+			IGi9iFU9MqVS84BtWIHUZ/w4puJ2xSFDUufxpK9ZDYw=
 			</data>
 		</dict>
 		<key>HYPRFullScreen.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5H2QxgyRQeZuGgqZkEuVHjusxnc=
-			</data>
 			<key>hash2</key>
 			<data>
 			KeJSjx3VIa2CGgxIR5FzgCNfApiKOv9VhMsX41Rpp9o=
@@ -300,21 +284,13 @@
 		</dict>
 		<key>Headers/HyprMX-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FrwLZafc4aEeIpcCcBIUzeZ7sE4=
-			</data>
 			<key>hash2</key>
 			<data>
-			hrSjajQT1M79QqDkwgM33UlyTH+CtEoyCoHV9L8nUHM=
+			nxk33NS0LLlGVpKdjCXQSJD0VZMdl4kCueZaaSarc/E=
 			</data>
 		</dict>
 		<key>Headers/HyprMX.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9VblpnAoQQ6yJcB3IfNKUsWByy0=
-			</data>
 			<key>hash2</key>
 			<data>
 			Tp87dXAB6zmk8hAxDzzdjd2FImKWb37vaATIvWXzV1M=
@@ -322,10 +298,6 @@
 		</dict>
 		<key>Headers/HyprMXPlacement.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OSMXGXbLRZYyVLzDeKcd1HutTTM=
-			</data>
 			<key>hash2</key>
 			<data>
 			NZO3UWI27O+191nQ7jqsPMdZyH6BsMuHrbdmHAChLDE=
@@ -333,120 +305,76 @@
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0Oqo/xh6z5Jxs6WRnPm4RQi2FqI=
-			</data>
 			<key>hash2</key>
 			<data>
-			4f6Imt40AwxaOuECsB5Sg6LXL8oL4xZ2GJmIfuzVQ8Y=
+			09s8eBBz9Dv6JnltqkGoJfcItY7/KpclRabAs0XJcnc=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Az1eJ1KzVyjY3ykgayT0uEWlsME=
-			</data>
 			<key>hash2</key>
 			<data>
-			38ClzVYseqg0kix6/M+tH8RflXAjHqcYLg/wyAUYIhU=
+			Lkh05qUOFwNzUs55oHayQ8T9F2aZdHyxGfU0g9bFN/Y=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Fda8B/sWmQErSx8LDLLnr9AnqU0=
-			</data>
 			<key>hash2</key>
 			<data>
-			EVGHnTsHvXFjXskGEsoszh0V98B0dDfIU283wrg3UoU=
+			l77viMiGy7N6Nvb47/rK6RG3HMdBXMEWTLJEPyl6w8Y=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Az1eJ1KzVyjY3ykgayT0uEWlsME=
-			</data>
 			<key>hash2</key>
 			<data>
-			38ClzVYseqg0kix6/M+tH8RflXAjHqcYLg/wyAUYIhU=
+			Lkh05qUOFwNzUs55oHayQ8T9F2aZdHyxGfU0g9bFN/Y=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			thoGBPDqlfihZGgwy053CyorpFo=
-			</data>
 			<key>hash2</key>
 			<data>
-			8FK0HZ8jJDiTzvv+vHI/aNoog4EZSkQKiFD2FbIZ3Hc=
+			0Q/vNCWOWYKWwi1JjXwZBvsvtFjgMh9+bLW2v1OOje4=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0Oqo/xh6z5Jxs6WRnPm4RQi2FqI=
-			</data>
 			<key>hash2</key>
 			<data>
-			4f6Imt40AwxaOuECsB5Sg6LXL8oL4xZ2GJmIfuzVQ8Y=
+			09s8eBBz9Dv6JnltqkGoJfcItY7/KpclRabAs0XJcnc=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ViI/qxFjVAGY+2VcYwCdjPMek58=
-			</data>
 			<key>hash2</key>
 			<data>
-			UAw5R+0WPbjym+f8x4+dF9UfjHPBrfM48XAgDM4kF5M=
+			Yj0q3FJySSubOFhgqwDrNOAfFar/nSQnaehCp/TRZt0=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			svsiksX3fKyf7d80u6oWOsTKu6g=
-			</data>
 			<key>hash2</key>
 			<data>
-			F80mRStx1zEVzWOXGtWZSWnkA7nhsaEcVNccy9nuNM4=
+			NkU3LXjJOiDX1qGSvNdTCPU/mHmfU/aRrvXZIMJfD5U=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ViI/qxFjVAGY+2VcYwCdjPMek58=
-			</data>
 			<key>hash2</key>
 			<data>
-			UAw5R+0WPbjym+f8x4+dF9UfjHPBrfM48XAgDM4kF5M=
+			Yj0q3FJySSubOFhgqwDrNOAfFar/nSQnaehCp/TRZt0=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cOZ25JebhFa80pe1a9435l/6IHE=
-			</data>
 			<key>hash2</key>
 			<data>
-			ZUlGdntRTesgqPKCg0GQQ3zDPwUE/oGzc3q7gNw1ieU=
+			7SE+0ResBo41rNeVA5TkRZFGVjubkwkT+DH9cgySJQw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Wn43jP/zrlOK2ZoamPnhHv2ZTXo=
-			</data>
 			<key>hash2</key>
 			<data>
 			sttxJdvhzCxrOZXHRmytxxGWMQTyoheLASLceb97qXs=
@@ -454,21 +382,20 @@
 		</dict>
 		<key>Modules/module.private.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gLsvORRvdy2H9G6Vwejy+qoRIyo=
-			</data>
 			<key>hash2</key>
 			<data>
 			63+Ne7ZOhevgja+CtGayELZN9jKgkLcnaLTcnqi0ERk=
 			</data>
 		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aF2QhLQk2mbgm6rY2HuUJWMzqkwozB+ySo/tkleZ+r0=
+			</data>
+		</dict>
 		<key>PrivateHeaders/HYPRAudioDelegateSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			STt0n78fxfiSyhDImCjkf8z70Hk=
-			</data>
 			<key>hash2</key>
 			<data>
 			r6Q76eHto5GTaox8cVFa86eLhxHUhF5657C8TmmJ8H4=
@@ -476,10 +403,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRAudioPublisherProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XWFlGNk1wMnY2ORf/YCB7uf0ESs=
-			</data>
 			<key>hash2</key>
 			<data>
 			e4y1Vst8N8WPCXCVmxKGZzApMUyx94PfCsj37qBB/m0=
@@ -487,10 +410,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRAvailability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rtZI9GO9ip2c5WHSANUfh6HJNCY=
-			</data>
 			<key>hash2</key>
 			<data>
 			vnAWU8HMS5ZGwrm8a/Wce3sBtX5kP2uPKcpadW1lmJY=
@@ -498,10 +417,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRBannerViewModelConnector.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W928pOjjYNz5udrbDv2EtXdzA80=
-			</data>
 			<key>hash2</key>
 			<data>
 			96KNkMq7yKAgwG+KMRN555gsqa7tb7OqHqDOARP0vEo=
@@ -509,10 +424,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRBrowserStateChangeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PBybq6p8SNLT7LuMvo2y/ZzUlBg=
-			</data>
 			<key>hash2</key>
 			<data>
 			bEnZ3iEQL78Do4loUMwbZmOhPzzy/aRE438sOJqKliQ=
@@ -520,10 +431,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRBrowserViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iKTiqt8EJk5as9JA/Mbtu6FYSwE=
-			</data>
 			<key>hash2</key>
 			<data>
 			HzWxUgJtQmDXM918Qk9WwNhyKVKeXthylS9BWWO/r5M=
@@ -531,10 +438,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRBrowserViewModelConnector.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H/qqAcEUxp9sfKo60GqT7S4SV/Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			ip5VojiZnHzGICJp/oGlALSHp22yNCIl3lolfNUaUq8=
@@ -542,10 +445,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRImageCache.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+VbMW+A7ORaaB5Av7nz8q21Y2Pc=
-			</data>
 			<key>hash2</key>
 			<data>
 			9AD4jk+3nHjKHvQckBb+le+0WSYYeCrzM+2501tiCm8=
@@ -553,10 +452,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRJSContext.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OKmSb6fIEFAgEIOv5J4n0lrymbk=
-			</data>
 			<key>hash2</key>
 			<data>
 			BSL0F1/4hixyKVxilUvcVPkd0ghzA/iUUAtg+sZ5nW8=
@@ -564,10 +459,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRJSContextSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			joH5njago72Cx5AmXbaGLFd1OSs=
-			</data>
 			<key>hash2</key>
 			<data>
 			iqNrz0rPnA8Gg4M4JbtbKiVPgK3r+l9qKP7Eg0v35tE=
@@ -575,10 +466,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRLogger.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ixjnyPxr9jKdbitTS/WqQje5kyw=
-			</data>
 			<key>hash2</key>
 			<data>
 			dMA1J284G0sSn4RT1nYUNFqPYeUzDUNH9h8oTyZnNnU=
@@ -586,10 +473,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRMRAIDSupport.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZO9BdnG7fg2WcCCmlgdR7YSd/GA=
-			</data>
 			<key>hash2</key>
 			<data>
 			pwagfyryQf5IP+U9bilF20hdGZB0kUz0a4IJPKCMhl0=
@@ -597,10 +480,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRMediationProvider.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+FwcfIx/YqIPbCRdtJjYJ/Sjg5Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			XFzLWLfDrpIChj10fnxh6Jbo95Hjdbq270/KVAXjpSw=
@@ -608,10 +487,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRNativeAudioEventPublisherProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hlIcM+7q16g+TJbg03jTkigvo40=
-			</data>
 			<key>hash2</key>
 			<data>
 			jbzv5VUTLIts56rJ/lHzbyob7wpUTHAQ8GTlbW91HU8=
@@ -619,10 +494,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRNativeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mTnUU3ndr0Iwr17q7wBi3Jb17Aw=
-			</data>
 			<key>hash2</key>
 			<data>
 			mVbNP8z+1fvjmezDceKwN0ls1LvZk7nIOYIunDOMdRg=
@@ -630,10 +501,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRNativeTimer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a7NOvxIQQb8fMjUtz4z7A+6Gjo4=
-			</data>
 			<key>hash2</key>
 			<data>
 			N0cB7S26Jx3pive6rZBU6AHXNPjGup/7nAKxJUzdnMk=
@@ -641,10 +508,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPROrientation.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QFQFs0I/xHgsG/9WjZDbgxIAczY=
-			</data>
 			<key>hash2</key>
 			<data>
 			3M9Ulg8ep2CxM9HTNpMoAfUwuCAFOKPg7VSYKbDon28=
@@ -652,10 +515,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRParameterControllerProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			K8LaWaqosvZfu/sa9JECU1xYhrY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0Fc0w8hGpBEScqMhiT05/PTdv3yKdtjn78yTRnwQ+uQ=
@@ -663,10 +522,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRPhotoActivityViewHelper.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xyBuCsWaIm8Y2qafgPw7V64qmkc=
-			</data>
 			<key>hash2</key>
 			<data>
 			hLpyTpz6ES9kh6oTU5FBz748wykatTjaURg0yw+Xuv4=
@@ -674,10 +529,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRPreloadFetchStatusProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HRDayLegKCNOr86aULwjS7jUbHk=
-			</data>
 			<key>hash2</key>
 			<data>
 			ee5YOc87YQcfjTqc7RESOvQ4SYIFqvCKl3VxspH+bhI=
@@ -685,10 +536,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRPresentationAdapterProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w6UkBqnnpOn/fsjt9GxCdfzGO9Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			LZVdl8t7HGAncEaur4Ew18G5EZz2dSNIGrlQ1tuX6dA=
@@ -696,10 +543,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRPresentationController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s7pJvjGv3dEiD/PJhN7xVerfYd4=
-			</data>
 			<key>hash2</key>
 			<data>
 			1MgPZMMb8MTa3HfOLLx5rNLMwWCecRoFgyTQTYu9SGo=
@@ -707,10 +550,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRPresentationControllerResultDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BU7A78RnVBJwnnBGtpGKF64Oq94=
-			</data>
 			<key>hash2</key>
 			<data>
 			KGUXLlfJP4r/chudZppL7sU5Ex8QOz3tuAUIGQhewBE=
@@ -718,10 +557,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRPresentationResultsDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SYx4s5zwArv70eNYOOw1ZDFphPQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			AueNu9l5drPDI5L/FwYbitlUwgW0Ncf6iXMKdmOT990=
@@ -729,10 +564,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRPresentationStateMachineResultDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HIxs6nDh6qnKkDM0HSsHaSO3TgI=
-			</data>
 			<key>hash2</key>
 			<data>
 			ivkQRiuzrLOYoINm9SAn5E2F59cnyRC2L5Y7OABib6o=
@@ -740,21 +571,13 @@
 		</dict>
 		<key>PrivateHeaders/HYPRPresenterDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			voTmrC+JPuuV8CMakhx1TAg0ZuE=
-			</data>
 			<key>hash2</key>
 			<data>
-			lmC7fK6J2ulQwNgRN7YIU1bHmYrmkCvmJuOMiOOsEqs=
+			uiZV+lc4EldVyGl9WyYrYi7THZZjVthEHxjUsox1MUI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRQueueManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			z3lTdU44GiNl2sy8ELrKjuCJX28=
-			</data>
 			<key>hash2</key>
 			<data>
 			zxcPZu0TL0apYdLBzhtvgQzTiFFC5NEjbX7V2DBvHyI=
@@ -762,10 +585,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRSDKParameters.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VtTEt5kqk9OGsVCrQkocK2Lni5o=
-			</data>
 			<key>hash2</key>
 			<data>
 			PpoHGpWhVmXqRZCMUw7Nehv0a384JqDWeRqorimlIzA=
@@ -773,10 +592,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRStoryBoardViewControllerLoader.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fuBmqB3TyF1+O9znjFpgAOZ0zvw=
-			</data>
 			<key>hash2</key>
 			<data>
 			TYgJogo6UR0o81EsodiaptLu+XEWw+rVWJ4XrwpYoiE=
@@ -784,10 +599,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRTraitCollection.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6xs4iq9/LroVSwp1Be3cfO0Y4hE=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZJVzn5DkmbwLnmgKi1zMKa/hmBiuN/STZVEo3L2Lls4=
@@ -795,10 +606,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRTransparencyTrackingManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ewxi+qc6kryMd2Bs+QYFlErdl60=
-			</data>
 			<key>hash2</key>
 			<data>
 			fsoi+12mNl2kHBxW9fYiul+JBUHfV/ulsWpAxTt837U=
@@ -806,10 +613,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRViewModelConnector.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rwQClOXmnMSzbpSLKwM3lPVUCKU=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZaRaLcVC4R7eBd0pQEPP3cIK3KDsl/sVYvETyEQHPyA=
@@ -817,10 +620,6 @@
 		</dict>
 		<key>PrivateHeaders/HYPRWeakNativeProxy.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c2y69Vdo/gb50RGqz4o/Op/g/V8=
-			</data>
 			<key>hash2</key>
 			<data>
 			gMXbjACgWl1s7lrpXN/m0/FvGhUe6rvGzCio1VL1OtY=
@@ -828,21 +627,13 @@
 		</dict>
 		<key>PrivateHeaders/HYPRWebView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6xUpUhgpaw4JAavEA3SfzwYO5JU=
-			</data>
 			<key>hash2</key>
 			<data>
-			scDgf1oEHan+g3fAY65e3SrZvXdxE6Z9dWGVm8/bREU=
+			g0p163mNnrm10KOAO0LM+/Qnb41zZXfe0NJByzmctzw=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HyprMXErrorFactory.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qBBl3b+8h1WXpPx2vlYZbPubjHA=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZdVp7575Rag0Jrwc478KHx9/eu0Smzk9PwSi1bIszik=
@@ -850,21 +641,13 @@
 		</dict>
 		<key>PrivateHeaders/HyprMXSingletonDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DSVihXDhE02X4lc9qHr+eZdeBZw=
-			</data>
 			<key>hash2</key>
 			<data>
-			M9NudQ1RbyEKDKj+g0jBMpC/RM0rFlTyixn3bZMLBms=
+			PWXvsWHX303mxMLwguneyJTdKHvm6cOH2B5J0eFZ9RE=
 			</data>
 		</dict>
 		<key>mute_asset.aiff</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xrLmOHGKRkA1PdlxjX8QdhUlYC8=
-			</data>
 			<key>hash2</key>
 			<data>
 			WUTtOynoFPERt7tbMpqwDPv3YX9EfZjQDLz1X3hRVww=
@@ -872,13 +655,9 @@
 		</dict>
 		<key>sdk_core.min.js</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3JEbBnWmMWHQRioaD/KOs962hFk=
-			</data>
 			<key>hash2</key>
 			<data>
-			/BR8fN5/7X4xWJ6O5WvztuSLA8iuJ349nQCvCaj/8t0=
+			o36m11vcLt8E9bwzgnyZpEXdqREYg/csuxahJbm6jp8=
 			</data>
 		</dict>
 	</dict>

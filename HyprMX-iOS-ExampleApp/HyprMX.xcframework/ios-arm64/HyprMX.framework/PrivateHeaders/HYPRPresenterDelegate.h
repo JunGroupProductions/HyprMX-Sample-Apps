@@ -18,4 +18,8 @@
 -(BOOL)navigateWebViewForward;
 -(BOOL)navigateWebViewBack;
 -(void)boundsChanged:(CGRect)newBounds;
+-(BOOL)shouldTakeFocus;
+-(BOOL)shouldKeepFocus;
+-(BOOL)shouldLoadAboutBlank;
+-(NSString *)webviewDestroyScript;
 @end
