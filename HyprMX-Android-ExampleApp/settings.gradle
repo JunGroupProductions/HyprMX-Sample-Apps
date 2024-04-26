@@ -1,2 +1,4 @@
 rootProject.name = "HyprMX-Android-ExampleApp"
-include ':app'
+include ':app-kotlin'
+include ':app-java'
+include ':common'

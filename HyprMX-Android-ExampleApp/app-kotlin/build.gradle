@@ -1,0 +1,61 @@
+plugins {
+  id 'com.android.application'
+  id 'kotlin-android'
+}
+
+apply from: "../ktlint.gradle"
+apply from: "../common.gradle"
+
+android {
+  compileSdk compile_sdk
+
+  namespace 'com.hyprmx.android.exampleapp'
+
+  defaultConfig {
+    applicationId "com.hyprmx.android.exampleapp.kotlin"
+    minSdk min_sdk
+    targetSdk target_sdk
+    versionCode version_code
+    versionName version_name
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+
+  buildFeatures {
+    viewBinding true
+    compose true
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled true
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+
+    debug {
+      minifyEnabled true
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+  kotlinOptions {
+    jvmTarget = '1.8'
+    freeCompilerArgs = [
+      "-Xjvm-default=compatibility",
+    ]
+  }
+
+  composeOptions {
+    kotlinCompilerExtensionVersion = "$composeCompilerVer"
+  }
+}
+
+dependencies {
+  implementation project(path: ':common')
+
+  implementation libs.bundles.kotlin.app
+  implementation libs.bundles.compose
+}

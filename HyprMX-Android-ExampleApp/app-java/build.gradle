@@ -1,0 +1,47 @@
+plugins {
+  id 'com.android.application'
+}
+
+apply from: "../common.gradle"
+
+android {
+  compileSdk compile_sdk
+
+  namespace 'com.hyprmx.android.exampleapp'
+
+  defaultConfig {
+    applicationId "com.hyprmx.android.exampleapp.java"
+    minSdk min_sdk
+    targetSdk target_sdk
+    versionCode version_code
+    versionName version_name
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+
+  buildFeatures {
+    viewBinding true
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled true
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+
+    debug {
+      minifyEnabled true
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_15
+    targetCompatibility JavaVersion.VERSION_15
+  }
+}
+
+dependencies {
+  implementation project(path: ':common')
+
+  implementation libs.bundles.java.app
+}
