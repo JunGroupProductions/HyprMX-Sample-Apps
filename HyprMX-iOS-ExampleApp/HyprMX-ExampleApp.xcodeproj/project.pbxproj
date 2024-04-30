@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,7 +21,6 @@
 		138364CB26AA169900A6F895 /* BannerPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364CA26AA169900A6F895 /* BannerPlacement.swift */; };
 		138364D126AA17F300A6F895 /* BannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364D026AA17F300A6F895 /* BannerViewModel.swift */; };
 		138364D526AA3E2600A6F895 /* HyprMXBannerViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364D426AA3E2600A6F895 /* HyprMXBannerViewRepresentable.swift */; };
-		138364D726AAB97A00A6F895 /* HyprMXUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364D626AAB97A00A6F895 /* HyprMXUser.swift */; };
 		139154F626A799BA0017575A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139154F526A799BA0017575A /* AppDelegate.swift */; };
 		139154F826A799BA0017575A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139154F726A799BA0017575A /* SceneDelegate.swift */; };
 		139154FA26A799BA0017575A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139154F926A799BA0017575A /* TableViewController.swift */; };
@@ -85,7 +84,6 @@
 		138364CA26AA169900A6F895 /* BannerPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerPlacement.swift; sourceTree = "<group>"; };
 		138364D026AA17F300A6F895 /* BannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewModel.swift; sourceTree = "<group>"; };
 		138364D426AA3E2600A6F895 /* HyprMXBannerViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyprMXBannerViewRepresentable.swift; sourceTree = "<group>"; };
-		138364D626AAB97A00A6F895 /* HyprMXUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyprMXUser.swift; sourceTree = "<group>"; };
 		139154F326A799BA0017575A /* HyprMX-ExampleTableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HyprMX-ExampleTableViewApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139154F526A799BA0017575A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		139154F726A799BA0017575A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				138364CA26AA169900A6F895 /* BannerPlacement.swift */,
-				138364D626AAB97A00A6F895 /* HyprMXUser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -379,7 +376,6 @@
 			files = (
 				138364BF26AA0EF500A6F895 /* ContentView.swift in Sources */,
 				138364D526AA3E2600A6F895 /* HyprMXBannerViewRepresentable.swift in Sources */,
-				138364D726AAB97A00A6F895 /* HyprMXUser.swift in Sources */,
 				138364BD26AA0EF500A6F895 /* HyprMX_SwiftUIExampleAppApp.swift in Sources */,
 				138364D126AA17F300A6F895 /* BannerViewModel.swift in Sources */,
 				138364CB26AA169900A6F895 /* BannerPlacement.swift in Sources */,
@@ -673,7 +669,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "HyprMX-ExampleApp/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -700,7 +696,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "HyprMX-ExampleApp/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

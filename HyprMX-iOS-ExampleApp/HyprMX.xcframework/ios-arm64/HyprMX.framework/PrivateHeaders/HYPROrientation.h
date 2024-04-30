@@ -7,19 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <HyprMX/HYPRAvailability.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol HYPRApplicationOrientationSupport <NSObject>
-- (UIInterfaceOrientationMask)supportedInterfaceOrientationsForWindow:(nullable UIWindow *)window;
-@property(nullable, nonatomic, assign) id<UIApplicationDelegate> delegate;
-- (void)openURL:(NSURL*)url options:(NSDictionary<UIApplicationOpenExternalURLOptionsKey, id> *)options completionHandler:(void (^ __nullable)(BOOL success))completion API_AVAILABLE(ios(10.0)) NS_EXTENSION_UNAVAILABLE_IOS("");
-@end
-HYPR_CLASS_AVAILABLE_IOS
+API_AVAILABLE(ios(13.4))
 @interface HYPROrientation : NSObject
 
 - (instancetype)init NS_UNAVAILABLE;
-- (instancetype)initWithApplication:(id<HYPRApplicationOrientationSupport>)app window:(UIWindow *)window;
+- (instancetype)initWithApplication:(UIApplication *)app window:(UIWindow *)window;
 - (instancetype)initWithApp:(UIApplication*)app window:(nullable UIWindow *)window;
 - (UIInterfaceOrientationMask)supportedOrientations;
 - (NSArray<NSString*>*)orientationList;
@@ -30,6 +25,9 @@ HYPR_CLASS_AVAILABLE_IOS
 - (BOOL)shouldAutorotate;
 -(void)setDesiredOrientationMask:(UIInterfaceOrientationMask)mask;
 -(void)setDesiredOrientationMaskWithOrientation:(UIInterfaceOrientation)orientation;
+
++ (UIWindow *)activeWindow;
++ (UIInterfaceOrientation)currentOrientation;
 
 @end
 

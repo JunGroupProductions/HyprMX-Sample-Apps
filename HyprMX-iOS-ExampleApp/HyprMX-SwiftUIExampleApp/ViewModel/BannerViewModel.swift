@@ -12,7 +12,7 @@ import HyprMX
 
 let myDistributorID = "11000124103"
 
-class BannerViewModel: NSObject, Identifiable, ObservableObject, HyprMXBannerDelegate, HyprMXInitializationDelegate {
+class BannerViewModel: NSObject, Identifiable, ObservableObject, HyprMXBannerDelegate {
     
     var adSize:CGSize = CGSize.zero
     
@@ -39,7 +39,6 @@ class BannerViewModel: NSObject, Identifiable, ObservableObject, HyprMXBannerDel
     }
     
     let bannerPlacement: BannerPlacement
-    var hyprMXUser: HyprMXUser = HyprMXUser.init(distributorId: myDistributorID)
     
     init(placement: BannerPlacement) {
         self.bannerPlacement = placement
@@ -48,27 +47,44 @@ class BannerViewModel: NSObject, Identifiable, ObservableObject, HyprMXBannerDel
         self.placementName = placement.placementName
         
         /** Initialize SDK early in your app lifecycle in order to load ads. */
-        hyprMXUser.initSDK(delegate: self)
+        Task {
+            HyprMX.setLogLevel(HYPRLogLevelDebug)
+            switch await HyprMX.initialize(distributor: myDistributorID) {
+            case .success:
+                await initializationDidComplete()
+            case .failure(let error):
+                print("HyprMX.initialize failed with error: \(error.localizedDescription)")
+                await initializationFailed()
+            }
+        }
     }
     
     /** Call loadAd on banner placements after the SDK is initialized, when you're ready to show a banner */
     func loadAd(bannerView:HyprMXBannerView) {
         statusLabelText = ""
-        bannerView.loadAd()
+        Task {
+            let success = await bannerView.loadAd()
+            if success {
+                await adDidLoad(bannerView)
+            } else {
+                await adFailed(toLoad: bannerView)
+            }
+        }
     }
     
     // MARK: - HyprMXBannerDelegate Implementation -
     
     /** Called in response to loadAd when an ad was loaded */
+    @MainActor
     func adDidLoad(_ bannerView: HyprMXBannerView) {
-        print("adDidLoad: ", bannerView.placementName as Any)
+        print("Loaded ad for banner \(String(describing: bannerView.placementName))")
         statusLabelText = "Banner Loaded."
     }
      
     /** Called in response to loadAd when there was an error loading an ad */
-    func adFailed(toLoad bannerView: HyprMXBannerView, error: Error) {
-        let nsError = error as NSError
-        print("adFailed: \(nsError.localizedDescription) bannerView: \(String(describing: bannerView.placementName))")
+    @MainActor
+    func adFailed(toLoad bannerView: HyprMXBannerView) {
+        print("Failed to load ad for banner \(String(describing: bannerView.placementName))")
         statusLabelText = "Banner failed to load."
     }
      
@@ -99,12 +115,14 @@ class BannerViewModel: NSObject, Identifiable, ObservableObject, HyprMXBannerDel
     // MARK: - HyprMXInitializationDelegate Implementation -
     
     /** Messaged when HyprMX has completed initializing.  You can call loadAd on your placements to load inventory after this messaged has been received. */
+    @MainActor
     func initializationDidComplete() {
         print("Initialization of HyprMX Completed Successfully")
         loadButtonEnabled = true
     }
 
     /** Messaged when HyprMX could not initialize. */
+    @MainActor
     func initializationFailed() {
         print("Initialization of HyprMX Failed - please re-initialize")
         loadButtonEnabled = false

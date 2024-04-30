@@ -11,6 +11,7 @@
 #import <HyprMX/HYPRPresenterDelegate.h>
 #import <HyprMX/HYPROrientation.h>
 #import <HyprMX/HYPRPresentationAdapterProtocol.h>
+#import <HyprMX/HYPRJSContext.h>
 
 extern NSString * _Nonnull const kHYPRWebViewDisplayModeBaseAd;
 extern NSString * _Nonnull const kHYPRWebViewDisplayModeSharing;
@@ -18,7 +19,7 @@ extern NSString * _Nonnull const kHYPRWebViewDisplayModeWebTrafficPage;
 extern NSString * _Nonnull const kHYPRWebViewDisplayModeBannerAd;
 
 NS_ASSUME_NONNULL_BEGIN
-@class HYPRMutableURLRequest, HYPRWebView, HYPRJSContext, HYPRWebViewUpdateConfiguration;
+@class HYPRMutableURLRequest, HYPRWebView, HYPRWebViewUpdateConfiguration;
 
 HYPR_CLASS_AVAILABLE_IOS
 @interface HYPRWebView : UIView
@@ -65,7 +66,7 @@ HYPR_CLASS_AVAILABLE_IOS
 - (void)updateWebViewConfiguration:(HYPRWebViewUpdateConfiguration *)event;
 
 + (HYPRWebView *)webViewWithConfiguration:(nonnull WKWebViewConfiguration *)configuration
-                                  context:(HYPRJSContext *)context
+                                  context:(JSContext<HYPRJSContextProtocol> *)context
                                  baseAdId:(nullable NSString *)baseAdID
                               displayMode:(NSString *)displayMode
                         presenterDelegate:(nullable id<HYPRPresentationAdapterDelegate>)presenterDelegate
@@ -74,6 +75,7 @@ HYPR_CLASS_AVAILABLE_IOS
 -(void)destroy:(BOOL)shouldLoadBlank;
 -(void)removeScriptMessageHandler;
 -(void)onPageHidden;
+-(void)setUserAgent:(NSString *)userAgent;
 @end
 
 NS_ASSUME_NONNULL_END

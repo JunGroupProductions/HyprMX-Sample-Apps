@@ -22,7 +22,8 @@ class BannerAdCell: UITableViewCell {
         self.bannerView.adSize = adSize
     
         // Call loadAd on your banner when you're ready to show the ad.
-        self.bannerView.loadAd()
+        Task {
+            await self.bannerView.loadAd()
+        }
     }
-
 }

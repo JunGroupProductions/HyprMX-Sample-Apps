@@ -13,7 +13,6 @@ HYPR_CLASS_AVAILABLE_IOS
 
 @protocol HYPRMRAIDEventReceiver <NSObject>
 
-- (void)mraidPlayVideo:(NSString*)payload;
 - (void)mraidStorePicture:(NSString*)payload;
 - (void)mraidUseCustomClose:(BOOL)isClosable;
 - (void)mraidSetOrientationProperties:(BOOL)allowOrientationChange

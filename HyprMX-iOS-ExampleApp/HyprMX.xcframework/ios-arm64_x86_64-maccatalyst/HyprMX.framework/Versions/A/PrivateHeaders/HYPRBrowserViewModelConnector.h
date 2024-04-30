@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 HYPR_CLASS_AVAILABLE_IOS
 @interface HYPRBrowserViewModelConnector : HYPRViewModelConnector <HYPRBrowserViewModelInterface>
 @property (strong, nonatomic, readonly) NSString *baseAdId;
-- (instancetype)initWithContext:(HYPRJSContext *)context
+- (instancetype)initWithContext:(JSContext<HYPRJSContextProtocol> *)context
                        baseAdId:(NSString *)baseAdId
                           queue:(NSOperationQueue *)queue;
 @end

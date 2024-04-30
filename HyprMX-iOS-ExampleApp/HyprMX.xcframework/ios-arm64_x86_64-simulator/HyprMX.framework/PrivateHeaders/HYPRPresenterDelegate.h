@@ -5,7 +5,7 @@
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
 #import <HyprMX/HYPRPresentationAdapterProtocol.h>
-@class HYPRBrowserViewController, HYPRPresentationStateChangeEvent, HYPRWebView, HYPRPresentationAdapterDelegateImplementation, HYPROrientation;
+@class HYPROrientation;
 
 @protocol HYPRWebViewDelegate <NSObject>
 

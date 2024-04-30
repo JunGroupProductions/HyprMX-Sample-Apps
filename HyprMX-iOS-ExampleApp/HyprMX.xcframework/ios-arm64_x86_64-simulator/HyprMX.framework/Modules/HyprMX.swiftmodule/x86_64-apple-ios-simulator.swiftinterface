@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HyprMX
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HyprMX
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
 import AdSupport
@@ -19,12 +19,71 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class HyprMX : NSObject {
+  @objc public static func enableTestMode()
+  @objc public static var audioChangeDelegate: HyprMXAudioChangeDelegate?
+  @objc(initWithDistributorId:completion:) public static func initialize(_ distributorId: String, completion: @escaping (_ success: Bool, _ error: Error?) -> Void = { _, _  in })
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13.0, *)
+  public static func initialize(distributor: String) async -> Result<Void, Error>
+  #endif
+  @objc public static func getPlacement(_ placementName: String) -> HyprMXPlacement?
+  @objc public static func placements() -> [HyprMXPlacement]?
+  @objc public static func initializationStatus() -> HyprMXState
+  @objc public static func versionString() -> String
+  @objc public static func sessionToken() -> String?
+  @objc(setLogLevel:) public static func setLogLevel(_ level: HYPRLogLevel)
+  @objc public static func setConsentStatus(_ consentStatus: HyprConsentStatus)
+  @objc public static var consentStatus: HyprConsentStatus {
+    @objc get
+  }
+  @objc public static func setAgeRestrictedUser(_ ageRestrictedUser: Bool)
+  @objc public static func setUserExtras(_ value: String, for key: String)
+  @objc public static func setUnityVersion(_ version: String?)
+  @objc(setMediationProvider:mediatorSDKVersion:adapterVersion:) public static func setMediationProvider(_ mediator: String?, mediatorSDKVersion: String?, adapterVersion: String?)
+  @objc deinit
+}
+@objc public protocol HyprMXPlacementExpiredDelegate {
+  @objc(adExpiredForPlacement:) func adExpired(placement: HyprMXPlacement)
+}
+@objc public protocol HyprMXPlacementShowDelegate {
+  @objc(adWillStartForPlacement:) func adWillStart(placement: HyprMXPlacement)
+  @objc(adDidCloseForPlacement:didFinishAd:) func adDidClose(placement: HyprMXPlacement, finished: Bool)
+  @objc(adDisplayError:placement:) optional func adDisplay(error: NSError, placement: HyprMXPlacement)
+  @objc(adDidRewardForPlacement:rewardName:rewardValue:) optional func adDidReward(placement: HyprMXPlacement, rewardName: String?, rewardValue: Int)
+  @objc(adImpression:) optional func adImpression(placement: HyprMXPlacement)
+}
+@_hasMissingDesignatedInitializers @objc public class HyprMXPlacement : NSObject {
+  @objc final public let placementType: HyprMXPlacementType
+  @objc final public let placementName: String
+  @objc weak public var expiredDelegate: HyprMXPlacementExpiredDelegate?
+  @objc public var isAdAvailable: Bool {
+    @objc get
+  }
+  @objc(loadAdWithCompletion:) public func loadAd(completion: ((_ success: Bool) -> Void)?)
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13.0, *)
+  public func loadAd() async -> Bool
+  #endif
+  @objc(loadAdWithBidResponse:completion:) public func loadAd(withBidResponse bidResponse: String, completion: ((_ success: Bool) -> Void)?)
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13.0, *)
+  public func loadAd(withBidResponse bidResponse: String) async -> Bool
+  #endif
+  @objc(showAdFromViewController:delegate:) public func showAd(from viewController: UIViewController?, delegate: HyprMXPlacementShowDelegate?)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Bool
+  @objc override dynamic public var description: String {
+    @objc get
+  }
+  @objc deinit
+}
 @objc public protocol HyprMXBannerDelegate {
-  @objc optional func adDidLoad(_ bannerView: HyprMXBannerView)
-  @objc optional func adFailed(toLoad bannerView: HyprMXBannerView, error: Error)
   @objc optional func adDidOpen(_ bannerView: HyprMXBannerView)
   @objc optional func adDidClose(_ bannerView: HyprMXBannerView)
   @objc optional func adWasClicked(_ bannerView: HyprMXBannerView)
+  @objc optional func adImpression(_ bannerView: HyprMXBannerView)
+  @available(*, deprecated, message: "This callback will be removed in a future SDK release.\nUse the app's lifecycle events as alternative.")
   @objc optional func adWillLeaveApplication(_ bannerView: HyprMXBannerView)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class HyprMXBannerView : UIView {
@@ -47,7 +106,16 @@ import _StringProcessing
   @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToSuperview()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
-  @objc @_Concurrency.MainActor(unsafe) public func loadAd()
+  @objc(loadAdWithCompletion:) @_Concurrency.MainActor(unsafe) public func loadAd(completion: ((_ success: Bool) -> Void)?)
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13.0, *)
+  @_Concurrency.MainActor(unsafe) public func loadAd() async -> Bool
+  #endif
+  @objc(loadAdWithBidResponse:completion:) @_Concurrency.MainActor(unsafe) public func loadAd(bidResponse: String, completion: ((_ success: Bool) -> Void)?)
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13.0, *)
+  @_Concurrency.MainActor(unsafe) public func loadAd(bidResponse: String) async -> Bool
+  #endif
 }
 extension HyprMXBannerView : UIGestureRecognizerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool

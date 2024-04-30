@@ -101,23 +101,3 @@ return _##propertyName; \
 _##propertyName = propertyName; \
 } \
 }
-
-#define HYPR_ASSERT_ON_PARSER_QUEUE HYPRAssertInDebugger(_cmd, __FILE__, __LINE__, [[NSOperationQueue currentQueue] isEqual:HyprMX.vastParsingOperationQueue], [NSString stringWithFormat:@"current queue (%@) is not the VAST parser's operation queue", [[NSOperationQueue currentQueue] name]])
-
-#define HYPR_IMPLEMENT_PROPERTY_ON_PARSER_QUEUE(propertyType, propertyName, setterName) \
-@synthesize propertyName = _##propertyName; \
-- (void)setterName:(propertyType)propertyName { \
-HYPR_ASSERT_ON_PARSER_QUEUE;  \
-_##propertyName = propertyName; \
-}\
-\
-- (propertyType)propertyName { \
-HYPR_ASSERT_ON_PARSER_QUEUE;  \
-return _##propertyName; \
-}
-
-// Settings Queue Macros
-
-#define HYPR_ASSERT_JS_LOADING_QUEUE HYPRAssertInDebugger(_cmd, __FILE__, __LINE__, [HyprMX.jsLoadingOperationQueue isEqual:[NSOperationQueue currentQueue]], [NSString stringWithFormat:@"current queue (%@) is not the settings operation queue", [[NSOperationQueue currentQueue] name]])
-
-

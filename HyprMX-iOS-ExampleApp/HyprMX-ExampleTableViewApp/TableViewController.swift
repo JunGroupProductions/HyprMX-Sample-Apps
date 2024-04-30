@@ -8,7 +8,7 @@
 
 import UIKit
 import HyprMX
-class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, HyprMXInitializationDelegate {
+class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     let TABLE_CELL_COUNT = 150
@@ -26,27 +26,16 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     let placementNameBanner:String = "banner_320_50"
     let bannerAdSize = kHyprMXAdSizeBanner
     
-    func uniqueUserId() -> String {
-        /**
-         * HyprMX requires a userID for each user.
-         * If your application does not create a userID already,
-         * you may use this code block to create and store a unique userID for each user.
-         */
-        let userDefaultsUserIDKey = "hyprUserID"
-        var userID = ""
-
-        if let storedUserID = UserDefaults.standard.object(forKey: userDefaultsUserIDKey) as? String {
-            userID = storedUserID
-        } else {
-            userID = ProcessInfo.processInfo.globallyUniqueString
-            UserDefaults.standard.set(userID, forKey: userDefaultsUserIDKey)
-        }
-        return userID
-    }
-    
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        HyprMX.initialize(withDistributorId: myDistributorID, userId: uniqueUserId(), consentStatus: CONSENT_STATUS_UNKNOWN, initializationDelegate: self)
+        Task {
+            switch await HyprMX.initialize(distributor: myDistributorID) {
+            case .success:
+                initializationDidComplete()
+            case .failure(let error):
+                initializationFailed()
+            }
+        }
     }
     
     override func viewDidLoad() {
@@ -69,7 +58,9 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     @IBAction func reloadAdsTapped(_ sender: Any) {
         for banner:HyprMXBannerView in banners {
-            banner.loadAd()
+            Task {
+                await banner.loadAd()
+            }
         }
     }
     

@@ -9,7 +9,7 @@
 import UIKit
 import HyprMX
 
-class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDelegate, HyprMXInitializationDelegate {
+class ViewController: UIViewController, HyprMXPlacementShowDelegate, HyprMXPlacementExpiredDelegate, HyprMXBannerDelegate {
 
     @IBOutlet weak var placementOneNameLabel: UILabel!
     @IBOutlet weak var placementTwoNameLabel: UILabel!
@@ -30,77 +30,60 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
     @IBOutlet weak var sdkVersionLabel: UILabel?
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
 
-    #warning("Set your Distributor ID to run the Example App with")
     let myDistributorID = "11000124103"
     
-    #warning("Set your placement names to run the Example App with")
     let placementName1:String = "Vast"
     let placementName2:String = "Mraid"
     let placementNameBanner:String = "banner_320_50"
 
     var placements:[HyprMXPlacement] = []
     var bannerView:HyprMXBannerView?
-    func uniqueUserId() -> String {
-        /**
-         * HyprMX requires a userID for each user.
-         * If your application does not create a userID already,
-         * you may use this code block to create and store a unique userID for each user.
-         */
-        let userDefaultsUserIDKey = "hyprUserID"
-        var userID = ""
-
-        if let storedUserID = UserDefaults.standard.object(forKey: userDefaultsUserIDKey) as? String {
-            userID = storedUserID
-        } else {
-            userID = ProcessInfo.processInfo.globallyUniqueString
-            UserDefaults.standard.set(userID, forKey: userDefaultsUserIDKey)
-        }
-        return userID
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /** Initializing Banner Ads */
-        self.bannerView = HyprMXBannerView.init(placementName: placementNameBanner, adSize: kHyprMXAdSizeBanner)
-        if let banner = self.bannerView {
-            // Placement delegates are optional for banners, you can set one to receive status on your banner ads.
-            banner.placementDelegate = self
-            
-            // Add to a view in your UI
-            self.bannerContainerView.addSubview(banner)
-            
-            // Add constraints to HyprMXBannerView
-            banner.translatesAutoresizingMaskIntoConstraints = false
-            banner.widthAnchor.constraint(equalToConstant: banner.adSize.width).isActive = true
-            banner.heightAnchor.constraint(equalToConstant: banner.adSize.height).isActive = true
-            banner.centerXAnchor.constraint(equalTo: self.bannerContainerView.centerXAnchor).isActive = true
-            banner.centerYAnchor.constraint(equalTo: self.bannerContainerView.centerYAnchor).isActive = true
-        }
-        
-        
         /** Initialize SDK */
         // Initialize HyprMX before loading ads on your placements or bannerViews.
-        // You can begin to load ads once your HyprMXInitializationDelegate implementation receives
-        // the initializationDidComplete() callback.
-        
-        HyprMX.initialize(withDistributorId: myDistributorID,
-                          // HyprMX requires a unique userID for each user.
-                          userId: self.uniqueUserId(),
-                          // If you don't have consent status for the user, set consentStatus to CONSENT_STATUS_UNKNOWN
-                          consentStatus: CONSENT_STATUS_UNKNOWN,
-                          ageRestrictedUser: false,
-                          initializationDelegate: self)
-        
-        for placementName in [placementName1, placementName2] {
-            // You can get HyprMXPlacement objects from HyprMX by their placement Name
-            let placement:HyprMXPlacement = HyprMX.getPlacement(placementName)!
-            // Set a placementDelegate on each of your placements to receive callback on ad display status.
-            placement.placementDelegate = self;
-            placements.append(placement)
+        // You can begin to load ads if success is true
+        HyprMX.setLogLevel(HYPRLogLevelDebug)
+        HyprMX.initialize(myDistributorID) {success, error in
+            if success {
+                /** Initializing Banner Ads */
+                self.bannerView = HyprMXBannerView.init(placementName: self.placementNameBanner, adSize: kHyprMXAdSizeBanner)
+                if let banner = self.bannerView {
+                    // Placement delegates are optional for banners, you can set one to receive status on your banner ads.
+                    banner.placementDelegate = self
+                    
+                    // Add to a view in your UI
+                    self.bannerContainerView.addSubview(banner)
+                    
+                    // Add constraints to HyprMXBannerView
+                    banner.translatesAutoresizingMaskIntoConstraints = false
+                    banner.widthAnchor.constraint(equalToConstant: banner.adSize.width).isActive = true
+                    banner.heightAnchor.constraint(equalToConstant: banner.adSize.height).isActive = true
+                    banner.centerXAnchor.constraint(equalTo: self.bannerContainerView.centerXAnchor).isActive = true
+                    banner.centerYAnchor.constraint(equalTo: self.bannerContainerView.centerYAnchor).isActive = true
+                }
+
+                for placementName in [self.placementName1, self.placementName2] {
+                    // You can get HyprMXPlacement objects from HyprMX by their placement Name
+                    if let placement:HyprMXPlacement = HyprMX.getPlacement(placementName) {
+                        // Set a expiredDelegate on each of your placements to receive callback
+                        // on ad expired before it could be shown.
+                        placement.expiredDelegate = self;
+                        self.placements.append(placement)
+                    }
+                }
+
+                print("Initialization of HyprMX Completed Successfully")
+                self.updateUIInitializationSuccess()
+            } else {
+                print("Initialization of HyprMX Failed - please re-initialize")
+                self.updateUIInitializationFailed()
+            }
         }
         
-        setUpUI()
+        self.setUpUI()
     }
 
     // MARK: - Full Screen Rewarded/Interstitial Ads Load/Show API -
@@ -108,10 +91,20 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
     func loadAd(placementName: String) {
         /**
          * loadAd will check for an ad to present for this placement.
-         * The result of this call will be a delegate message to adAvailableForPlacement: if there's an ad to show, or
-         * adNotAvailableForPlacement: if there's no inventory.
          */
-        HyprMX.getPlacement(placementName)?.loadAd()
+        HyprMX.getPlacement(placementName)?.loadAd() {success in
+            if success {
+                print("Ad available for \(placementName)")
+                if let placement = HyprMX.getPlacement(placementName) {
+                    self.updateUIAdAvailable(placement: placement)
+                }
+            } else {
+                print("Ad not available for \(placementName)")
+                if let placement = HyprMX.getPlacement(placementName) {
+                    self.updateUIAdNotAvailable(placement: placement, alertOn: true)
+                }
+            }
+        }
     }
     
     func showAd(placementName: String) {
@@ -123,7 +116,7 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
         /**
          * Check the state of isAdAvailable before attempting to show an ad
          */
-        if placement.isAdAvailable() {
+        if placement.isAdAvailable {
             /**
              * showAd will begin presentation of an ad.
              * The placement will message adWillStartForPlacement: immediately before attempting to present;
@@ -133,7 +126,7 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
              * adDisplayErrorForPlacement:error: will be messaged with an error description,
              * then adDidCloseForPlacement: will be messaged.
              */
-            placement.showAd(from: self)
+            placement.showAd(from: self, delegate: self)
         } else {
             print("No ads available for placement ", placementName)
         }
@@ -141,56 +134,35 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
     
     // MARK: - Banner Ads Load API -
     func loadBannerAd() {
-        /**
-         * loadAd will check for an ad to present for this Banner placement.
-         * The result of this call will be a delegate message to adAvailableForPlacement: if there's an ad to show, or
-         * adNotAvailableForPlacement: if there's no inventory.
-         */
-        self.bannerView?.loadAd()
-    }
-    
-    // MARK: - HyprMXInitializationDelegate Implementation -
-    
-    /** Messaged when HyprMX has completed initializing.  You can call loadAd on your placements to load inventory after this messaged has been received. */
-    func initializationDidComplete() {
-        print("Initialization of HyprMX Completed Successfully")
-        updateUIInitializationSuccess()
-    }
-
-    /** Messaged when HyprMX could not initialize. */
-    func initializationFailed() {
-        print("Initialization of HyprMX Failed - please re-initialize")
-        updateUIInitializationFailed()
+        guard let bannerView = self.bannerView else {
+            return
+        }
+        Task {
+            /**
+             * loadAd will check for an ad to present for this Banner placement.
+             * The result of this call will true if there's an ad to show, or false if there's no inventory.
+             */
+            let success = await bannerView.loadAd()
+            print("Banner load \(success ? "succeeded" : "failed")")
+        }
     }
     
     // MARK: - HyprMXPlacementDelegate Implementation -
 
-    /** Messaged in response to loadAd when there is an ad to show */
-    func adAvailable(for placement: HyprMXPlacement) {
-        print("adAvailableForPlacement: ", placement.placementName as Any)
-        updateUIAdAvailable(placement: placement)
-    }
-
-    /** Messaged in response to loadAd when there's no ad to show */
-    func adNotAvailable(for placement: HyprMXPlacement) {
-        print("adNotAvailableForPlacement: ", placement.placementName as Any)
-        updateUIAdNotAvailable(placement: placement, alertOn: true)
-    }
-
     /** Messaged immediately before attempting to present an ad. */
-    func adWillStart(for placement: HyprMXPlacement) {
+    func adWillStart(placement: HyprMXPlacement) {
         print("adWillStartForPlacement: ", placement.placementName as Any)
         updateUIAdWillStart(placement: placement)
     }
 
     /** Messaged upon conclusion of any ad presentation attempt */
-    func adDidClose(for placement: HyprMXPlacement, didFinishAd finished: Bool) {
+    func adDidClose(placement: HyprMXPlacement, finished: Bool) {
         print("adDidCloseForPlacement: ", placement.placementName as Any)
         updateUIAdDidClose(placement: placement, finished: finished)
     }
 
     /** Messaged when an error occurs during ad presentation. */
-    func adDisplayError(_ error: Error, placement: HyprMXPlacement) {
+    private func adDisplayError(_ error: Error, placement: HyprMXPlacement) {
         let nsError = error as NSError
         let hyprMXError:HyprMXError = HyprMXError(UInt32(nsError.code))
         print("adDisplayError: \(nsError.localizedDescription) placement: \(placement.placementName)")
@@ -198,13 +170,13 @@ class ViewController: UIViewController, HyprMXPlacementDelegate, HyprMXBannerDel
     }
 
     /** Messaged when user has earned a reward. */
-    func adDidReward(for placement: HyprMXPlacement, rewardName: String?, rewardValue: Int) {
+    func adDidReward(placement: HyprMXPlacement, rewardName: String?, rewardValue: Int) {
         print("adDidRewardForPlacement: ", placement.placementName as Any, " - reward: ", rewardName as Any, " value: ", rewardValue)
         updateUIAdDidReward(placement: placement)
     }
 
     /** Messaged when an ad has not been shown but is no longer available. */
-    func adExpired(for placement: HyprMXPlacement) {
+    func adExpired(placement: HyprMXPlacement) {
         print("adExpiredForPlacement: ", placement.placementName as Any)
         updateUIAdExpired(placement: placement)
     }

@@ -18,8 +18,7 @@ struct HyprMXBannerViewRepresentable: UIViewRepresentable {
     @State var bannerViewModel:BannerViewModel
     
     // Keeping a reference to the bannerView will allow you to call loadAd on the object
-    var bannerView:HyprMXBannerView = HyprMXBannerView.init(placementName: nil,
-                                                            adSize: CGSize.zero)
+    var bannerView:HyprMXBannerView = HyprMXBannerView.init()
     func loadButtonTapped() {
         bannerViewModel.loadAd(bannerView: bannerView)
     }

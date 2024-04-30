@@ -11,10 +11,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HYPRJSContext : JSContext
+@protocol HYPRJSContextProtocol
 
-- (void)createController:(const NSString *)controller
-           withArguments:(NSArray*)args;
 - (NSString*)scriptToCheckObject:(NSString*)name
                             type:(NSString*)type;
 
@@ -27,4 +25,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeObjectByHash:(NSUInteger)hash;
 @end
 
+@protocol HYPRJSContextInitRequestProtocol
+-(BOOL)requestInitializationAllowed;
+@end
+
+@interface HYPRJSContext:JSContext <HYPRJSContextProtocol, HYPRJSContextInitRequestProtocol>
+@end
 NS_ASSUME_NONNULL_END

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <HyprMX/HYPRAvailability.h>
+#import <HyprMX/HYPRJSContext.h>
 
 NS_ASSUME_NONNULL_BEGIN
 extern NSString * const kHYPRContainerVisibleKey;
@@ -62,6 +63,7 @@ extern NSString * const kHYPRGetViewModelFunction;
 - (void)didTapNext;
 - (void)didTapFinish;
 - (void)didTapClose;
+- (void)didTapIconIndex:(NSInteger)index;
 @end
 @class HYPRJSContext;
 HYPR_CLASS_AVAILABLE_IOS
@@ -70,12 +72,12 @@ HYPRBaseAdViewModelInterface
 > {
 @protected NSString *_viewModelIdentifier;
 }
-@property (weak, nonatomic, readonly) HYPRJSContext *context;
+@property (weak, nonatomic, readonly) JSContext<HYPRJSContextProtocol> *context;
 @property (strong, nonatomic) NSString *placementName;
 @property (strong, nonatomic, readonly) NSString *viewModelIdentifier;
 @property (strong, nonatomic, readonly) NSString *postFunction;
 @property (strong, nonatomic, readonly) NSOperationQueue *queue;
-- (instancetype)initWithContext:(HYPRJSContext *)context
+- (instancetype)initWithContext:(JSContext<HYPRJSContextProtocol> *)context
                     viewModelId:(nullable NSString *)viewModelId
                           queue:(NSOperationQueue *)queue;
 

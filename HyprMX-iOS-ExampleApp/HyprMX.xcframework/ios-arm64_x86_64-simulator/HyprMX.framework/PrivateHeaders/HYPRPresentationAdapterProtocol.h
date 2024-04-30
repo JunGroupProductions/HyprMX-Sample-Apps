@@ -7,8 +7,9 @@
 //
 #import <UIKit/UIKit.h>
 #import <StoreKit/StoreKit.h>
+#import <HyprMX/HYPRJSContext.h>
 NS_ASSUME_NONNULL_BEGIN
-@class HYPRWebView, HYPRJSContext;
+@class HYPRWebView;
 @protocol HYPRPresentationAdapterDelegate;
 
 @protocol HYPRPresentationAdapterResultDelegate <NSObject>
@@ -72,7 +73,7 @@ presentationDelegate:(id<HYPRPresentationAdapterDelegate>)presentationDelegate;
 @protocol HYPRPresentationAdapterHyprMXBrowserProtocol <HYPRPresentationAdapterProtocol>
 -(instancetype)init:(NSString *)placement
            browserVmId:(NSString *)baseAdId
-            context:(HYPRJSContext *)context
+            context:(JSContext<HYPRJSContextProtocol> *)context
 presentationDelegate:(id<HYPRPresentationAdapterDelegate>)presentationDelegate
              window:(nullable UIWindow *)window
                mask:(UIInterfaceOrientationMask)mask;

@@ -6,19 +6,19 @@
 	<dict>
 		<key>HYPRFullScreen.storyboardc/HYPRFullScreenBrowser.nib/objects-14.0+.nib</key>
 		<data>
-		8kc97EFAb+6+STTmw7/f6BGdJxQ=
+		uOPy0jY5q5nV65uv12/3I+nNUkE=
 		</data>
 		<key>HYPRFullScreen.storyboardc/HYPRFullScreenBrowser.nib/runtime.nib</key>
 		<data>
-		8kc97EFAb+6+STTmw7/f6BGdJxQ=
+		uOPy0jY5q5nV65uv12/3I+nNUkE=
 		</data>
 		<key>HYPRFullScreen.storyboardc/HYV-Ze-c8w-view-Zw5-mJ-W8m.nib/objects-14.0+.nib</key>
 		<data>
-		Z9JxiH9mDjHKAIrqcchJhTBReNc=
+		Ok1AfoFeKIM8AXRDAwj9AHT6Jqo=
 		</data>
 		<key>HYPRFullScreen.storyboardc/HYV-Ze-c8w-view-Zw5-mJ-W8m.nib/runtime.nib</key>
 		<data>
-		FBcIWrP2LTKG6G4gBLgkOg7o2+M=
+		/muvgaaaaGal+3OEprel3Ai5Vt8=
 		</data>
 		<key>HYPRFullScreen.storyboardc/Info.plist</key>
 		<data>
@@ -26,79 +26,79 @@
 		</data>
 		<key>Headers/HyprMX-Swift.h</key>
 		<data>
-		pG5a/oAkpJUi0vKgR/eqgogdVuU=
+		lg4Y9F+VN33s69cgPbGJOKJouXg=
 		</data>
 		<key>Headers/HyprMX.h</key>
 		<data>
-		9VblpnAoQQ6yJcB3IfNKUsWByy0=
-		</data>
-		<key>Headers/HyprMXPlacement.h</key>
-		<data>
-		OSMXGXbLRZYyVLzDeKcd1HutTTM=
+		KBgW9yq3oLeTtZTmZTnuDlomuXE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		j70m7b+JyctekkYfF2Ci48h8gVM=
+		YNrGLSaZ5PzRrwEZpqERuCWtVoA=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		buR0e3Ym/BPOqgK1GNvaqNPOQ8c=
+		GsrWdXsE5JfmXN25SURt5LeiPhU=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		O/zPN4snxn9geac9VrIOYBHmDo0=
+		/Tmr4Qxkkz0TksAAAbKyupUseFs=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PBHYwnpeuZbHbWwfP2kGPtknKl8=
+		DJWz/s5AC8siVtYx0gtIhpMnB6g=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		O/zPN4snxn9geac9VrIOYBHmDo0=
+		/Tmr4Qxkkz0TksAAAbKyupUseFs=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tD67+7DtGrrnBu2EQE1Prbs2+bo=
+		yYDR1Cb4S1n1Nnw5NZ1uVOvxvfU=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		buR0e3Ym/BPOqgK1GNvaqNPOQ8c=
+		GsrWdXsE5JfmXN25SURt5LeiPhU=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8mFKbJw2PMR2OK0ERi/Pwth2zLg=
+		DXRz6tTWLFOPSxskQkfWZjQgA1c=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RgJkQsWvGLALiMTUdyTmmGH4XVg=
+		jCDzsHN8BrZrorMVEo02GJGC2ro=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8mFKbJw2PMR2OK0ERi/Pwth2zLg=
+		DXRz6tTWLFOPSxskQkfWZjQgA1c=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3Dabxihl4/8U41mPdBT17wecqqw=
+		O9sLLHcR5KQeTssin4NUUU6q3m8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Wn43jP/zrlOK2ZoamPnhHv2ZTXo=
+		25+8xo5T1pCCtwpekhowKtVKpa8=
 		</data>
 		<key>Modules/module.private.modulemap</key>
 		<data>
-		gLsvORRvdy2H9G6Vwejy+qoRIyo=
+		IiQbofw8fImUffiLRZ8W1XZBhzY=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		PFgzbUuSu7gHZ5Oa867EPOVOiKQ=
+		q3eoU5i1FSRt6Dtzxdvk9FjtKYg=
+		</data>
+		<key>PrivateHeaders/HYPRAlertView.h</key>
+		<data>
+		7M92oMEwb5sHpxcNP3hwhpuD23A=
+		</data>
+		<key>PrivateHeaders/HYPRAppStorePresentationStatusDelegate.h</key>
+		<data>
+		G1MwiRB7wQpzab8ufeNLr8Qkk2o=
 		</data>
 		<key>PrivateHeaders/HYPRAudioDelegateSource.h</key>
 		<data>
 		STt0n78fxfiSyhDImCjkf8z70Hk=
-		</data>
-		<key>PrivateHeaders/HYPRAudioPublisherProtocol.h</key>
-		<data>
-		XWFlGNk1wMnY2ORf/YCB7uf0ESs=
 		</data>
 		<key>PrivateHeaders/HYPRAvailability.h</key>
 		<data>
@@ -106,31 +106,99 @@
 		</data>
 		<key>PrivateHeaders/HYPRBannerViewModelConnector.h</key>
 		<data>
-		W928pOjjYNz5udrbDv2EtXdzA80=
-		</data>
-		<key>PrivateHeaders/HYPRBrowserStateChangeDelegate.h</key>
-		<data>
-		PBybq6p8SNLT7LuMvo2y/ZzUlBg=
-		</data>
-		<key>PrivateHeaders/HYPRBrowserViewController.h</key>
-		<data>
-		iKTiqt8EJk5as9JA/Mbtu6FYSwE=
+		LyF98raqUxQqZeHNxXEQ9IJ3h1A=
 		</data>
 		<key>PrivateHeaders/HYPRBrowserViewModelConnector.h</key>
 		<data>
-		H/qqAcEUxp9sfKo60GqT7S4SV/Q=
+		dR3WWk1jIgxK1h3nxd1HyuE8GCg=
+		</data>
+		<key>PrivateHeaders/HYPRCancellationDialog.h</key>
+		<data>
+		oy1YPp6mnvwS3LMuiDEUnViCZTY=
+		</data>
+		<key>PrivateHeaders/HYPRCollectionReusableView.h</key>
+		<data>
+		yQLIR023JioSKhml7LP0OI5C4Y8=
+		</data>
+		<key>PrivateHeaders/HYPRCollectionViewCell.h</key>
+		<data>
+		wOs8AEaNmdlVuJPuwN1Ki3R+7oE=
+		</data>
+		<key>PrivateHeaders/HYPRCollectionViewNaturalNumberCell.h</key>
+		<data>
+		7yxplBOMhh/RT6fi//vcAUvt2C8=
+		</data>
+		<key>PrivateHeaders/HYPRConstants.h</key>
+		<data>
+		OR12VzHaY5fAs6aS68TBf/eps/Q=
+		</data>
+		<key>PrivateHeaders/HYPRController.h</key>
+		<data>
+		q2hzefLy5pfAX+nEhzYffUVeG80=
+		</data>
+		<key>PrivateHeaders/HYPREnvironment.h</key>
+		<data>
+		qTGmCEutKC/iIMRZf7hQg+Av2Y8=
+		</data>
+		<key>PrivateHeaders/HYPRError.h</key>
+		<data>
+		KurmRX4Ogudmv9MVEe4AwkB2cGE=
+		</data>
+		<key>PrivateHeaders/HYPRErrorType.h</key>
+		<data>
+		GF4hvUcj6AwlTwsHkY8X9qa3WTM=
+		</data>
+		<key>PrivateHeaders/HYPRFixedHeaderCollectionViewFlowLayout.h</key>
+		<data>
+		QvjmdsR6xEl2kji0sijb+fBxcw0=
+		</data>
+		<key>PrivateHeaders/HYPRFocusRetainingWebView.h</key>
+		<data>
+		bPUyXeKpgfnGgvM3gl/j/xkids0=
+		</data>
+		<key>PrivateHeaders/HYPRFooter.h</key>
+		<data>
+		nKqv8Yrq+NkBjsCk2BBELcPJhS8=
+		</data>
+		<key>PrivateHeaders/HYPRFooterView.h</key>
+		<data>
+		S7JcGie7F+L3v9QgZzcYExnFa44=
+		</data>
+		<key>PrivateHeaders/HYPRFullscreenNativeDelegate.h</key>
+		<data>
+		4OCwh9SH5FSPBZJ563gwIN50VXg=
+		</data>
+		<key>PrivateHeaders/HYPRFullscreenViewModelConnector.h</key>
+		<data>
+		opVoEd4iYEoeXFaVM6VwJh8IDoY=
+		</data>
+		<key>PrivateHeaders/HYPRHelpers.h</key>
+		<data>
+		KKuxj535JT4XGkZg4pb3sytsqoU=
+		</data>
+		<key>PrivateHeaders/HYPRHostAppInformationProvider.h</key>
+		<data>
+		qqHE0RK9NOdpcGr/C9HtqasHBmA=
+		</data>
+		<key>PrivateHeaders/HYPRImage.h</key>
+		<data>
+		RKIDId2Zka+yRmPRFI0TQfJ/dhQ=
 		</data>
 		<key>PrivateHeaders/HYPRImageCache.h</key>
 		<data>
 		+VbMW+A7ORaaB5Av7nz8q21Y2Pc=
 		</data>
+		<key>PrivateHeaders/HYPRImageCacheProvider.h</key>
+		<data>
+		32wv0/wCWHTL8Cej8ROL3dJpIgg=
+		</data>
 		<key>PrivateHeaders/HYPRJSContext.h</key>
 		<data>
-		OKmSb6fIEFAgEIOv5J4n0lrymbk=
+		xwxYI3nRgSBJ5vQFWIIrKzQcxEs=
 		</data>
-		<key>PrivateHeaders/HYPRJSContextSource.h</key>
+		<key>PrivateHeaders/HYPRLogLevelProvider.h</key>
 		<data>
-		joH5njago72Cx5AmXbaGLFd1OSs=
+		1e8clz+l9YgfG5qjfvytjg245Rs=
 		</data>
 		<key>PrivateHeaders/HYPRLogger.h</key>
 		<data>
@@ -138,51 +206,83 @@
 		</data>
 		<key>PrivateHeaders/HYPRMRAIDSupport.h</key>
 		<data>
-		ZO9BdnG7fg2WcCCmlgdR7YSd/GA=
+		XlL2KLSBqLj0abMXy3k2uSzw70M=
 		</data>
 		<key>PrivateHeaders/HYPRMediationProvider.h</key>
 		<data>
 		+FwcfIx/YqIPbCRdtJjYJ/Sjg5Y=
 		</data>
-		<key>PrivateHeaders/HYPRNativeAudioEventPublisherProtocol.h</key>
+		<key>PrivateHeaders/HYPRMutableURLRequest.h</key>
 		<data>
-		hlIcM+7q16g+TJbg03jTkigvo40=
+		DzG66dq/PT8bJKuOlwoI9HaEAPg=
 		</data>
 		<key>PrivateHeaders/HYPRNativeDelegate.h</key>
 		<data>
 		mTnUU3ndr0Iwr17q7wBi3Jb17Aw=
 		</data>
-		<key>PrivateHeaders/HYPRNativeTimer.h</key>
+		<key>PrivateHeaders/HYPRNavigationController.h</key>
 		<data>
-		a7NOvxIQQb8fMjUtz4z7A+6Gjo4=
+		CPgULwCAsd0wjaXmZW8eZ0ZvDPs=
+		</data>
+		<key>PrivateHeaders/HYPRNavigationDecision.h</key>
+		<data>
+		DmSrgM69Ql6AjayWgyS6FkFYhyI=
+		</data>
+		<key>PrivateHeaders/HYPRNoOfferAppearance.h</key>
+		<data>
+		kU2QNCoGaBujqFMaJquRqIjQ2aE=
+		</data>
+		<key>PrivateHeaders/HYPRNoOfferViewController.h</key>
+		<data>
+		Rg5KnQRN/2KBC+j46g1b2xxzbMQ=
+		</data>
+		<key>PrivateHeaders/HYPROffer.h</key>
+		<data>
+		hV0HETvElqgNAHmuoek4jyGBxJI=
+		</data>
+		<key>PrivateHeaders/HYPROfferFullscreenAdViewController.h</key>
+		<data>
+		FENM2J8aaUWfMqmEOIesvjVu+4A=
+		</data>
+		<key>PrivateHeaders/HYPROfferNavBar.h</key>
+		<data>
+		IkPJgaBm1SWwQgqDRmqjNuXzZAg=
+		</data>
+		<key>PrivateHeaders/HYPROfferViewController+Mraid.h</key>
+		<data>
+		VBH31SMPB0F3SbnqEj08aGX7cy0=
+		</data>
+		<key>PrivateHeaders/HYPROfferViewController+NativeDelegate.h</key>
+		<data>
+		jiE0bRLBaTAXBhC/9JxOfnUhLpw=
+		</data>
+		<key>PrivateHeaders/HYPROfferViewController.h</key>
+		<data>
+		9690r93FXt2GIru7Tum9B0UNIaY=
+		</data>
+		<key>PrivateHeaders/HYPROfferWebTrafficViewController.h</key>
+		<data>
+		0xmCXPGENEk9el/xtOtNUlGx+do=
+		</data>
+		<key>PrivateHeaders/HYPROpenMeasurementController.h</key>
+		<data>
+		6HVy8qy64WWPUYKwio1B1+L2wi0=
 		</data>
 		<key>PrivateHeaders/HYPROrientation.h</key>
 		<data>
-		QFQFs0I/xHgsG/9WjZDbgxIAczY=
-		</data>
-		<key>PrivateHeaders/HYPRParameterControllerProtocol.h</key>
-		<data>
-		K8LaWaqosvZfu/sa9JECU1xYhrY=
+		usSackosbmSgfrI82B2LKAV4gnU=
 		</data>
 		<key>PrivateHeaders/HYPRPhotoActivityViewHelper.h</key>
 		<data>
 		xyBuCsWaIm8Y2qafgPw7V64qmkc=
 		</data>
-		<key>PrivateHeaders/HYPRPreloadFetchStatusProtocol.h</key>
+		<key>PrivateHeaders/HYPRPreloadController.h</key>
 		<data>
-		HRDayLegKCNOr86aULwjS7jUbHk=
+		ERFVmhHBulb74j9vun7lLcd61nY=
 		</data>
 		<key>PrivateHeaders/HYPRPresentationAdapterProtocol.h</key>
 		<data>
-		w6UkBqnnpOn/fsjt9GxCdfzGO9Y=
-		</data>
-		<key>PrivateHeaders/HYPRPresentationController.h</key>
-		<data>
-		s7pJvjGv3dEiD/PJhN7xVerfYd4=
-		</data>
-		<key>PrivateHeaders/HYPRPresentationControllerResultDelegate.h</key>
-		<data>
-		BU7A78RnVBJwnnBGtpGKF64Oq94=
+		QiulvUqYfXRb7vNSteBm5082vH4=
 		</data>
 		<key>PrivateHeaders/HYPRPresentationResultsDelegate.h</key>
 		<data>
@@ -194,47 +294,135 @@
 		</data>
 		<key>PrivateHeaders/HYPRPresenterDelegate.h</key>
 		<data>
-		ZRLX0NCTzCKhFELC0cvVcq03WSY=
+		D1gYML6ldP+ap2KfAyrd1rdcQ8Y=
 		</data>
 		<key>PrivateHeaders/HYPRQueueManager.h</key>
 		<data>
-		z3lTdU44GiNl2sy8ELrKjuCJX28=
+		Kjnm5LaBVV+ognUhZRmxLahN4WE=
 		</data>
-		<key>PrivateHeaders/HYPRSDKParameters.h</key>
+		<key>PrivateHeaders/HYPRRequiredInfoAnswer.h</key>
 		<data>
-		VtTEt5kqk9OGsVCrQkocK2Lni5o=
+		DsewkzYDx52aFS230TLrUPbgbfs=
 		</data>
-		<key>PrivateHeaders/HYPRStoryBoardViewControllerLoader.h</key>
+		<key>PrivateHeaders/HYPRRequiredInfoConstants.h</key>
 		<data>
-		fuBmqB3TyF1+O9znjFpgAOZ0zvw=
+		W47J9PB67w1f2HcXrNTC6+Ng+pg=
+		</data>
+		<key>PrivateHeaders/HYPRRequiredInfoQuestion.h</key>
+		<data>
+		j4/CTAo0EjORCasBDlkg/I6bfjc=
+		</data>
+		<key>PrivateHeaders/HYPRRequiredInfoSelectionShape.h</key>
+		<data>
+		6L0/mq5qcnhNnlLfUoSn8BK+oh4=
+		</data>
+		<key>PrivateHeaders/HYPRRequiredInformationCollectionViewController.h</key>
+		<data>
+		m7ekA1oVFkp5MULARXthIWnbGjk=
+		</data>
+		<key>PrivateHeaders/HYPRScreenAdjustments.h</key>
+		<data>
+		roa1uri4uFfFHDyHc5OGqXXJSYk=
+		</data>
+		<key>PrivateHeaders/HYPRSecondaryControllerRotationHelper.h</key>
+		<data>
+		TaQX0PtrW2MBu4rQWtbRxdryn8g=
+		</data>
+		<key>PrivateHeaders/HYPRThreadAssert.h</key>
+		<data>
+		w8ebGlPXuELQBt61LWDv91zdBes=
 		</data>
 		<key>PrivateHeaders/HYPRTraitCollection.h</key>
 		<data>
 		6xs4iq9/LroVSwp1Be3cfO0Y4hE=
 		</data>
-		<key>PrivateHeaders/HYPRTransparencyTrackingManager.h</key>
+		<key>PrivateHeaders/HYPRUserInfoAppearance.h</key>
 		<data>
-		ewxi+qc6kryMd2Bs+QYFlErdl60=
+		1lSRz6MMAUQ9f6PrexdyX/jFvus=
+		</data>
+		<key>PrivateHeaders/HYPRUserInfoElementBorder.h</key>
+		<data>
+		hUNRpPZe4HGqoEfUUG2kVlTjOnc=
+		</data>
+		<key>PrivateHeaders/HYPRUserInfoElementFont.h</key>
+		<data>
+		0WZDgnaZXES5ouWqs7/YMQ81pl0=
+		</data>
+		<key>PrivateHeaders/HYPRUserInfoElementImage.h</key>
+		<data>
+		en4i3GPsEwxrYBaja7QGyMqAMoI=
+		</data>
+		<key>PrivateHeaders/HYPRUserInfoElementStyle.h</key>
+		<data>
+		j1CEF4ezp51EpONcEnaH7oMlhFo=
+		</data>
+		<key>PrivateHeaders/HYPRUserInfoHeader.h</key>
+		<data>
+		oMRDShmh/9UorO5hul4E/X1GCAk=
+		</data>
+		<key>PrivateHeaders/HYPRUserInfoNavigationBarAppearance.h</key>
+		<data>
+		DSlRXGGAxDgPXT1UPmF+IR5nJ7U=
+		</data>
+		<key>PrivateHeaders/HYPRUserInfoSubmitButton.h</key>
+		<data>
+		aNHzDKKM+xP6TQHbTjLBnaIb9z8=
+		</data>
+		<key>PrivateHeaders/HYPRUserInterface.h</key>
+		<data>
+		QFGI+RqjjqtBgzsUQMYFUw+KKcs=
 		</data>
 		<key>PrivateHeaders/HYPRViewModelConnector.h</key>
 		<data>
-		rwQClOXmnMSzbpSLKwM3lPVUCKU=
+		kiegJ/a+WEZ2ZL7T2FwlW5C2hDs=
 		</data>
 		<key>PrivateHeaders/HYPRWeakNativeProxy.h</key>
 		<data>
 		c2y69Vdo/gb50RGqz4o/Op/g/V8=
 		</data>
+		<key>PrivateHeaders/HYPRWeakTimerTarget.h</key>
+		<data>
+		4XTb0/KxtKX13a7MJvqqYSRPaQ8=
+		</data>
+		<key>PrivateHeaders/HYPRWebTrafficNativeDelegate.h</key>
+		<data>
+		S0yToVd0KlyGtfPe7FFalAceaCw=
+		</data>
+		<key>PrivateHeaders/HYPRWebTrafficNavBar.h</key>
+		<data>
+		J/QmcSIl+/wYuZMdSXHPKYbghiE=
+		</data>
 		<key>PrivateHeaders/HYPRWebView.h</key>
 		<data>
-		M173xGEpwmrlSJXDvPxrBFeMi5I=
+		DkG6fW9cl33JUt6JKGyB7ael0aQ=
 		</data>
-		<key>PrivateHeaders/HyprMXErrorFactory.h</key>
+		<key>PrivateHeaders/HYPRWebViewLoadDataEvent.h</key>
 		<data>
-		qBBl3b+8h1WXpPx2vlYZbPubjHA=
+		y/plFLU8idKjFCjhGR2bgpmHdIU=
 		</data>
-		<key>PrivateHeaders/HyprMXSingletonDelegate.h</key>
+		<key>PrivateHeaders/HYPRWebViewModelConnector.h</key>
 		<data>
-		uP/tmT0xf2EwcXdieHGIV+AptCg=
+		UYGLJLDxI93+FU2wN5VDKhb9KVk=
+		</data>
+		<key>PrivateHeaders/HYPRWebViewNativeDelegate.h</key>
+		<data>
+		C69Gv9PRKYzkivdfKHywyj8o6QQ=
+		</data>
+		<key>PrivateHeaders/HYPRWebViewPresenter.h</key>
+		<data>
+		MSrkKwaaVFbg0DmmtbgZSdDSg40=
+		</data>
+		<key>PrivateHeaders/HYPRWebViewPresenterProxy.h</key>
+		<data>
+		0TcbCvGZwRXXiU4b2SVg/ExPhFU=
+		</data>
+		<key>PrivateHeaders/HYPRWebViewUpdateConfiguration.h</key>
+		<data>
+		VQ4KFd44jrssFAD9vJ7W7IReCyE=
+		</data>
+		<key>PrivateHeaders/HyprManager.h</key>
+		<data>
+		TPwoV3yp0FODaELQEVUCA8Cx+nk=
 		</data>
 		<key>mute_asset.aiff</key>
 		<data>
@@ -242,7 +430,7 @@
 		</data>
 		<key>sdk_core.min.js</key>
 		<data>
-		pArfdfmf5JEeP2Za6gl3kY2k1w0=
+		uQeU9wikmQYWnXKaKWIiIPMSbpE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -251,28 +439,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jPLV8j6rOLRBRaBcYwVNnX7p8NqXeU8UkwMSUS/wGag=
+			04jufGXjZ4MiJkRJ8Jbr3oYo8OIGV8R5iJhnJQ0L8Po=
 			</data>
 		</dict>
 		<key>HYPRFullScreen.storyboardc/HYPRFullScreenBrowser.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jPLV8j6rOLRBRaBcYwVNnX7p8NqXeU8UkwMSUS/wGag=
+			04jufGXjZ4MiJkRJ8Jbr3oYo8OIGV8R5iJhnJQ0L8Po=
 			</data>
 		</dict>
 		<key>HYPRFullScreen.storyboardc/HYV-Ze-c8w-view-Zw5-mJ-W8m.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u9cRkVyo6b8Mhf1OioOc6uqnnAxy9YZVLgBl/0muDgo=
+			LPf+6Zjg7g1hkLSO/HTbeKFn9itN0WeTJM5AmlcYP9c=
 			</data>
 		</dict>
 		<key>HYPRFullScreen.storyboardc/HYV-Ze-c8w-view-Zw5-mJ-W8m.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IGi9iFU9MqVS84BtWIHUZ/w4puJ2xSFDUufxpK9ZDYw=
+			Ww0WfZobthdfKQecQ8mfJiOAd+yeZH4hhk6f0lRs4Wo=
 			</data>
 		</dict>
 		<key>HYPRFullScreen.storyboardc/Info.plist</key>
@@ -286,112 +474,119 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nxk33NS0LLlGVpKdjCXQSJD0VZMdl4kCueZaaSarc/E=
+			bmqRSU7v/3yvFJhdkcYKYqpNhuqFTCcaxGuAahCNGEI=
 			</data>
 		</dict>
 		<key>Headers/HyprMX.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tp87dXAB6zmk8hAxDzzdjd2FImKWb37vaATIvWXzV1M=
-			</data>
-		</dict>
-		<key>Headers/HyprMXPlacement.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NZO3UWI27O+191nQ7jqsPMdZyH6BsMuHrbdmHAChLDE=
+			6SmMbm/ACCOFHcdkoZOE/sRqUESNlBpyEuCFaL4LxqM=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			09s8eBBz9Dv6JnltqkGoJfcItY7/KpclRabAs0XJcnc=
+			rVm/hQJXiS6PJvobzkFeq7JTkYQ1ma9X/ZgpWBYrzEw=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lkh05qUOFwNzUs55oHayQ8T9F2aZdHyxGfU0g9bFN/Y=
+			DSMUo2Py65DJtHQYnNLNgktrAN1qyY++Mkto6pXWHxc=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l77viMiGy7N6Nvb47/rK6RG3HMdBXMEWTLJEPyl6w8Y=
+			VG0FGoKM2vHJuGw9QCxbJKpPnLuNObf2VGkUn2in4zM=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lkh05qUOFwNzUs55oHayQ8T9F2aZdHyxGfU0g9bFN/Y=
+			DSMUo2Py65DJtHQYnNLNgktrAN1qyY++Mkto6pXWHxc=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Q/vNCWOWYKWwi1JjXwZBvsvtFjgMh9+bLW2v1OOje4=
+			BLfnPNpKLGpMNJmAnLaPf7vuna1vjLCAwdc3aHbDqRg=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			09s8eBBz9Dv6JnltqkGoJfcItY7/KpclRabAs0XJcnc=
+			rVm/hQJXiS6PJvobzkFeq7JTkYQ1ma9X/ZgpWBYrzEw=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yj0q3FJySSubOFhgqwDrNOAfFar/nSQnaehCp/TRZt0=
+			4kLOYm/kcvARAOiEv40nygNnEBxu0hVPBqORyssfskk=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NkU3LXjJOiDX1qGSvNdTCPU/mHmfU/aRrvXZIMJfD5U=
+			b2C9cWE7Q6Z+8fEOLsmVFanSz89Zn7zzddIwPmyIy+A=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yj0q3FJySSubOFhgqwDrNOAfFar/nSQnaehCp/TRZt0=
+			4kLOYm/kcvARAOiEv40nygNnEBxu0hVPBqORyssfskk=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7SE+0ResBo41rNeVA5TkRZFGVjubkwkT+DH9cgySJQw=
+			nHy5chW1Sm2x8oHyQCd7h9PVgDvn/pqM8qsO2bdYtvw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sttxJdvhzCxrOZXHRmytxxGWMQTyoheLASLceb97qXs=
+			O/y77al/pE7awdSANMNDu9Jrzxslnl73MaxLZ1qg9SI=
 			</data>
 		</dict>
 		<key>Modules/module.private.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			63+Ne7ZOhevgja+CtGayELZN9jKgkLcnaLTcnqi0ERk=
+			TH0yAJoXtA177nA2hNKcEyVKsoP7JTRg1xZELyltT7E=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aF2QhLQk2mbgm6rY2HuUJWMzqkwozB+ySo/tkleZ+r0=
+			y5/xCC3n6R2R1mHi/YaeeA6Oq1SmZtitT8cGpXBxQrE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRAlertView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jFon1VXanV7Bj97RNusIt9EHvos11Y34gkTtXz4ByP0=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRAppStorePresentationStatusDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4c8S3+8dCRfFOrPkIZ5A72LLSUfzWuYZ+2RZ7rMPJdQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRAudioDelegateSource.h</key>
@@ -399,13 +594,6 @@
 			<key>hash2</key>
 			<data>
 			r6Q76eHto5GTaox8cVFa86eLhxHUhF5657C8TmmJ8H4=
-			</data>
-		</dict>
-		<key>PrivateHeaders/HYPRAudioPublisherProtocol.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			e4y1Vst8N8WPCXCVmxKGZzApMUyx94PfCsj37qBB/m0=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRAvailability.h</key>
@@ -419,28 +607,140 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			96KNkMq7yKAgwG+KMRN555gsqa7tb7OqHqDOARP0vEo=
-			</data>
-		</dict>
-		<key>PrivateHeaders/HYPRBrowserStateChangeDelegate.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bEnZ3iEQL78Do4loUMwbZmOhPzzy/aRE438sOJqKliQ=
-			</data>
-		</dict>
-		<key>PrivateHeaders/HYPRBrowserViewController.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HzWxUgJtQmDXM918Qk9WwNhyKVKeXthylS9BWWO/r5M=
+			HjHLLjM70eoTNuzPIoJcRcakod2VlFLrlvO1O5/Dcq0=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRBrowserViewModelConnector.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ip5VojiZnHzGICJp/oGlALSHp22yNCIl3lolfNUaUq8=
+			bLnoEWAqeXpJL9dPyjqJ7TIA0j3H4FyQyd5Blsza9o0=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRCancellationDialog.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EcXDhGBCnmiIcHyPso7XLXCCH2INR/LTJ/kqLTSPBMM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRCollectionReusableView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vHrXoZ2NHAdEOTCVKcywN7pbcIuHRN4Cro17IqYgym4=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRCollectionViewCell.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2H77LpmpXE29r+5+SjLPXbBwmTBRsptthT0V8+sXzrE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRCollectionViewNaturalNumberCell.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ts6CKIY+7YJ9qZzuJHuMoNwutG4LGdqywJpEzXbw9XM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRConstants.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zhecKYiisWRJ7Bc931ynm+48WnKWrsxEamkGup6+5Gc=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v7caPOTSeAAp1ASM7+ABoH/sM73QfU16GJXFB/TT8Ow=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPREnvironment.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZewjHV6jdahU2j0lwF5Hx7xc6f0v+qciA8DsjYTbH60=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRError.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NonOUfG/LWamrCHmwqL7LJH9EnuKqJ7Z72sO15XKtck=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRErrorType.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f79HDZY2w3kWOIgjvu62/uCZJ9hcQpoPD7bmIpu5uEY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRFixedHeaderCollectionViewFlowLayout.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+vrNKJ9da00ozsolzbTJvg6RoXn8x+QzPhtVjqvksNc=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRFocusRetainingWebView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QmupGYrDALwqlZxrPktfZqQfqHRl+7t6oZNsgCmLQn4=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRFooter.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4nWwK+oXDzM7BP8KE2zPV7euJay/GnDo9Ns/9LRO3hU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRFooterView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ho4xsSsjRJ4UwSDU82fIllW1eukombW1oxhnqKbWyhA=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRFullscreenNativeDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DHRQGCxbkdgKtOrHKGDJjh3pL3/s9WyexqNunecMQoE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRFullscreenViewModelConnector.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/vX5HtPQhRHtoJ1Vxhu7y7Tl1iFnCWZRh5j8rTuT+ic=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRHelpers.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bGuJT55r8V7/vmEfKa8ZOKGftz4YCt0GGHxEs2vrjgE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRHostAppInformationProvider.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SmR9OtM6sJlGVwEtE3ZLfAy8v1XNWkXKS7ALdEtVvto=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRImage.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ez9MPXncxMSYKjLJjjbDLFDXi2llY5G4mgHbwJjenZI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRImageCache.h</key>
@@ -450,18 +750,25 @@
 			9AD4jk+3nHjKHvQckBb+le+0WSYYeCrzM+2501tiCm8=
 			</data>
 		</dict>
+		<key>PrivateHeaders/HYPRImageCacheProvider.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XTZAk6QBtggxAiOLWHUpy30+cOuOX7rRGV02E8GlRMM=
+			</data>
+		</dict>
 		<key>PrivateHeaders/HYPRJSContext.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BSL0F1/4hixyKVxilUvcVPkd0ghzA/iUUAtg+sZ5nW8=
+			BczpNmLVpzDumCQlzr5zlUJ4mf18lGqutyQktaFBEEw=
 			</data>
 		</dict>
-		<key>PrivateHeaders/HYPRJSContextSource.h</key>
+		<key>PrivateHeaders/HYPRLogLevelProvider.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iqNrz0rPnA8Gg4M4JbtbKiVPgK3r+l9qKP7Eg0v35tE=
+			6agbWW3kwogqwbNkehVxYQLrPEomF3DB3tT6dmJ/CYA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRLogger.h</key>
@@ -475,7 +782,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pwagfyryQf5IP+U9bilF20hdGZB0kUz0a4IJPKCMhl0=
+			oXuxZimxpCgp6nVOJMLapMQ+uunzeePIq+JGaYfiaVA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRMediationProvider.h</key>
@@ -485,11 +792,11 @@
 			XFzLWLfDrpIChj10fnxh6Jbo95Hjdbq270/KVAXjpSw=
 			</data>
 		</dict>
-		<key>PrivateHeaders/HYPRNativeAudioEventPublisherProtocol.h</key>
+		<key>PrivateHeaders/HYPRMutableURLRequest.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jbzv5VUTLIts56rJ/lHzbyob7wpUTHAQ8GTlbW91HU8=
+			gztOliXYZoDHEQcf17ibJAN4IDWjgt7D3jfEOQaWQgI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRNativeDelegate.h</key>
@@ -499,25 +806,95 @@
 			mVbNP8z+1fvjmezDceKwN0ls1LvZk7nIOYIunDOMdRg=
 			</data>
 		</dict>
-		<key>PrivateHeaders/HYPRNativeTimer.h</key>
+		<key>PrivateHeaders/HYPRNavigationController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N0cB7S26Jx3pive6rZBU6AHXNPjGup/7nAKxJUzdnMk=
+			fHpK+gmcWAfefiRCDLtXpvUT/9M/j+nxFbtDFcTKljU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRNavigationDecision.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dn4h5QQ0VO51W8CyQvKCMpJDdaZfWYXrxKVfw1eXGxY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRNoOfferAppearance.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nw8ihMqJvKfCosK8TcWW8rO0sSNHNNzuwtiDs8LU6kA=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRNoOfferViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4gwkZ6TQxOtno98mSZkzD3zlTNBdURu8ukUMze8T0Qw=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPROffer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5MvRVG7yP0juAn5bKxwuE2ZPHUbgCJ5OIDj6QIFMFyY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPROfferFullscreenAdViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KpRTTUAUfjRyIqQCuLCsVCarT6rtba8qnWv/sZh0jss=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPROfferNavBar.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WVl2rfrpC4vFZ83Adce1GWVnMlegswwkpzBTwQ5flRM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPROfferViewController+Mraid.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t4w/DlPUZaZSmP+ciRrGCVHSv8JuvOoIUICafhvJDKs=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPROfferViewController+NativeDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Fvt68dE49IRx9m1UTPPonhO5F5cz7X5lXHN8nBiy19Y=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPROfferViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			44Sv4IatQ6YUwsSgcekNYrTldokN9Ox/eCeHMs0Mid8=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPROfferWebTrafficViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zrOn6ouZO5VsjtAeTYQd90EM81O2NYdXVCyJzfUd1Ug=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPROpenMeasurementController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J7ZtsdGpL869dxiSqnliOy23o5qRXCOvjPrR9S+XKqg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPROrientation.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3M9Ulg8ep2CxM9HTNpMoAfUwuCAFOKPg7VSYKbDon28=
-			</data>
-		</dict>
-		<key>PrivateHeaders/HYPRParameterControllerProtocol.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0Fc0w8hGpBEScqMhiT05/PTdv3yKdtjn78yTRnwQ+uQ=
+			Wxxw7dGTQOWw1xpGJRAIgEL++Q1M/ckH7erwoES+9FU=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRPhotoActivityViewHelper.h</key>
@@ -527,32 +904,18 @@
 			hLpyTpz6ES9kh6oTU5FBz748wykatTjaURg0yw+Xuv4=
 			</data>
 		</dict>
-		<key>PrivateHeaders/HYPRPreloadFetchStatusProtocol.h</key>
+		<key>PrivateHeaders/HYPRPreloadController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ee5YOc87YQcfjTqc7RESOvQ4SYIFqvCKl3VxspH+bhI=
+			FfEgxSjWp35wOXVqqXcQ/aqnyKz4Na1krHymk8zgi4E=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRPresentationAdapterProtocol.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LZVdl8t7HGAncEaur4Ew18G5EZz2dSNIGrlQ1tuX6dA=
-			</data>
-		</dict>
-		<key>PrivateHeaders/HYPRPresentationController.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1MgPZMMb8MTa3HfOLLx5rNLMwWCecRoFgyTQTYu9SGo=
-			</data>
-		</dict>
-		<key>PrivateHeaders/HYPRPresentationControllerResultDelegate.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KGUXLlfJP4r/chudZppL7sU5Ex8QOz3tuAUIGQhewBE=
+			iQ2safs4J8JbW/5PO00LxsZeqa7XMRtpzBwki217ZCM=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRPresentationResultsDelegate.h</key>
@@ -573,28 +936,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uiZV+lc4EldVyGl9WyYrYi7THZZjVthEHxjUsox1MUI=
+			8K5919Cha2vpble9RXIFzadlGTXos0YoMJmUI0vhjsg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRQueueManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zxcPZu0TL0apYdLBzhtvgQzTiFFC5NEjbX7V2DBvHyI=
+			b65ox6Fa0eSltMI/NXrX2jqlXHTJe3jMOtnG4pDmCuI=
 			</data>
 		</dict>
-		<key>PrivateHeaders/HYPRSDKParameters.h</key>
+		<key>PrivateHeaders/HYPRRequiredInfoAnswer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PpoHGpWhVmXqRZCMUw7Nehv0a384JqDWeRqorimlIzA=
+			U1Qoh2ttTByBdDv2EXLDw9O3ZF80P5A8mNDQzZMnnGQ=
 			</data>
 		</dict>
-		<key>PrivateHeaders/HYPRStoryBoardViewControllerLoader.h</key>
+		<key>PrivateHeaders/HYPRRequiredInfoConstants.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TYgJogo6UR0o81EsodiaptLu+XEWw+rVWJ4XrwpYoiE=
+			Gan5kQRbVlTeZCCF5jjHZP1HwLHJz9+e6d7dEEDaBT0=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRRequiredInfoQuestion.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+BcThPph7qXeDTpN8zM/9AFwcowoab0BlEpua3ixB30=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRRequiredInfoSelectionShape.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uemi+i9qQ4pbaugOIVcmQ2RJmDmb/KNVe1xevqbKQc8=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRRequiredInformationCollectionViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T0RCWGAtCch7LOdbsfx5ip0j8zP8eJ1EZc3DRQXQaVY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRScreenAdjustments.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GQZLBXLH4pHQmQ1As4p3vk4XALnhkA6BNpOKP6MBbCE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRSecondaryControllerRotationHelper.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e5x806aBwKrzGlZIXvjoQJ9lYWjx//K0+lW6toFB9cc=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRThreadAssert.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hRqMuDguZp1jo/OiWlysrH5SK5NHamtyzEumKKsjSTQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRTraitCollection.h</key>
@@ -604,18 +1009,74 @@
 			ZJVzn5DkmbwLnmgKi1zMKa/hmBiuN/STZVEo3L2Lls4=
 			</data>
 		</dict>
-		<key>PrivateHeaders/HYPRTransparencyTrackingManager.h</key>
+		<key>PrivateHeaders/HYPRUserInfoAppearance.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fsoi+12mNl2kHBxW9fYiul+JBUHfV/ulsWpAxTt837U=
+			XowRBT8mKUH57uvzlqGRCSxyXUVZccp8kvjy4cnaHJQ=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRUserInfoElementBorder.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FKBMvkMnaYfRF1yd3f8ArZrWO0mEjleKYMNCfduTT5g=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRUserInfoElementFont.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pD1hh+0WOufJZVjJFmdarBPCjbBTBiliJAVwC0Pzbl4=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRUserInfoElementImage.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WkqNK/4ITJIsVd4eRxePReJT6blc9mLOLmNMElPhoqM=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRUserInfoElementStyle.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JcislqsYxooW8sALPRpBr918rdHBhqdLL6QuxShQrok=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRUserInfoHeader.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U7x5tjaxUTwCyCQz3IRx1vU65Y4ERpYEppIPP6lmGH0=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRUserInfoNavigationBarAppearance.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BWL/2nRK/gvxmdbRRv/tZvnoFzz9P2jVVqKJ2beFcUA=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRUserInfoSubmitButton.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PpPNF+tRp3S8o64NnJQVc9ujejTLM0BTBWLstj0uQF4=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRUserInterface.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zRt063udeWhyUm+XYY0ucIrfkLn9N8DGiIai5fjBNLM=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRViewModelConnector.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZaRaLcVC4R7eBd0pQEPP3cIK3KDsl/sVYvETyEQHPyA=
+			s+KnqNZw3GSIMDPLmgHKqc1Ln4Z7kzdqGPG5qCAMWw4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRWeakNativeProxy.h</key>
@@ -625,25 +1086,81 @@
 			gMXbjACgWl1s7lrpXN/m0/FvGhUe6rvGzCio1VL1OtY=
 			</data>
 		</dict>
+		<key>PrivateHeaders/HYPRWeakTimerTarget.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EU8DMaoeqPMhfmgOewvS/RpQ2HhbXTVUFf4UByQnJGE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRWebTrafficNativeDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ybSS27jRG1Q1WBd3DEaH/wPwQN8/5OnNz12or0VKzlY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRWebTrafficNavBar.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			88joa8cyv9wecwfskkYOs9ZoIxpnbYCHqBRFBkhgMjc=
+			</data>
+		</dict>
 		<key>PrivateHeaders/HYPRWebView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g0p163mNnrm10KOAO0LM+/Qnb41zZXfe0NJByzmctzw=
+			rFQU2jHPGEWaTmsWthvz4iKvFPpi0MZZ6rB9w/L1Y0k=
 			</data>
 		</dict>
-		<key>PrivateHeaders/HyprMXErrorFactory.h</key>
+		<key>PrivateHeaders/HYPRWebViewLoadDataEvent.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZdVp7575Rag0Jrwc478KHx9/eu0Smzk9PwSi1bIszik=
+			64ifm2wfRVj4HwuVCl6+iZNGWCK9ODMtqJ4QunEsOFE=
 			</data>
 		</dict>
-		<key>PrivateHeaders/HyprMXSingletonDelegate.h</key>
+		<key>PrivateHeaders/HYPRWebViewModelConnector.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PWXvsWHX303mxMLwguneyJTdKHvm6cOH2B5J0eFZ9RE=
+			0Er7ycCfiv1Hmem7zTjpnXAHffIaQ6Po94kY28JnuyY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRWebViewNativeDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/r80b9spMLJxwNgbWbSy2LKtP7RtwM48nL4YFadEm1Y=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRWebViewPresenter.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JxY7XqXa6WOjdtprbUE0FVeOXFgEpE9C+wgbQLJidJI=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRWebViewPresenterProxy.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SedPG+oSw7fsq5ll8YqRIQoABpQCQ+ukm3/WZowgqns=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HYPRWebViewUpdateConfiguration.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dQGNY205+JCt96Ri83glt3AbyX5NwKfIHocP39JOj8A=
+			</data>
+		</dict>
+		<key>PrivateHeaders/HyprManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WEnFM9QgQj2AUnAf/W3T+eKDWuoYQVdBVCqBzmHbBH4=
 			</data>
 		</dict>
 		<key>mute_asset.aiff</key>
@@ -657,7 +1174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o36m11vcLt8E9bwzgnyZpEXdqREYg/csuxahJbm6jp8=
+			6rJtX3MmdmbH832ufPxh/RvvW+OHUGRSw67Zuoh0DTM=
 			</data>
 		</dict>
 	</dict>
