@@ -19,7 +19,6 @@ import com.hyprmx.android.sdk.placement.HyprMXPlacementExpiryListener;
 import com.hyprmx.android.sdk.placement.HyprMXRewardedShowListener;
 import com.hyprmx.android.sdk.placement.HyprMXShowListener;
 import com.hyprmx.android.sdk.placement.Placement;
-import com.hyprmx.android.sdk.utility.HyprMXLog;
 
 public class MainActivity extends AppCompatActivity implements HyprMXShowListener, HyprMXPlacementExpiryListener,
   HyprMXRewardedShowListener {
@@ -57,9 +56,6 @@ public class MainActivity extends AppCompatActivity implements HyprMXShowListene
     binding.buttonShowCompose.setVisibility(View.GONE);
 
     setupClickListeners();
-
-
-    HyprMXLog.enableDebugLogs(true);
 
     HyprMXIf.HyprMXInitializationListener initializationListener = new HyprMXIf.HyprMXInitializationListener() {
 

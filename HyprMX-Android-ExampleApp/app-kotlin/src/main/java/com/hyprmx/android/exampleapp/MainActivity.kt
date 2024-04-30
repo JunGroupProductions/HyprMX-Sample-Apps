@@ -13,7 +13,6 @@ import com.hyprmx.android.sdk.placement.HyprMXPlacementExpiryListener
 import com.hyprmx.android.sdk.placement.HyprMXRewardedShowListener
 import com.hyprmx.android.sdk.placement.HyprMXShowListener
 import com.hyprmx.android.sdk.placement.Placement
-import com.hyprmx.android.sdk.utility.HyprMXLog.enableDebugLogs
 import kotlinx.coroutines.launch
 
 /**
@@ -65,8 +64,6 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
     }
 
     setupClickListeners()
-    enableDebugLogs(true)
-
 
     /*
      * The initializer no longer includes an optional ageRestrictedUser parameter. If the user is under the age of 16, set this parameter to true
