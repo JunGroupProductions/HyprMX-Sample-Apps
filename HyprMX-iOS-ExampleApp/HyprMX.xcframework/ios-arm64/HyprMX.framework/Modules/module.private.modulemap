@@ -14,7 +14,6 @@ framework module HyprMX_Private {
     header "HYPRLogger.h"
     header "HYPRNativeDelegate.h"
     header "HYPRBrowserViewModelConnector.h"
-    header "HYPRWeakNativeProxy.h"
     header "HYPRPresentationAdapterProtocol.h"
     header "HYPRMediationProvider.h"
     header "HYPRTraitCollection.h"
@@ -38,5 +37,8 @@ framework module HyprMX_Private {
     header "HYPRRequiredInfoQuestion.h"
     header "HYPRRequiredInformationCollectionViewController.h"
     header "HYPRUserInfoAppearance.h"
+    header "HYPRFullscreenNativeDelegate.h"
+    header "HYPRWebTrafficNativeDelegate.h"
+    header "HYPRWeakNativeProxy.h"
     export *
 }
