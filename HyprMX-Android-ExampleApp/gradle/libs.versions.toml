@@ -1,12 +1,12 @@
 [versions]
-androidGradlePlugin = "8.0.1"
-hyprmx-sdk = "6.4.1"
-androidx-activity-compose = "1.7.1"
-androidx-core = "1.10.0"
-compose = "1.4.3"
+androidGradlePlugin = "8.0.2"
+hyprmx-sdk = "6.4.2"
+androidx-activity-compose = "1.9.1"
+androidx-core = "1.13.1"
+compose = "1.6.8"
 constraintlayout = "2.1.4"
-google-gms-ads = "18.0.1"
-google-material = "1.9.0"
+google-gms-ads = "18.1.0"
+google-material = "1.12.0"
 
 [libraries]
 hyprmx-sdk = { group = "com.hyprmx.android", name = "HyprMX-SDK", version.ref = "hyprmx-sdk" }
