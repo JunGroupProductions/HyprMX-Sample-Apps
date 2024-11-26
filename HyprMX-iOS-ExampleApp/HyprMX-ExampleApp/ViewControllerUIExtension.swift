@@ -12,7 +12,6 @@ import HyprMX
 
 // For UI functionality
 extension ViewController {
-
     func setUpUI() {
         navigationItem.titleView = UIImageView(image: UIImage(named: "hyprLogo"))
         hideUI(isHidden: true)

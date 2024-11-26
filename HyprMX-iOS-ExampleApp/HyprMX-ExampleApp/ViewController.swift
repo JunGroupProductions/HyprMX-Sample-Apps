@@ -244,6 +244,4 @@ class ViewController: UIViewController, HyprMXPlacementShowDelegate, HyprMXPlace
         self.loadBannerAd()
         styleLoadButton(index: 2, tapped: true)
     }
-    
 }
-

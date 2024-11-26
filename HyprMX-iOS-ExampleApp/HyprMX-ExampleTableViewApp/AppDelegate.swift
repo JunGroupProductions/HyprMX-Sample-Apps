@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import HyprMX
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Pass EIDs to HyprMX before initializing for best results
+        // passEIDSToHyprMX()
         return true
     }
 
@@ -32,6 +33,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    func passEIDSToHyprMX() {
+        let uid2 = [
+            [
+                "id": "testUID2Id"
+            ]
+        ]
 
+        let id5 = [
+            [
+                "id": "testID5Id",
+                "linkType": 2, // Optional. Only integer values 0..3 are allowed.
+                "abTestingControlGroup": true // Optional
+            ]
+        ]
+
+        let liveintent = [
+            [
+                "id": "testLiveintentId",
+                "atype": 1 // Optional. Only integer values 1, 2, 3, or 500+ allowed
+            ]
+        ]
+
+        let eids = [
+            "uid2": uid2,
+            "id5": id5,
+            "liveintent": liveintent
+        ]
+
+        if let eidData = try? JSONSerialization.data(withJSONObject: eids) {
+            // Pass EID json string to HyprMX
+            HyprMX.setUserExtras(String(data: eidData, encoding: .utf8) ?? "", for: "eids")
+        }
+    }
 }
-
