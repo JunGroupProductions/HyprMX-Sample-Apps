@@ -6,6 +6,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.hyprmx.android.exampleapp.common.databinding.ActivityMainBinding
+import com.hyprmx.android.exampleapp.eids.EIDJson
 import com.hyprmx.android.sdk.banner.HyprMXBannerSize
 import com.hyprmx.android.sdk.core.HyprMX
 import com.hyprmx.android.sdk.core.HyprMXErrors
@@ -14,6 +15,7 @@ import com.hyprmx.android.sdk.placement.HyprMXRewardedShowListener
 import com.hyprmx.android.sdk.placement.HyprMXShowListener
 import com.hyprmx.android.sdk.placement.Placement
 import kotlinx.coroutines.launch
+import org.json.JSONObject
 
 /**
  * This activity demonstrates how to integrate Rewarded and Interstitial Ads
@@ -49,6 +51,7 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     binding = ActivityMainBinding.inflate(layoutInflater)
+    binding.root.applyWindowInsets()
     setContentView(binding.root)
 
     setSupportActionBar(binding.toolbar)
@@ -64,6 +67,11 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
     }
 
     setupClickListeners()
+
+    /*
+     * Unique External IDs can be defined either before or after SDK initialization but should preferably be defined before init always as possible.
+     */
+    setExternalUniqueIds()
 
     /*
      * The initializer no longer includes an optional ageRestrictedUser parameter. If the user is under the age of 16, set this parameter to true
@@ -82,6 +90,42 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
         handleInitialization(initSuccess)
       }
     }
+  }
+
+  /**
+   * To set EIDs, you need to use HyprMX.setUserExtras API and make sure "eids" is set as key value for those IDs.
+   * You can reset or remove previously defined IDs by setting an empty or nullable string to "eids" key.
+   * Everytime you call HyprMX.setUserExtras previous IDs will be overridden. If you need to set more than one ID you can also do it.
+   * Check out all the possible JSON structure you can use to define your IDs in common/EIDJson.kt
+   */
+  private fun setExternalUniqueIds() {
+    // Set external UID for UID2
+    // HyprMX.setExternalUID(EIDJson.UID2)
+
+    // Set external UID for ID5
+    // HyprMX.setExternalUID(EIDJson.ID5)
+
+    // Set external UID for Live Intent
+    // HyprMX.setExternalUID(EIDJson.LIVE_INTENT)
+
+    // Set multiple external UIDs
+    // HyprMX.setExternalUID(EIDJson.MULTIPLE_EIDS)
+
+    // Clean UIDs
+    // HyprMX.setExternalUID("")
+  }
+
+  // HyprMX extensions to simplify set an external UID.
+  // Please bear in mind, the value you set must be a valid JSON structure.
+  private fun HyprMX.setExternalUID(value: String) {
+    val eidData = try {
+      JSONObject(value).toString()
+    } catch (ex: Exception)  {
+      Log.e(TAG, "Error validating EID JSON structure.")
+      null
+    }
+
+    setUserExtras(EIDJson.EXTRA_USER_EIDS_KEY, eidData)
   }
 
   private fun handleInitialization(initSuccess: Boolean) {

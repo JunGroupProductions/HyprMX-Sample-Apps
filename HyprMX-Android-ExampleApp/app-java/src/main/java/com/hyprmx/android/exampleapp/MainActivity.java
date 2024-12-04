@@ -10,6 +10,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.hyprmx.android.exampleapp.common.databinding.ActivityMainBinding;
+import com.hyprmx.android.exampleapp.eids.EIDJson;
 import com.hyprmx.android.sdk.banner.HyprMXBannerSize;
 import com.hyprmx.android.sdk.core.HyprMX;
 import com.hyprmx.android.sdk.core.HyprMXErrors;
@@ -19,6 +20,8 @@ import com.hyprmx.android.sdk.placement.HyprMXPlacementExpiryListener;
 import com.hyprmx.android.sdk.placement.HyprMXRewardedShowListener;
 import com.hyprmx.android.sdk.placement.HyprMXShowListener;
 import com.hyprmx.android.sdk.placement.Placement;
+
+import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity implements HyprMXShowListener, HyprMXPlacementExpiryListener,
   HyprMXRewardedShowListener {
@@ -41,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements HyprMXShowListene
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     binding = ActivityMainBinding.inflate(getLayoutInflater());
+    Utilities.applyWindowInsets(binding.getRoot());
     setContentView(binding.getRoot());
 
     setSupportActionBar(binding.toolbar);
@@ -56,6 +60,11 @@ public class MainActivity extends AppCompatActivity implements HyprMXShowListene
     binding.buttonShowCompose.setVisibility(View.GONE);
 
     setupClickListeners();
+
+    /*
+     * Unique External IDs can be defined either before or after SDK initialization but should preferably be defined before init always as possible.
+     */
+    setExternalUniqueIds();
 
     HyprMXIf.HyprMXInitializationListener initializationListener = new HyprMXIf.HyprMXInitializationListener() {
 
@@ -92,6 +101,41 @@ public class MainActivity extends AppCompatActivity implements HyprMXShowListene
      * the AAID for end-users flagged as children.
      */
     HyprMX.INSTANCE.initialize(this, DISTRIBUTOR_ID, initializationListener);
+  }
+
+  /**
+   * To set EIDs, you need to use HyprMX.setUserExtras API and make sure "eids" is set as key value for those IDs.
+   * You can reset or remove previously defined IDs by setting an empty or nullable string to "eids" key.
+   * Everytime you call HyprMX.setUserExtras previous IDs will be overridden. If you need to set more than one ID you can also do it.
+   * Check out all the possible JSON structure you can use to define your IDs in common/EIDJson.kt
+   */
+  private void setExternalUniqueIds() {
+    // Set external UID for UID2
+    // setUserExtras(EIDJson.UID2);
+
+    // Set external UID for ID5
+    // setUserExtras(EIDJson.ID5);
+
+    // Set external UID for Live Intent
+    // setUserExtras(EIDJson.LIVE_INTENT);
+
+    // Set multiple external UIDs
+    // setUserExtras(EIDJson.MULTIPLE_EIDS);
+
+    // Clean UIDs
+    // setUserExtras("");
+  }
+
+  // Please bear in mind, the value you set must be a valid JSON structure.
+  private void setUserExtras(@NonNull String uid) {
+    String eidData = null;
+    try {
+      eidData = new JSONObject(uid).toString();
+    } catch (Exception ex)  {
+      Log.e(TAG, "Error validating EID JSON structure.");
+    }
+
+    HyprMX.INSTANCE.setUserExtras(EIDJson.EXTRA_USER_EIDS_KEY, eidData);
   }
 
   private void setupPlacements() {

@@ -44,7 +44,10 @@ class BannerRecyclerIntegrationActivity : AppCompatActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    binding = ActivityRecyclerBannerBinding.inflate(layoutInflater)
+    binding = ActivityRecyclerBannerBinding.inflate(layoutInflater).also {
+      it.root.applyWindowInsets()
+    }
+
     setContentView(binding.root)
 
     recyclerViewItems = initBannerViews(BANNER_COUNT, BANNER_PLACEMENT_NAME, BANNER_SIZE)

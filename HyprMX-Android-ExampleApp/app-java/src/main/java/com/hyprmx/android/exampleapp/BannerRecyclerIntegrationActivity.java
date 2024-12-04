@@ -54,6 +54,7 @@ public class BannerRecyclerIntegrationActivity extends AppCompatActivity {
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     ActivityRecyclerBannerBinding binding = ActivityRecyclerBannerBinding.inflate(getLayoutInflater());
+    Utilities.applyWindowInsets(binding.getRoot());
     setContentView(binding.getRoot());
 
     recyclerViewItems = initBannerViews(BANNER_SIZE);

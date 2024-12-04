@@ -29,6 +29,7 @@ class HyprMXBannerListenerImpl : HyprMXBannerListener {
   /**
    * Called when an user has navigated away from the app.
    */
+  @Suppress("OVERRIDE_DEPRECATION")
   override fun onAdLeftApplication(view: HyprMXBannerView) {
     Log.d(MainActivity.TAG, "onAdLeftApplication for ${view.placementName}")
   }
