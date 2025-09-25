@@ -13,12 +13,14 @@ To get started with HyprMX Example Apps, clone this repo and follow the instruct
 1. Open HyprMX-Android-ExampleApp in Android Studio
 2. Run the application to see the Ads using our Example App Distributor ID
 3. Open MainActivity.kt
-4. Modify DISTRIBUTOR_ID to match the Distributor ID provided to you by HyprMX
-5. Modify REWARDED_PLACEMENT_NAME to match one of your rewarded placements
-6. Modify INTERSTITIAL_PLACEMENT_NAME to match one of your interstitial placements
-7. Modify BANNER_PLACEMENT_NAME to match one of your banner placements
-8. Modify BANNER_SIZE to match the banner placement size
+4. Modify `DISTRIBUTOR_ID` to match the Distributor ID provided to you by HyprMX
+5. Modify `REWARDED_PLACEMENT_NAME` to match one of your rewarded placements
+6. Modify `INTERSTITIAL_PLACEMENT_NAME` to match one of your interstitial placements
+7. Modify `BANNER_PLACEMENT_NAME` to match one of your banner placements
+8. Modify `BANNER_SIZE` to match the banner placement size
 9. Run the application to see the Ads using your Distributor ID
+
+For `app-kotlin` module, there's an extra flag `USE_SUSPENDED_API_MODE` that can be used to switch between the callback and suspend versions of initialization and Placement.loadAd API.
 
 ### iOS ExampleApp
 1. Open HyprMX-ExampleApp.xcodeproj in Xcode

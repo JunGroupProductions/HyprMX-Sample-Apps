@@ -110,4 +110,6 @@ extern BOOL HYPRCanCallBlock(id block, NSString *className, NSString *methodName
 /** Evaluates String and returns true if content indicates it contains html elements*/
 + (BOOL)isHTMLString:(NSString *)string;
 
++ (void)setHidesSharedBackgroundFor:(UIBarButtonItem *)item;
+
 @end

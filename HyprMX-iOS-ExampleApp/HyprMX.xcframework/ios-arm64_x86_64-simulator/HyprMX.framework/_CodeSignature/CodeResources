@@ -34,11 +34,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Rr0IFZiYuHAnw7pQMEh9bQqFdq0=
+		GfkpR+EohkTKWkB3t0FoW0f1KlM=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LSLxII9cHkAkoCKMP2PUEjOOFck=
+		sbo6TmOr/xYk1CsY4wErHxRy/kk=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W96MqZZmd9h+h57Xm4JbGovo7x8=
+		1EPBABQC5QJHBG4pVKawMIhFHXo=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LSLxII9cHkAkoCKMP2PUEjOOFck=
+		sbo6TmOr/xYk1CsY4wErHxRy/kk=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QZb8p0Xre4QAMgBYFSYuZp80WWg=
+		FvK5eB8vDhPfvtWjg+e7E3PChAA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		q3eoU5i1FSRt6Dtzxdvk9FjtKYg=
+		9aZf0UM06Ctn/6bQC4RXUcpVvlg=
 		</data>
 		<key>PrivateHeaders/HYPRAlertView.h</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>PrivateHeaders/HYPRHelpers.h</key>
 		<data>
-		KKuxj535JT4XGkZg4pb3sytsqoU=
+		jvE1dr4m0YAaj1jmfgoew7TF9JI=
 		</data>
 		<key>PrivateHeaders/HYPRHostAppInformationProvider.h</key>
 		<data>
@@ -488,7 +488,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iKPhzEOnImXiLhtqKNhS+Ywgvol5wog8LGOmY4/KAuo=
+			N4KAUQnEZDsON55fI417wHKIXRvPK1jZqiEugvZ29MU=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -516,14 +516,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mmWu+L8xYPB4O+pSYRdqTKWF28ah4NECml2YR5uHrnU=
+			WK90gX13iU0rVX8zFt4Ha6dtBHkBAbY/L8rTPHSvSRo=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iKPhzEOnImXiLhtqKNhS+Ywgvol5wog8LGOmY4/KAuo=
+			N4KAUQnEZDsON55fI417wHKIXRvPK1jZqiEugvZ29MU=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -551,7 +551,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HNF9g068aJqAZSUen/xkrFSPXXPiPRW/AoiKWKY81A0=
+			NTO95Tc1mwGyNvtUqCSMVQSLqiqNBA6Ll1gRzXyinBE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -572,7 +572,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5/xCC3n6R2R1mHi/YaeeA6Oq1SmZtitT8cGpXBxQrE=
+			V8fzCycAtEfk3wutYZsSxGCZFdeJf96DNEEhevi/K8g=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRAlertView.h</key>
@@ -726,7 +726,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGuJT55r8V7/vmEfKa8ZOKGftz4YCt0GGHxEs2vrjgE=
+			bCM9jnp9HEgYCEYIYudqtxUuPxHac1qbWbrVDSHePd4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/HYPRHostAppInformationProvider.h</key>

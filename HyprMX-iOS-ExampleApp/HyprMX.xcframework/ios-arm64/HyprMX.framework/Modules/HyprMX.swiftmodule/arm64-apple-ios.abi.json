@@ -7392,63 +7392,98 @@
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3261,
+      "offset": 3289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3302,
+      "offset": 3330,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3482,
+      "offset": 3510,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4119,
+      "offset": 4228,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4398,
+      "length": 43,
+      "value": "\"safeAreaLayoutRegionWithCornerAdaptation:\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4504,
+      "length": 20,
+      "value": "\"UIViewLayoutRegion\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5102,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5289,
+      "length": 29,
+      "value": "\"layoutGuideForLayoutRegion:\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4643,
+      "offset": 6654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4719,
+      "offset": 6730,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5677,
+      "offset": 7688,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5965,
+      "offset": 7976,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5986,
+      "offset": 7997,
       "length": 3,
       "value": "\"\""
     },
@@ -7462,126 +7497,126 @@
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8919,
+      "offset": 10930,
       "length": 31,
       "value": "\"Unable to present share sheet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9266,
+      "offset": 11277,
       "length": 68,
       "value": "\"Unable to present share sheet for url: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9333,
+      "offset": 11344,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9813,
+      "offset": 11824,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9843,
+      "offset": 11854,
       "length": 60,
       "value": "\"Presented share sheet for url: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9902,
+      "offset": 11913,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10107,
+      "offset": 12118,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10203,
+      "offset": 12214,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10322,
+      "offset": 12333,
       "length": 23,
       "value": "\"Cannot download image\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11603,
+      "offset": 13614,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11609,
+      "offset": 13620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11619,
+      "offset": 13630,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11631,
+      "offset": 13642,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11784,
+      "offset": 13795,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12072,
+      "offset": 14083,
       "length": 54,
       "value": "\"Could Not Store Image: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12125,
+      "offset": 14136,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12188,
+      "offset": 14199,
       "length": 25,
       "value": "\"Photo Storage Cancelled\""
     },
     {
       "filePath": "\/Users\/runner\/work\/Mobile-SDK\/Mobile-SDK\/iOS\/HyprMX\/HyprMX\/Controller\/BrowserViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12275,
+      "offset": 14286,
       "length": 25,
       "value": "\"Photo Storage Completed\""
     },
