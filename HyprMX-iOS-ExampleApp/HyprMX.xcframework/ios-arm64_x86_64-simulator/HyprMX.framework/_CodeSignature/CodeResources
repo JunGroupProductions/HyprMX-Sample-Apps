@@ -18,7 +18,7 @@
 		</data>
 		<key>HYPRFullScreen.storyboardc/HYV-Ze-c8w-view-Zw5-mJ-W8m.nib/runtime.nib</key>
 		<data>
-		/muvgaaaaGal+3OEprel3Ai5Vt8=
+		5k1lXtfjrGj/XdNcw9A76YzpfiY=
 		</data>
 		<key>HYPRFullScreen.storyboardc/Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/HyprMX-Swift.h</key>
 		<data>
-		lg4Y9F+VN33s69cgPbGJOKJouXg=
+		lLoiabYMWgAwEd4UyfJCJeY8gWA=
 		</data>
 		<key>Headers/HyprMX.h</key>
 		<data>
@@ -34,47 +34,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GfkpR+EohkTKWkB3t0FoW0f1KlM=
+		CP7AiGB9284uqGwvJa+NWYAEZQY=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sbo6TmOr/xYk1CsY4wErHxRy/kk=
+		ieOO48a9wO0eghijXXkthHXbPYY=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uvv4mSy0tlE5jlOCdMg2o8UobRU=
+		ofq1tAe3vybXxXKJXzUYs/LTBos=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DJWz/s5AC8siVtYx0gtIhpMnB6g=
+		CPXFd0ekIWg72CeX8l3DIRkuF+Q=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uvv4mSy0tlE5jlOCdMg2o8UobRU=
+		ofq1tAe3vybXxXKJXzUYs/LTBos=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1EPBABQC5QJHBG4pVKawMIhFHXo=
+		7EunpZMinVERi3q9LyqJcNyIVYQ=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sbo6TmOr/xYk1CsY4wErHxRy/kk=
+		ieOO48a9wO0eghijXXkthHXbPYY=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		o9xxfVLnsSauIt37jCh4CEwnOsM=
+		UCVCr0k4Wirrobz6WTfubC8JStA=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jCDzsHN8BrZrorMVEo02GJGC2ro=
+		RTcUjZfNxpcWPAP45a3W2zzsF8Y=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		o9xxfVLnsSauIt37jCh4CEwnOsM=
+		UCVCr0k4Wirrobz6WTfubC8JStA=
 		</data>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FvK5eB8vDhPfvtWjg+e7E3PChAA=
+		mEc9XI+eVhBDhs4+hhHij/mZdAs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -430,7 +430,7 @@
 		</data>
 		<key>sdk_core.min.js</key>
 		<data>
-		Jp5wPcL8FJRUPgG7/YdRXe5YQWU=
+		z4eORuAjQVTwqr/zRgPi4y7SZhg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -460,7 +460,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ww0WfZobthdfKQecQ8mfJiOAd+yeZH4hhk6f0lRs4Wo=
+			j/+QOYu9HdkU0CK5dAI3fv2zFyGvM0YT19/TSd0dsJI=
 			</data>
 		</dict>
 		<key>HYPRFullScreen.storyboardc/Info.plist</key>
@@ -474,7 +474,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bmqRSU7v/3yvFJhdkcYKYqpNhuqFTCcaxGuAahCNGEI=
+			B5ZFSelBc3A51IqNspLqbJ6H4P6dnhmX4wHtqnuCZFU=
 			</data>
 		</dict>
 		<key>Headers/HyprMX.h</key>
@@ -488,70 +488,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N4KAUQnEZDsON55fI417wHKIXRvPK1jZqiEugvZ29MU=
+			Q3NbhFBCFpiPoD8pW2zH1A2kyTGyRvS/ocT8CtHyoB4=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sQuyjVd3e58qxt6vn4Fp2eWcDlh0UOXtxN6TfZTKFdM=
+			0caCUfjS3sszM2i3JG9tu/ELP9/YCqCU50WXBM6Mf7k=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VG0FGoKM2vHJuGw9QCxbJKpPnLuNObf2VGkUn2in4zM=
+			OqqQ8CAF0jjOxr4BRxuY9+7Hahzf3+0dv5/5RYsb8EQ=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sQuyjVd3e58qxt6vn4Fp2eWcDlh0UOXtxN6TfZTKFdM=
+			0caCUfjS3sszM2i3JG9tu/ELP9/YCqCU50WXBM6Mf7k=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WK90gX13iU0rVX8zFt4Ha6dtBHkBAbY/L8rTPHSvSRo=
+			Ee9OW1EPLyiU1o20uEDgONG7TfKv3VffdFacuRDwX3g=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N4KAUQnEZDsON55fI417wHKIXRvPK1jZqiEugvZ29MU=
+			Q3NbhFBCFpiPoD8pW2zH1A2kyTGyRvS/ocT8CtHyoB4=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3e8hQvgp7DwJaCV9lyyzNkyTiRYIlNI30fNBgtF+ZLg=
+			9kvNu+DO4LCvs+ab0lHHF6ynqGbQhqXxx2Q39u8QVgA=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b2C9cWE7Q6Z+8fEOLsmVFanSz89Zn7zzddIwPmyIy+A=
+			eg7+FhgvjnCTbqsUM6XeVFzb0L90Z5Jmuw3ZwWKgD2M=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3e8hQvgp7DwJaCV9lyyzNkyTiRYIlNI30fNBgtF+ZLg=
+			9kvNu+DO4LCvs+ab0lHHF6ynqGbQhqXxx2Q39u8QVgA=
 			</data>
 		</dict>
 		<key>Modules/HyprMX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NTO95Tc1mwGyNvtUqCSMVQSLqiqNBA6Ll1gRzXyinBE=
+			oxfXQONSXIfZBJPwvhK2qGVqmAkocjNMQJaBinXUuWQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1174,7 +1174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xVna0vjFE+I6FByr1/zw9t3i4qgt0IWBsAAIK3/pfjk=
+			6h90148OoFfcEzealmMlDBn8om0kzEcCvL5uTqzJ3/o=
 			</data>
 		</dict>
 	</dict>

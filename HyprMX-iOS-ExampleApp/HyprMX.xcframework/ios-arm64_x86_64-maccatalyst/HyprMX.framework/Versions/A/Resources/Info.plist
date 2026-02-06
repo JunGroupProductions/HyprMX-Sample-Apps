@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>22H625</string>
+	<string>24G325</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,31 +17,31 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6.4.4</string>
+	<string>6.4.5</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>343</string>
+	<string>353</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>21A326</string>
+	<string>24F74</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>14.0</string>
+	<string>15.5</string>
 	<key>DTSDKBuild</key>
-	<string>23A334</string>
+	<string>24F74</string>
 	<key>DTSDKName</key>
-	<string>macosx14.0</string>
+	<string>macosx15.5</string>
 	<key>DTXcode</key>
-	<string>1501</string>
+	<string>1640</string>
 	<key>DTXcodeBuild</key>
-	<string>15A507</string>
+	<string>16F6</string>
 	<key>HyprMXHostName</key>
-	<string>marketplace-ios-b343.hyprmx.com</string>
+	<string>marketplace-ios-b353.hyprmx.com</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.15</string>
 	<key>UIDeviceFamily</key>
