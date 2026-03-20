@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		130C911326A9CB40007B6143 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130C911226A9CB40007B6143 /* ContentTableViewCell.swift */; };
-		132F1EB726BC86BD0092B292 /* HyprMX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; };
-		132F1EB826BC86BD0092B292 /* HyprMX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		132F1EB926BC86C00092B292 /* HyprMX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; };
-		132F1EBA26BC86C00092B292 /* HyprMX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		132F1EBC26BC86C40092B292 /* HyprMX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; };
-		132F1EBD26BC86C40092B292 /* HyprMX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1EB326BC86AD0092B292 /* HyprMX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		138364BD26AA0EF500A6F895 /* HyprMX_SwiftUIExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364BC26AA0EF500A6F895 /* HyprMX_SwiftUIExampleAppApp.swift */; };
 		138364BF26AA0EF500A6F895 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138364BE26AA0EF500A6F895 /* ContentView.swift */; };
 		138364C426AA0EF700A6F895 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138364C326AA0EF700A6F895 /* Preview Assets.xcassets */; };
@@ -35,6 +29,9 @@
 		930DF7F822FB5C0100D7220D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930DF7F722FB5C0100D7220D /* ViewController.swift */; };
 		930DF7FB22FB5C0100D7220D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930DF7F922FB5C0100D7220D /* Main.storyboard */; };
 		930DF80022FB5C0200D7220D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930DF7FE22FB5C0200D7220D /* LaunchScreen.storyboard */; };
+		F6537F232F6DEC2A00B48DF7 /* HyprMX in Frameworks */ = {isa = PBXBuildFile; productRef = F6537F222F6DEC2A00B48DF7 /* HyprMX */; };
+		F6537F252F6DEC3600B48DF7 /* HyprMX in Frameworks */ = {isa = PBXBuildFile; productRef = F6537F242F6DEC3600B48DF7 /* HyprMX */; };
+		F6537F272F6DEC3A00B48DF7 /* HyprMX in Frameworks */ = {isa = PBXBuildFile; productRef = F6537F262F6DEC3A00B48DF7 /* HyprMX */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				132F1EBA26BC86C00092B292 /* HyprMX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +51,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				132F1EBD26BC86C40092B292 /* HyprMX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +61,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				132F1EB826BC86BD0092B292 /* HyprMX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +69,6 @@
 
 /* Begin PBXFileReference section */
 		130C911226A9CB40007B6143 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
-		132F1EB326BC86AD0092B292 /* HyprMX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = HyprMX.xcframework; sourceTree = "<group>"; };
 		138364BA26AA0EF500A6F895 /* HyprMX-SwiftUIExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HyprMX-SwiftUIExampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138364BC26AA0EF500A6F895 /* HyprMX_SwiftUIExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyprMX_SwiftUIExampleAppApp.swift; sourceTree = "<group>"; };
 		138364BE26AA0EF500A6F895 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				132F1EBC26BC86C40092B292 /* HyprMX.xcframework in Frameworks */,
+				F6537F272F6DEC3A00B48DF7 /* HyprMX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				132F1EB926BC86C00092B292 /* HyprMX.xcframework in Frameworks */,
+				F6537F252F6DEC3600B48DF7 /* HyprMX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				132F1EB726BC86BD0092B292 /* HyprMX.xcframework in Frameworks */,
+				F6537F232F6DEC2A00B48DF7 /* HyprMX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +188,6 @@
 		930DF7E722FB5C0100D7220D = {
 			isa = PBXGroup;
 			children = (
-				132F1EB326BC86AD0092B292 /* HyprMX.xcframework */,
 				13B5A47726AA08490001FC66 /* README.md */,
 				930DF7F222FB5C0100D7220D /* HyprMX-ExampleApp */,
 				139154F426A799BA0017575A /* HyprMX-ExampleTableViewApp */,
@@ -248,6 +240,7 @@
 			);
 			name = "HyprMX-SwiftUIExampleApp";
 			packageProductDependencies = (
+				F6537F262F6DEC3A00B48DF7 /* HyprMX */,
 			);
 			productName = "HyprMX-SwiftUIExampleApp";
 			productReference = 138364BA26AA0EF500A6F895 /* HyprMX-SwiftUIExampleApp.app */;
@@ -268,6 +261,7 @@
 			);
 			name = "HyprMX-ExampleTableViewApp";
 			packageProductDependencies = (
+				F6537F242F6DEC3600B48DF7 /* HyprMX */,
 			);
 			productName = "HyprMX-ExampleTableViewApp";
 			productReference = 139154F326A799BA0017575A /* HyprMX-ExampleTableViewApp.app */;
@@ -288,6 +282,7 @@
 			);
 			name = "HyprMX-ExampleApp";
 			packageProductDependencies = (
+				F6537F222F6DEC2A00B48DF7 /* HyprMX */,
 			);
 			productName = "HyprMX-ExampleApp";
 			productReference = 930DF7F022FB5C0100D7220D /* HyprMX-ExampleApp.app */;
@@ -325,6 +320,7 @@
 			);
 			mainGroup = 930DF7E722FB5C0100D7220D;
 			packageReferences = (
+				F6537F212F6DEC2A00B48DF7 /* XCRemoteSwiftPackageReference "HyprMX-SDK-SPM" */,
 			);
 			productRefGroup = 930DF7F122FB5C0100D7220D /* Products */;
 			projectDirPath = "";
@@ -450,7 +446,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HyprMX-SwiftUIExampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = NU4557A4JE;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "HyprMX-SwiftUIExampleApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -473,7 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HyprMX-SwiftUIExampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = NU4557A4JE;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "HyprMX-SwiftUIExampleApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -496,7 +492,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NU4557A4JE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "HyprMX-ExampleTableViewApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -520,7 +516,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NU4557A4JE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "HyprMX-ExampleTableViewApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -750,6 +746,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6537F212F6DEC2A00B48DF7 /* XCRemoteSwiftPackageReference "HyprMX-SDK-SPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:JunGroupProductions/HyprMX-SDK-SPM.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.4.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6537F222F6DEC2A00B48DF7 /* HyprMX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6537F212F6DEC2A00B48DF7 /* XCRemoteSwiftPackageReference "HyprMX-SDK-SPM" */;
+			productName = HyprMX;
+		};
+		F6537F242F6DEC3600B48DF7 /* HyprMX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6537F212F6DEC2A00B48DF7 /* XCRemoteSwiftPackageReference "HyprMX-SDK-SPM" */;
+			productName = HyprMX;
+		};
+		F6537F262F6DEC3A00B48DF7 /* HyprMX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6537F212F6DEC2A00B48DF7 /* XCRemoteSwiftPackageReference "HyprMX-SDK-SPM" */;
+			productName = HyprMX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 930DF7E822FB5C0100D7220D /* Project object */;
 }

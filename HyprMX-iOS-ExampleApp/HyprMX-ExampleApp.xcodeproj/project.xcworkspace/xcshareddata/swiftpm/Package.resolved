@@ -1,0 +1,15 @@
+{
+  "originHash" : "c7b2f10d4db5353e9568b55521a477cd652f4d8f5ac3bcfe4e89d678b1cd8fb3",
+  "pins" : [
+    {
+      "identity" : "hyprmx-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:JunGroupProductions/HyprMX-SDK-SPM.git",
+      "state" : {
+        "revision" : "193d9a726667c5f96d05161e4901b7f29c304b5a",
+        "version" : "6.4.6"
+      }
+    }
+  ],
+  "version" : 3
+}
