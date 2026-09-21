@@ -750,7 +750,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		F6537F212F6DEC2A00B48DF7 /* XCRemoteSwiftPackageReference "HyprMX-SDK-SPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:JunGroupProductions/HyprMX-SDK-SPM.git";
+			repositoryURL = "https://github.com/JunGroupProductions/HyprMX-SDK-SPM.git";
 			requirement = {
 				kind = exactVersion;
 				version = 6.4.7;
