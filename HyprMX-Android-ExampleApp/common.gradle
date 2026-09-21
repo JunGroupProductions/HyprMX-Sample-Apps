@@ -1,8 +1,8 @@
 ext {
-  target_sdk = 35
-  compile_sdk = 35
+  target_sdk = 37
+  compile_sdk = 37
   min_sdk = 21
 
-  version_code = 5
-  version_name = "2.2"
+  version_code = 6
+  version_name = "2.3"
 }

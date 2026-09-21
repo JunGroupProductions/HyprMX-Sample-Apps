@@ -1,7 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-  ext.kotlin_version = '1.9.25'
-  ext.composeCompilerVer = '1.5.15'
+  ext.kotlin_version = '2.4.10'
 
   repositories {
     google()
@@ -10,6 +9,7 @@ buildscript {
   dependencies {
     classpath libs.gradle
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    classpath "org.jetbrains.kotlin:compose-compiler-gradle-plugin:$kotlin_version"
 
     // NOTE: Do not place your application dependencies here; they belong
     // in the individual module build.gradle files
@@ -24,5 +24,5 @@ allprojects {
 }
 
 tasks.register('clean', Delete) {
-  delete rootProject.buildDir
+  delete rootProject.layout.buildDirectory
 }

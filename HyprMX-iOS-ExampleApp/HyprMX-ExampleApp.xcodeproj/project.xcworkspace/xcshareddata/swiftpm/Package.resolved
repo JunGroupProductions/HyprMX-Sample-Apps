@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:JunGroupProductions/HyprMX-SDK-SPM.git",
       "state" : {
-        "revision" : "193d9a726667c5f96d05161e4901b7f29c304b5a",
-        "version" : "6.4.6"
+        "revision" : "9743e4d97f54893afc3f9744d8ad05ab1a73018e",
+        "version" : "6.4.7"
       }
     }
   ],

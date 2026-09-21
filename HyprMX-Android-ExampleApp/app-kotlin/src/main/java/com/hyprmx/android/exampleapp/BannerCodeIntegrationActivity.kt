@@ -22,8 +22,9 @@ import kotlinx.coroutines.launch
  *
  * activity_xml_integration_banner.xml shows how to integrate using xml
  */
-class BannerCodeIntegrationActivity : AppCompatActivity(), HyprMXBannerListener by HyprMXBannerListenerImpl() {
-
+class BannerCodeIntegrationActivity :
+  AppCompatActivity(),
+  HyprMXBannerListener by HyprMXBannerListenerImpl() {
   private lateinit var binding: ActivityCodeIntegrationBannerBinding
   private var hyprMXBannerView: HyprMXBannerView? = null
 
@@ -32,23 +33,25 @@ class BannerCodeIntegrationActivity : AppCompatActivity(), HyprMXBannerListener 
     binding = ActivityCodeIntegrationBannerBinding.inflate(layoutInflater)
     setContentView(binding.root)
 
-    hyprMXBannerView = HyprMXBannerView(this@BannerCodeIntegrationActivity, null).apply {
-      placementName = BANNER_PLACEMENT_NAME
-      adSize = BANNER_SIZE
-      id = R.id.hyprmx_banner_view
+    hyprMXBannerView =
+      HyprMXBannerView(this@BannerCodeIntegrationActivity, null)
+        .apply {
+          placementName = BANNER_PLACEMENT_NAME
+          adSize = BANNER_SIZE
+          id = R.id.hyprmx_banner_view
 
-      // Set the size to the size of the requested banner
-      val params = ConstraintLayout.LayoutParams(dpToPx(320), dpToPx(50))
-      layoutParams = params
+          // Set the size to the size of the requested banner
+          val params = ConstraintLayout.LayoutParams(dpToPx(320), dpToPx(50))
+          layoutParams = params
 
-      lifecycleScope.launch {
-        if (loadAd()) {
-          Log.d(TAG, "onAdLoaded for $placementName")
-        } else {
-          Log.d(TAG, "onAdFailedToLoad for $placementName")
-        }
-      }
-    }.also(binding.constraintLayout::addView)
+          lifecycleScope.launch {
+            if (loadAd()) {
+              Log.d(TAG, "onAdLoaded for $placementName")
+            } else {
+              Log.d(TAG, "onAdFailedToLoad for $placementName")
+            }
+          }
+        }.also(binding.constraintLayout::addView)
 
     updateViewConstraints()
   }

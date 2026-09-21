@@ -20,9 +20,11 @@ import org.json.JSONObject
 /**
  * This activity demonstrates how to integrate Rewarded and Interstitial Ads
  */
-class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExpiryListener,
+class MainActivity :
+  AppCompatActivity(),
+  HyprMXShowListener,
+  HyprMXPlacementExpiryListener,
   HyprMXRewardedShowListener {
-
   companion object {
     const val TAG = "HyprMX"
 
@@ -118,12 +120,13 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
   // HyprMX extensions to simplify set an external UID.
   // Please bear in mind, the value you set must be a valid JSON structure.
   private fun HyprMX.setExternalUID(value: String) {
-    val eidData = try {
-      JSONObject(value).toString()
-    } catch (ex: Exception)  {
-      Log.e(TAG, "Error validating EID JSON structure.")
-      null
-    }
+    val eidData =
+      try {
+        JSONObject(value).toString()
+      } catch (ex: Exception) {
+        Log.e(TAG, "Error validating EID JSON structure.")
+        null
+      }
 
     setUserExtras(EIDJson.EXTRA_USER_EIDS_KEY, eidData)
   }
@@ -206,7 +209,10 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
     startActivity(Intent(this, T::class.java))
   }
 
-  private fun onAdAvailable(placement: Placement, isAdAvailable: Boolean) {
+  private fun onAdAvailable(
+    placement: Placement,
+    isAdAvailable: Boolean,
+  ) {
     if (isAdAvailable) {
       Log.i(TAG, "onAdAvailable for ${placement.name}")
       binding.messageView.text = getString(R.string.ad_available, placement.name)
@@ -221,7 +227,10 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
   /**
    * Updates the state of the show button
    */
-  private fun updateShowButton(placement: Placement, enabled: Boolean) {
+  private fun updateShowButton(
+    placement: Placement,
+    enabled: Boolean,
+  ) {
     when (placement) {
       rewardedPlacement -> {
         binding.buttonShowRewarded.isEnabled = enabled
@@ -236,7 +245,10 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
   /**
    * Called when an ad is closed. Your application should resume here.
    */
-  override fun onAdClosed(placement: Placement, finished: Boolean) {
+  override fun onAdClosed(
+    placement: Placement,
+    finished: Boolean,
+  ) {
     Log.i(TAG, "onAdClosed for ${placement.name}")
     binding.messageView.text = getString(R.string.ad_closed)
     updateShowButton(placement, false)
@@ -245,7 +257,10 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
   /**
    * Called when there was an error displaying the ad.
    */
-  override fun onAdDisplayError(placement: Placement, hyprMXError: HyprMXErrors) {
+  override fun onAdDisplayError(
+    placement: Placement,
+    hyprMXError: HyprMXErrors,
+  ) {
     Log.i(TAG, "onAdDisplayError for ${placement.name} with error $hyprMXError")
     binding.messageView.text = getString(R.string.ad_error)
   }
@@ -253,7 +268,11 @@ class MainActivity : AppCompatActivity(), HyprMXShowListener, HyprMXPlacementExp
   /**
    * Called when the user should be rewarded for the given rewarded placement.
    */
-  override fun onAdRewarded(placement: Placement, rewardName: String, rewardValue: Int) {
+  override fun onAdRewarded(
+    placement: Placement,
+    rewardName: String,
+    rewardValue: Int,
+  ) {
     Log.i(TAG, "onAdRewarded for ${placement.name}")
     binding.messageView.text = getString(R.string.ad_rewarded)
   }

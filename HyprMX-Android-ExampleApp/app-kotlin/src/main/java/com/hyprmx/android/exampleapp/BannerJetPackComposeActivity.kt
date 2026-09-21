@@ -36,10 +36,11 @@ class BannerJetPackComposeActivity : ComponentActivity() {
   @Composable
   private fun BannerView() {
     Box(
-      modifier = Modifier
+      modifier =
+        Modifier
           .fillMaxSize()
           .systemBarsPadding(),
-      contentAlignment = Alignment.Center
+      contentAlignment = Alignment.Center,
     ) {
       AndroidView(
         factory = { context ->
@@ -61,9 +62,10 @@ class BannerJetPackComposeActivity : ComponentActivity() {
           // when you are no longer using the banner or the activity is being destroyed
           hyprMXBannerView.destroy()
         },
-        modifier = Modifier
+        modifier =
+          Modifier
             .width(320.dp)
-            .height(50.dp)
+            .height(50.dp),
       )
     }
   }

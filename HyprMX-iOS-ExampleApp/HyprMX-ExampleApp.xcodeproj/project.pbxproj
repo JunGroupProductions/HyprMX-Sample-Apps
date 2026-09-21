@@ -753,7 +753,7 @@
 			repositoryURL = "git@github.com:JunGroupProductions/HyprMX-SDK-SPM.git";
 			requirement = {
 				kind = exactVersion;
-				version = 6.4.6;
+				version = 6.4.7;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -13,8 +13,9 @@ import kotlinx.coroutines.launch
  *
  * activity_xml_integration_banner.xml shows how to integrate using xml
  */
-class BannerXMLIntegrationActivity : AppCompatActivity(), HyprMXBannerListener by HyprMXBannerListenerImpl() {
-
+class BannerXMLIntegrationActivity :
+  AppCompatActivity(),
+  HyprMXBannerListener by HyprMXBannerListenerImpl() {
   private lateinit var binding: ActivityXmlIntegrationBannerBinding
 
   override fun onCreate(savedInstanceState: Bundle?) {

@@ -9,7 +9,8 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 
 fun Context.dpToPx(dp: Int): Int =
-  TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp.toFloat(), resources.displayMetrics)
+  TypedValue
+    .applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp.toFloat(), resources.displayMetrics)
     .toInt()
 
 fun Context.layoutInflater(): LayoutInflater = LayoutInflater.from(this)

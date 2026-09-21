@@ -11,19 +11,20 @@ import com.hyprmx.android.sdk.banner.HyprMXBannerView
 class BannerRVAdapter(
   private val listSize: Int,
   private val frequency: Int,
-  private val bannerAds: List<HyprMXBannerView>
+  private val bannerAds: List<HyprMXBannerView>,
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
-
   companion object {
     const val BANNER_TYPE = 0
     const val TEXT_TYPE = 1
   }
 
-  class TextViewHolder(val itemViewBinding: ItemBannerTextBinding) :
-    RecyclerView.ViewHolder(itemViewBinding.root)
+  class TextViewHolder(
+    val itemViewBinding: ItemBannerTextBinding,
+  ) : RecyclerView.ViewHolder(itemViewBinding.root)
 
-  class BannerViewHolder(val itemViewBinding: BannerItemBinding) :
-    RecyclerView.ViewHolder(itemViewBinding.root)
+  class BannerViewHolder(
+    val itemViewBinding: BannerItemBinding,
+  ) : RecyclerView.ViewHolder(itemViewBinding.root)
 
   override fun getItemViewType(position: Int): Int {
     if (position % frequency == 0) {
@@ -32,27 +33,33 @@ class BannerRVAdapter(
     return TEXT_TYPE
   }
 
-  override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+  override fun onCreateViewHolder(
+    parent: ViewGroup,
+    viewType: Int,
+  ): RecyclerView.ViewHolder {
     when (viewType) {
       BANNER_TYPE -> return BannerViewHolder(
         BannerItemBinding.inflate(
           parent.context.layoutInflater(),
           parent,
-          false
-        )
+          false,
+        ),
       )
       TEXT_TYPE -> return TextViewHolder(
         ItemBannerTextBinding.inflate(
           parent.context.layoutInflater(),
           parent,
-          false
-        )
+          false,
+        ),
       )
     }
     throw IllegalArgumentException("invalid view type $viewType")
   }
 
-  override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+  override fun onBindViewHolder(
+    holder: RecyclerView.ViewHolder,
+    position: Int,
+  ) {
     when (holder) {
       is TextViewHolder -> {
         holder.itemViewBinding.bannerMessages.text = holder.itemView.context.getString(R.string.cell_item, position)
@@ -66,7 +73,7 @@ class BannerRVAdapter(
             bannerListSize: $size
             position: $position
             selectedBanner: $selectedBanner
-        """
+        """,
         )
 
         val bannerView = bannerAds[selectedBanner]
@@ -84,7 +91,5 @@ class BannerRVAdapter(
     }
   }
 
-  override fun getItemCount(): Int {
-    return listSize
-  }
+  override fun getItemCount(): Int = listSize
 }

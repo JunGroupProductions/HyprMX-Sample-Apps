@@ -24,7 +24,6 @@ import kotlinx.coroutines.launch
  *
  */
 class BannerRecyclerIntegrationActivity : AppCompatActivity() {
-
   private lateinit var binding: ActivityRecyclerBannerBinding
   private lateinit var recyclerViewItems: MutableList<HyprMXBannerView>
 
@@ -44,18 +43,20 @@ class BannerRecyclerIntegrationActivity : AppCompatActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    binding = ActivityRecyclerBannerBinding.inflate(layoutInflater).also {
-      it.root.applyWindowInsets()
-    }
+    binding =
+      ActivityRecyclerBannerBinding.inflate(layoutInflater).also {
+        it.root.applyWindowInsets()
+      }
 
     setContentView(binding.root)
 
     recyclerViewItems = initBannerViews(BANNER_COUNT, BANNER_PLACEMENT_NAME, BANNER_SIZE)
-    binding.bannerRv.adapter = BannerRVAdapter(
-      BANNER_LIST_SIZE,
-      BANNER_FREQUENCY,
-      recyclerViewItems
-    )
+    binding.bannerRv.adapter =
+      BannerRVAdapter(
+        BANNER_LIST_SIZE,
+        BANNER_FREQUENCY,
+        recyclerViewItems,
+      )
   }
 
   /**
@@ -70,23 +71,26 @@ class BannerRecyclerIntegrationActivity : AppCompatActivity() {
   private fun initBannerViews(
     count: Int,
     placementName: String,
-    bannerSize: HyprMXBannerSize
+    bannerSize: HyprMXBannerSize,
   ): MutableList<HyprMXBannerView> {
     val bannerViews = mutableListOf<HyprMXBannerView>()
     for (i in 0 until count) {
-      val bv = HyprMXBannerView(
-        context = this,
-        attrs = null,
-        placementName = placementName,
-        adSize = bannerSize
-      )
+      val bv =
+        HyprMXBannerView(
+          context = this,
+          attrs = null,
+          placementName = placementName,
+          adSize = bannerSize,
+        )
       // Add the banner to the ad view.
-      bv.layoutParams = LinearLayout.LayoutParams(
-        bv.context.dpToPx(bannerSize.width),
-        bv.context.dpToPx(bannerSize.height)
-      ).apply {
-        gravity = Gravity.CENTER_HORIZONTAL
-      }
+      bv.layoutParams =
+        LinearLayout
+          .LayoutParams(
+            bv.context.dpToPx(bannerSize.width),
+            bv.context.dpToPx(bannerSize.height),
+          ).apply {
+            gravity = Gravity.CENTER_HORIZONTAL
+          }
 
       lifecycleScope.launch {
         if (bv.loadAd()) {
