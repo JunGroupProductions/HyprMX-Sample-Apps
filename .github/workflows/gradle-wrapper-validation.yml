@@ -1,7 +1,5 @@
 name: Validate Gradle Wrapper
 
-# Verifies every committed gradle-wrapper.jar matches an official Gradle release
-# checksum, so a tampered wrapper can't be merged. See PLAYER-28061.
 on:
   pull_request:
   push:
