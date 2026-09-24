@@ -1,13 +1,1 @@
-# Customers clone and copy from these sample apps, so all changes require review
-# from an SDK owner. See PLAYER-28061.
-*                                  @JunGroupProductions/displaydevelopers
-
-# High-risk paths, listed explicitly so they stay owned if the default rule changes.
-# Gradle wrapper: customers execute gradle-wrapper.jar when they run ./gradlew.
-**/gradle/wrapper/                 @JunGroupProductions/displaydevelopers
-**/gradle/libs.versions.toml       @JunGroupProductions/displaydevelopers
-**/*.gradle                        @JunGroupProductions/displaydevelopers
-# Xcode project: defines where the HyprMX SPM package is fetched from.
-**/*.pbxproj                       @JunGroupProductions/displaydevelopers
-**/Package.resolved                @JunGroupProductions/displaydevelopers
-/.github/                          @JunGroupProductions/displaydevelopers
+* @JunGroupProductions/displaydevelopers
